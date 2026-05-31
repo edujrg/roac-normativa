@@ -6,7 +6,7 @@
 > **Interpretación conjunta con:** Prefacio de los Pronunciamientos Internacionales del IAASB
 > **Entrada en vigor:** el SGC debe estar diseñado e implementado conforme a esta Norma **el 1 de junio de 2024**.
 >
-> ⚠️ *Referencia estructurada (epígrafes + resumen propio + remisiones verificadas). El texto literal se comprueba en la fuente oficial. Apartados 1-37 con detalle verificado; 38-60 a nivel de bloque verificado (detalle pendiente de 2ª extracción). Reproducción permitida por la propia norma dentro de España, en español, fines no comerciales.*
+> ⚠️ *Referencia estructurada (epígrafes + resumen propio + remisiones verificadas). El texto literal se comprueba en la fuente oficial. **Apartados 1-60 completos y verificados** contra el texto oficial. Reproducción permitida por la propia norma dentro de España, en español, fines no comerciales.*
 
 ---
 
@@ -142,20 +142,48 @@ Objetivos: (a) sistema de información capta/procesa/conserva información fiabl
 Respuestas obligatorias: (a) políticas sobre amenazas e incumplimientos de ética; (b) **confirmación documentada anual** de independencia de todo el personal obligado; (c) quejas y denuncias; (d) circunstancias de información sobrevenida o aceptación obligada por ley; (e) comunicaciones (con responsables del gobierno en entidades cotizadas; EIP → **art. 37 LAC**); (f) revisiones de la calidad del encargo conforme a la NIGC 2 (obligatoria en cotizadas, cuando lo exija la ley, y cuando la firma lo determine como respuesta a un riesgo).
 
 ### El proceso de seguimiento y corrección (Ap. 35-47) — Ref: A138-A174
-> *Estructura verificada del índice; detalle de apartados pendiente de 2ª extracción.*
-- **Ap. 35.** Establecer el proceso (información fiable sobre el SGC + medidas para corregir deficiencias).
-- **Ap. 36.** Diseñar y realizar actividades de seguimiento.
-- **Ap. 37.** Factores para naturaleza/momento/extensión del seguimiento (motivos de valoración de riesgos, diseño de respuestas, cambios en el SGC, resultados anteriores…).
-- **Ap. 38-47.** *(Pendiente de detalle):* incluye, según estructura ISQM 1, evaluación de hallazgos, identificación y evaluación de deficiencias, análisis de causa-raíz, respuesta/corrección, y comunicación del seguimiento. **A verificar y completar.**
+**Ap. 35.** Establecer un proceso de seguimiento y corrección para: (a) proporcionar información relevante, fiable y oportuna sobre el SGC; (b) tomar medidas para corregir deficiencias oportunamente.
+
+*Diseño y realización de actividades de seguimiento*
+- **Ap. 36.** Diseñar y realizar actividades de seguimiento como base para identificar deficiencias.
+- **Ap. 37.** Factores para naturaleza/momento/extensión: (a) motivos de valoración de los riesgos; (b) diseño de respuestas; (c) diseño del proceso de valoración del riesgo y del de seguimiento; (d) cambios en el SGC; (e) resultados de seguimientos anteriores; (f) otra información (quejas y denuncias, inspecciones externas, proveedores).
+- **Ap. 38.** Incluir **inspección de encargos finalizados**; seleccionar **al menos un encargo finalizado por cada socio del encargo de manera cíclica**.
+- **Ap. 39.** Políticas sobre (a) competencia/capacidad/tiempo de quienes hacen el seguimiento y (b) su objetividad; **prohibición de que un miembro del equipo o el revisor de la calidad inspeccione su propio encargo**.
+
+*Evaluación de hallazgos e identificación de deficiencias*
+- **Ap. 40.** Evaluar los hallazgos para determinar si existen deficiencias.
+- **Ap. 41.** Evaluar **gravedad y generalización**: (a) investigar el **origen/causa-raíz**; (b) evaluar el efecto (individual o conjunto) sobre el SGC.
+
+*Respuesta a las deficiencias*
+- **Ap. 42.** Diseñar e implementar **medidas correctoras** que respondan al análisis del origen.
+- **Ap. 43.** El responsable operativo del seguimiento evalúa si las medidas correctoras (a) están bien diseñadas e implementadas y (b) si las de deficiencias anteriores son eficaces. → Remisión: **art. 67.2 f) RLAC**.
+- **Ap. 44.** Si no son eficaces, modificarlas hasta que lo sean.
+
+*Hallazgos en un encargo concreto*
+- **Ap. 45.** Si los hallazgos indican procedimientos omitidos o informe posiblemente inadecuado: (a) medidas para cumplir normas/requisitos; (b) si el informe no es adecuado, considerar implicaciones y medidas, incluido **asesoramiento jurídico**.
+
+*Comunicación continua*
+- **Ap. 46.** El responsable operativo del seguimiento comunica al responsable último y al operativo del SGC: (a) actividades realizadas; (b) deficiencias (gravedad y generalización); (c) medidas correctoras.
+- **Ap. 47.** Comunicar esas cuestiones a los equipos y demás personas para que tomen medidas inmediatas.
 
 ### Requerimientos de la red o servicios de la red (Ap. 48-52) — Ref: A175-A186
-> *Estructura verificada; detalle de apartados pendiente de 2ª extracción.*
+- **Ap. 48.** Conocer (a) requerimientos de la red sobre el SGC; (b) servicios/recursos de la red que la firma use; (c) responsabilidades de la firma. **La firma sigue siendo responsable de su SGC** y no permitirá que los requisitos/servicios de la red contravengan la NIGC.
+- **Ap. 49.** Determinar cómo los requisitos/servicios de la red son relevantes para su SGC y evaluar si hay que adaptarlos o complementarlos.
+- **Ap. 50.** Si la red realiza actividades de seguimiento sobre el SGC de la firma: determinar su efecto, las responsabilidades de la firma y obtener los resultados.
+- **Ap. 51.** Conocer el alcance del seguimiento de la red en las firmas de la red y, **al menos una vez al año**, obtener resultados globales, comunicarlos a los equipos y considerar su efecto.
+- **Ap. 52.** Si identifica una deficiencia en requisitos/servicios de la red: (a) comunicarla a la red; (b) diseñar e implementar medidas correctoras (ap. 42).
 
 ### Evaluación del sistema de gestión de la calidad (Ap. 53-56) — Ref: A187-A201
-> *Estructura verificada; detalle pendiente.* Incluye la evaluación (al menos anual) por el responsable último y las **tres conclusiones posibles** sobre si el SGC proporciona seguridad razonable. **A verificar y completar.**
+- **Ap. 53.** El responsable último evalúa el SGC, en un momento determinado y **al menos una vez al año**. → Remisión: **art. 67.2 a) RLAC**.
+- **Ap. 54. Las tres conclusiones posibles:** (a) el SGC **proporciona** seguridad razonable de que se alcanzan los objetivos; (b) **salvo** por deficiencias con efecto **grave pero no generalizado**, el SGC proporciona seguridad razonable; (c) el SGC **no proporciona** seguridad razonable.
+- **Ap. 55.** Si la conclusión es 54(b) o 54(c): (a) tomar medidas inmediatas; (b) comunicarlo a equipos/personas implicadas y a terceros (según ap. 34(e)).
+- **Ap. 56.** Evaluación periódica del **desempeño** del responsable último y del operativo, teniendo en cuenta la evaluación del SGC.
 
 ### Documentación (Ap. 57-60) — Ref: A202-A206
-> *Estructura verificada; detalle de apartados pendiente de 2ª extracción.*
+- **Ap. 57.** Documentación suficiente para (a) sustentar un conocimiento congruente del SGC, (b) sustentar la congruencia de las respuestas, (c) dar evidencia del diseño/implementación/funcionamiento de las respuestas.
+- **Ap. 58.** Incluir: (a) identificación de responsables último y operativo; (b) objetivos y riesgos de calidad; (c) descripción de respuestas; (d) sobre el seguimiento y corrección (evidencia, evaluación de hallazgos/deficiencias y origen, medidas correctoras, comunicaciones); (e) fundamento de la conclusión del ap. 54.
+- **Ap. 59.** Documentar lo del ap. 58 relativo a requisitos/servicios de la red y la evaluación del ap. 49(b).
+- **Ap. 60.** Establecer un **plazo de conservación** suficiente de la documentación del SGC. → Remisión: **arts. 30 LAC y 72 RLAC**.
 
 ---
 
@@ -184,7 +212,10 @@ Respuestas obligatorias: (a) políticas sobre amenazas e incumplimientos de éti
 | Documentación del encargo | 31(f) | arts. 29.2 y 30 LAC; arts. 67.2 g), 69 y 72 RLAC |
 | Recursos humanos | 32(a) | arts. 8.7 y 29.1 LAC y 33 RLAC; (EIP) art. 45 LAC y 87 RLAC |
 | Comunicación EIP | 34(e) | art. 37 LAC |
+| Evaluación de medidas correctoras | 43 | art. 67.2 f) RLAC |
+| Evaluación del SGC (anual) | 53 | art. 67.2 a) RLAC |
+| Conservación de la documentación | 60 | arts. 30 LAC y 72 RLAC |
 
 ---
 
-*Verificado contra el texto oficial (RICAC 11-abr-2024). Apartados 1-37 con detalle; 38-60 a nivel de bloque (pendiente de completar). Para el contenido literal, consultar el PDF enlazado en la cabecera.*
+*Verificado contra el texto oficial (RICAC 11-abr-2024). Apartados 1-60 completos. Para el contenido literal, consultar el PDF enlazado en la cabecera.*

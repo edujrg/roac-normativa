@@ -128,12 +128,20 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla: litigio → 501 ap. 9 / existencias → 501 ap. 1 / estimaciones → 540R
 
 ### NIA-ES 240 — Fraude
-> **AP. 3** → dos tipos de fraude: apropiación indebida y manipulación de EEFF  
-> **Anexo 1** → "Ejemplos de factores de riesgo de fraude" (indicadores por tipo)  
-> **AP. 35-37** → respuesta del auditor ante indicios de fraude detectados  
-> **AP. 43** → comunicación a responsables del gobierno de la entidad  
-> Regla: fraude por dirección → activa automáticamente NIA-ES 580 ap. 20 + NIA-ES 550 + NIA-ES 240 ap. 43  
-> Regla: si el presunto implicado controla el órgano de gobierno → valorar asesoramiento legal externo
+> **AP. 3** → dos tipos: apropiación indebida y manipulación de EEFF  
+> **Anexo 1** → "Ejemplos de factores de riesgo de fraude"  
+> **AP. 35-37** → respuesta del auditor ante indicios detectados  
+> **AP. 43** → comunicación a responsables del gobierno  
+> Regla: fraude por dirección → activa NIA-ES 580 ap. 20 + NIA-ES 550 + NIA-ES 240 ap. 43  
+> Regla: presunto implicado controla órgano de gobierno → valorar asesoramiento legal externo
+
+### NIA-ES 550 — Partes vinculadas
+> **AP. 10.b** → definición de parte vinculada → remite a NRV 21ª PGC  
+> **AP. 13-14** → indagación e identificación de todas las operaciones con PV  
+> **AP. 18-19** → operaciones significativas fuera del curso normal del negocio  
+> **AP. 21** → operación no revelada por dirección → evaluar intencionalidad → posible fraude  
+> **NRV 21ª PGC** → definición y revelación en memoria (familiares cercanos de administradores)  
+> Regla: PV fuera de mercado sin documentación → activa NIA-ES 550 + NRV 21ª + NIA-ES 240 ap. 35-37
 
 ### Independencia — LAC
 > **Art. 16.1.a.2** → instrumentos financieros significativos → incompatibilidad  
@@ -160,11 +168,12 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 ## 🎯 Puntos débiles activos
 
 - **Justificación normativa:** juicio profesional sólido pero faltan artículos concretos — patrón persistente
-- **Cerrar siempre el informe:** identifica el problema pero no siempre llega a la opinión concreta (salvedad/denegación/desfavorable)
-- **Identificar todos los tipos de fraude simultáneos:** en caso con dos tipos, tendencia a identificar solo uno
-- **NIA-ES 550:** partes vinculadas no aparece espontáneamente cuando hay sospecha de vinculación con proveedores
-- **NIA-ES 265 ap. 9:** comunicación escrita de deficiencias de CI — aparece poco en respuestas
-- **Apartados NIA-ES 320 y 560:** conoce conceptos pero no números exactos de apartado
+- **Cerrar siempre el informe:** mejorando — en sesión 2 cerró perfectamente la pregunta 3 del caso de PV
+- **Identificar todos los tipos de fraude simultáneos:** tendencia a identificar solo uno cuando hay dos
+- **NIA-ES 550 ap. 13-14:** tiende a desplazar un número (dijo 14-15)
+- **NIA-ES 550 ap. 21:** operación no revelada — no aparece espontáneamente
+- **NIA-ES 265 ap. 9:** comunicación escrita de deficiencias CI — aparece poco en respuestas
+- **Apartados NIA-ES 320 y 560:** conoce conceptos pero no números exactos
 
 ---
 
@@ -179,6 +188,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 560 | 2026-06-17 | 1 | Medio |
 | NIA-ES 320 | 2026-06-17 | 1 | Bajo-Medio |
 | NIA-ES 240 | 2026-06-21 | 1 | Medio |
+| NIA-ES 550 | 2026-06-21 | 1 | Medio |
 
 ---
 
@@ -189,7 +199,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Tipo de práctica:** casos prácticos + opción múltiple + dictado normativo
 - **Puntuación media estimada:** 5-6/10
 - **Errores cometidos:**
-  - Confusión denegación vs desfavorable (NIA-ES 705R)
+  - Confusión denegación vs desfavorable (NIA-ES 705R) — error atribuido incorrectamente por Claude, corregido
   - NIA-ES 501 desconocida para litigios (usó 540R)
   - Apartados concretos de NIA-ES 320 y 560 desconocidos
   - Falta desarrollo de consecuencias prácticas en informes
@@ -197,34 +207,24 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Juicio profesional y razonamiento auditor muy sólido
   - Independencia LAC bien dominada conceptualmente
   - Clasificación hechos posteriores correcta
-- **Para la próxima sesión:**
-  - Repasar apartados NIA-ES 320 y 560 con tarjetas
-  - Practicar más casos de informes con desarrollo de consecuencias
-  - Afianzar NIA-ES 501 para litigios y existencias
 
 ### Sesión 2026-06-21
-- **Normas trabajadas:** NIA-ES 240 (fraude) — 2 casos prácticos + dictado normativo
-- **Tipo de práctica:** casos prácticos tipo examen + dictado de apartados
+- **Normas trabajadas:** NIA-ES 240 (2 casos + dictado) + NIA-ES 550 (1 caso + dictado)
+- **Tipo de práctica:** casos prácticos tipo examen + dictados de apartados
 - **Puntuación media estimada:** 6-6,5/10
 - **Errores cometidos:**
-  - Ap. 3 NIA-ES 240: recordó ap. 6 en lugar de ap. 3
-  - Ap. 43 NIA-ES 240: dijo ap. 45 (cerca pero incorrecto)
-  - No identificó dos tipos de fraude simultáneos en caso 2 (solo apropiación indebida)
-  - No citó NIA-ES 550 para investigación de partes vinculadas
+  - NIA-ES 240 ap. 3: recordó ap. 6 en lugar de ap. 3
+  - NIA-ES 240 ap. 43: dijo ap. 45 (cerca)
+  - No identificó dos tipos de fraude simultáneos en caso 2
+  - NIA-ES 550 ap. 13-14: dijo 14-15 (desplazamiento de un número)
+  - NIA-ES 550 ap. 21: no aparece espontáneamente
   - No citó NIA-ES 265 ap. 9 para comunicación escrita de deficiencias CI
-  - No cerró el impacto en informe con opinión concreta en pregunta 3 del caso 2
 - **Puntos fuertes:**
-  - Triángulo del fraude bien identificado
-  - Procedimientos sustantivos sólidos (circularización, investigación proveedor)
-  - NIA-ES 580 ap. 20 citado correctamente en ambos casos
-  - Ap. 35-37 citados en segundo caso
-  - Identificó correctamente que fraude por socio mayoritario compromete escalada interna
-  - Buena comprensión de la jerarquía societaria (Junta > Órgano administración > Dirección)
-- **Para la próxima sesión:**
-  - Consolidar apartados NIA-ES 240 (especialmente ap. 3 y 43)
-  - Practicar identificación de tipos de fraude múltiples
-  - Trabajar NIA-ES 550 (partes vinculadas) — aparece frecuentemente con fraude
-  - Seguir reforzando cierre de informe con opinión concreta
+  - Cierre del informe con opinión concreta: notable mejoría (pregunta 3 caso PV perfecta)
+  - NIA-ES 580 ap. 20 bien interiorizado
+  - Ap. 18-19 NIA-ES 550 clavados en el dictado
+  - Buena comprensión jerarquía societaria y escalada cuando fraude llega al máximo nivel
+  - Concepto de parte vinculada y NRV 21ª PGC correctamente identificados
 
 ---
 

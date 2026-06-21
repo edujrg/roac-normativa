@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-06-17
+> Última actualización: 2026-06-21
 
 ---
 
@@ -127,6 +127,14 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **AP. 16-20** → información por segmentos  
 > Regla: litigio → 501 ap. 9 / existencias → 501 ap. 1 / estimaciones → 540R
 
+### NIA-ES 240 — Fraude
+> **AP. 3** → dos tipos de fraude: apropiación indebida y manipulación de EEFF  
+> **Anexo 1** → "Ejemplos de factores de riesgo de fraude" (indicadores por tipo)  
+> **AP. 35-37** → respuesta del auditor ante indicios de fraude detectados  
+> **AP. 43** → comunicación a responsables del gobierno de la entidad  
+> Regla: fraude por dirección → activa automáticamente NIA-ES 580 ap. 20 + NIA-ES 550 + NIA-ES 240 ap. 43  
+> Regla: si el presunto implicado controla el órgano de gobierno → valorar asesoramiento legal externo
+
 ### Independencia — LAC
 > **Art. 16.1.a.2** → instrumentos financieros significativos → incompatibilidad  
 > **Art. 16.1.b.1** → servicios de contabilidad → incompatibilidad absoluta  
@@ -143,21 +151,20 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 1 |
-| Normas trabajadas | NIA-ES 320, 450, 501, 505, 560, 570R, 705R, LAC independencia |
-| Racha actual | 1 día |
-| Última sesión | 2026-06-17 |
+| Sesiones realizadas | 2 |
+| Normas trabajadas | NIA-ES 240, 320, 450, 501, 505, 550, 560, 570R, 580, 705R, LAC independencia |
+| Última sesión | 2026-06-21 |
 
 ---
 
 ## 🎯 Puntos débiles activos
 
-- **Justificación normativa:** juicio profesional sólido pero faltan artículos concretos en todas las respuestas
-- **Consecuencias prácticas:** sabe el diagnóstico pero no siempre desarrolla qué debe hacer el auditor
-- **Distinción salvedad vs denegación vs desfavorable:** confundió denegación con desfavorable (NIA-ES 705R)
-- **NIA-ES 501:** desconocida — confunde con 540R para litigios
-- **Apartados NIA-ES 320:** conoce conceptos pero no números de apartado
-- **Apartados NIA-ES 560:** conoce tipos pero no apartados concretos
+- **Justificación normativa:** juicio profesional sólido pero faltan artículos concretos — patrón persistente
+- **Cerrar siempre el informe:** identifica el problema pero no siempre llega a la opinión concreta (salvedad/denegación/desfavorable)
+- **Identificar todos los tipos de fraude simultáneos:** en caso con dos tipos, tendencia a identificar solo uno
+- **NIA-ES 550:** partes vinculadas no aparece espontáneamente cuando hay sospecha de vinculación con proveedores
+- **NIA-ES 265 ap. 9:** comunicación escrita de deficiencias de CI — aparece poco en respuestas
+- **Apartados NIA-ES 320 y 560:** conoce conceptos pero no números exactos de apartado
 
 ---
 
@@ -171,6 +178,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 501 | 2026-06-17 | 1 | Bajo |
 | NIA-ES 560 | 2026-06-17 | 1 | Medio |
 | NIA-ES 320 | 2026-06-17 | 1 | Bajo-Medio |
+| NIA-ES 240 | 2026-06-21 | 1 | Medio |
 
 ---
 
@@ -194,6 +202,30 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Practicar más casos de informes con desarrollo de consecuencias
   - Afianzar NIA-ES 501 para litigios y existencias
 
+### Sesión 2026-06-21
+- **Normas trabajadas:** NIA-ES 240 (fraude) — 2 casos prácticos + dictado normativo
+- **Tipo de práctica:** casos prácticos tipo examen + dictado de apartados
+- **Puntuación media estimada:** 6-6,5/10
+- **Errores cometidos:**
+  - Ap. 3 NIA-ES 240: recordó ap. 6 en lugar de ap. 3
+  - Ap. 43 NIA-ES 240: dijo ap. 45 (cerca pero incorrecto)
+  - No identificó dos tipos de fraude simultáneos en caso 2 (solo apropiación indebida)
+  - No citó NIA-ES 550 para investigación de partes vinculadas
+  - No citó NIA-ES 265 ap. 9 para comunicación escrita de deficiencias CI
+  - No cerró el impacto en informe con opinión concreta en pregunta 3 del caso 2
+- **Puntos fuertes:**
+  - Triángulo del fraude bien identificado
+  - Procedimientos sustantivos sólidos (circularización, investigación proveedor)
+  - NIA-ES 580 ap. 20 citado correctamente en ambos casos
+  - Ap. 35-37 citados en segundo caso
+  - Identificó correctamente que fraude por socio mayoritario compromete escalada interna
+  - Buena comprensión de la jerarquía societaria (Junta > Órgano administración > Dirección)
+- **Para la próxima sesión:**
+  - Consolidar apartados NIA-ES 240 (especialmente ap. 3 y 43)
+  - Practicar identificación de tipos de fraude múltiples
+  - Trabajar NIA-ES 550 (partes vinculadas) — aparece frecuentemente con fraude
+  - Seguir reforzando cierre de informe con opinión concreta
+
 ---
 
 ## 📝 Notas acumuladas
@@ -203,6 +235,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - Prefiere estructura de corrección con: ✅ bien / ⚠️ errores / 📖 respuesta completa / 🧠 regla para recordar / 📋 checklist normativo / 📊 puntuación
 - Le gustan los mini casos, opción múltiple con trampa y dictados normativos
 - Formato tarjetas de memoria muy útil para él — guardar y acumular
+- Importante: verificar siempre la respuesta exacta de Eduardo antes de atribuirle errores
 
 ### Formatos de ejercicio confirmados
 - ✅ Casos prácticos tipo examen

@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-06-21
+> Última actualización: 2026-06-23
 
 ---
 
@@ -125,7 +125,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **AP. 1** → existencias → presencia en recuento físico  
 > **AP. 9-15** → litigios y reclamaciones → carta a asesores legales  
 > **AP. 16-20** → información por segmentos  
-> Regla: litigio → 501 ap. 9 / existencias → 501 ap. 1 / estimaciones → 540R
+> Regla: litigio → 501 ap. 9 / existencias (existencia física) → 501 ap. 1 / valoración existencias → 540R
 
 ### NIA-ES 240 — Fraude
 > **AP. 3** → dos tipos: apropiación indebida y manipulación de EEFF  
@@ -143,15 +143,6 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **NRV 21ª PGC** → definición y revelación en memoria (familiares cercanos de administradores)  
 > Regla: PV fuera de mercado sin documentación → activa NIA-ES 550 + NRV 21ª + NIA-ES 240 ap. 35-37
 
-### NIA-ES 260 — Comunicación con responsables del gobierno
-> **AP. 15** → responsabilidades, alcance y calendario  
-> **AP. 16** → asuntos relevantes: estimaciones con incertidumbre, deficiencias CI, dificultades, incorrecciones  
-> **AP. 17** → declaración de independencia ante RRGE (siempre obligatoria, haya o no amenazas)  
-> **AP. 18** → momento oportuno de la comunicación  
-> **AP. 19** → forma escrita para asuntos significativos; oral para menores (con constancia en archivo)  
-> Regla: independencia siempre se declara — aunque no haya amenazas  
-> Regla: restricción de acceso por dirección → ap. 16 (dificultades) + posible limitación al alcance → NIA-ES 705R ap. 6-7
-
 ### Independencia — LAC
 > **Art. 16.1.a.2** → instrumentos financieros significativos → incompatibilidad  
 > **Art. 16.1.b.1** → servicios de contabilidad → incompatibilidad absoluta  
@@ -162,27 +153,61 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Art. 24.1** → concentración honorarios: 30% / 3 ejercicios (no EIP)  
 > **Art. 45.2 RLAC** → IF significativo: >5% capital / >10% patrimonio auditor / influencia en gestión
 
+### 🗺️ Cronología normativa del encargo — MAPA COMPLETO
+> **Fase 1 — Aceptación:** 210 (carta de encargo) + 220R (calidad del encargo) + NIGC 1 y 2  
+> **Fase 2 — Planificación:** 300 (estrategia) + 315R (riesgos) + 320 (materialidad) + 240 (fraude) + 250 (leyes) + 600R (grupos)  
+> **Fase 3 — Ejecución:** 330 (respuestas a riesgos) + 500 (evidencia) + 501 (partidas específicas) + 505 (confirmaciones) + 520 (analíticos) + 530 (muestreo) + 540R (estimaciones) + 550 (PV) + 610 (AI interna) + 620 (experto) + 402 (org. servicios) + 265 (deficiencias CI) + 510 (encargo inicial)  
+> **Fase 4 — Cierre:** 560 (hechos posteriores) + 570R (empresa en funcionamiento) + 580 (manifestaciones escritas) + 450 (evaluación incorrecciones) + 230 (documentación) + 260 (comunicación gobierno)  
+> **Fase 5 — Informe:** 700 (formación opinión) + 705R (modificadas) + 706R (énfasis) + 701 (AMRA) + 720 (otra información)  
+> **Regla de oro:** 265 ≠ 260 / 560 ≠ 580 / 501 (existencia) ≠ 540R (valoración)
+
+### NIA-ES 265 — Deficiencias de control interno
+> **AP. 6.b** → deficiencia de CI: control no puede prevenir/detectar/corregir incorrecciones  
+> **AP. 6.c** → deficiencia significativa: suficientemente importante para el gobierno corporativo  
+> **AP. 9** → deficiencias significativas → comunicación **escrita** a responsables del gobierno Y dirección  
+> **AP. 10** → comunicar aunque la dirección ya las conozca  
+> **AP. 11** → si hay indicio de fraude → activa NIA-ES 240  
+> Regla: 265 = deficiencias CI (escrito + gobierno) / 260 = comunicación general auditoría
+
+### NIA-ES 330 — Respuestas a riesgos valorados
+> Regula el **diseño y ejecución** de respuestas a riesgos valorados (pruebas de controles + sustantivas)  
+> Pruebas de controles → eficacia operativa de los controles  
+> Si controles eficaces → se pueden reducir sustantivos, pero **nunca eliminarlos** en áreas de riesgo significativo  
+> 330 = cómo respondes / 500 = qué es evidencia suficiente y adecuada
+
+### NIA-ES 402 — Organizaciones de servicios
+> **Informe tipo I** → describe controles diseñados, en un momento puntual. No prueba funcionamiento.  
+> **Informe tipo II** → describe controles diseñados + prueba eficacia operativa durante un período  
+> Tipo II = evidencia real sobre funcionamiento de controles
+
+### NIA-ES 450 — Evaluación de incorrecciones
+> Evaluar incorrecciones **no corregidas** de forma agregada  
+> Incorrecciones corregidas → documentar pero no condicionan opinión  
+> Si agregado > CIREF → salvedad (705R ap. 5.a)  
+> **Regla clave:** siempre agregar antes de concluir — varias pequeñas pueden ser material conjuntamente
+
 ---
 
 ## 📊 Estado actual
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 2 |
-| Normas trabajadas | NIA-ES 240, 320, 450, 501, 505, 550, 560, 570R, 580, 705R, LAC independencia |
-| Última sesión | 2026-06-21 |
+| Sesiones realizadas | 3 |
+| Normas trabajadas | NIA-ES 210, 220R, 240, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 530, 540R, 550, 560, 570R, 580, 600R, 701, 705R, 720, LAC independencia, NIGC 1 y 2 |
+| Última sesión | 2026-06-23 |
 
 ---
 
 ## 🎯 Puntos débiles activos
 
 - **Justificación normativa:** juicio profesional sólido pero faltan artículos concretos — patrón persistente
-- **Cerrar siempre el informe:** mejorando — en sesión 2 cerró perfectamente la pregunta 3 del caso de PV
-- **Identificar todos los tipos de fraude simultáneos:** tendencia a identificar solo uno cuando hay dos
+- **260 vs 265:** tiende a usar 260 para deficiencias de CI (correcto es 265)
+- **501 vs 540R:** tiende a usar 501 para valoración de existencias (501 = existencia física / 540R = valoración)
+- **560 vs 580:** confusión puntual (560 = hechos posteriores / 580 = manifestaciones escritas)
+- **Apartados NIA-ES 705R:** ap. 5.a y ap. 20 no aparecen espontáneamente
 - **NIA-ES 550 ap. 13-14:** tiende a desplazar un número (dijo 14-15)
 - **NIA-ES 550 ap. 21:** operación no revelada — no aparece espontáneamente
-- **NIA-ES 265 ap. 9:** comunicación escrita de deficiencias CI — aparece poco en respuestas
-- **Apartados NIA-ES 320 y 560:** conoce conceptos pero no números exactos
+- **NIA-ES 265 ap. 9:** comunicación escrita de deficiencias CI — mejorando pero necesita consolidación
 
 ---
 
@@ -192,12 +217,23 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 |---|---|---|---|
 | NIA-ES 570R | 2026-06-17 | 1 | Medio |
 | LAC Independencia | 2026-06-17 | 1 | Alto |
-| NIA-ES 705R | 2026-06-17 | 1 | Medio |
+| NIA-ES 705R | 2026-06-23 | 2 | Medio-Alto |
 | NIA-ES 501 | 2026-06-17 | 1 | Bajo |
-| NIA-ES 560 | 2026-06-17 | 1 | Medio |
+| NIA-ES 560 | 2026-06-23 | 2 | Medio |
 | NIA-ES 320 | 2026-06-17 | 1 | Bajo-Medio |
 | NIA-ES 240 | 2026-06-21 | 1 | Medio |
 | NIA-ES 550 | 2026-06-21 | 1 | Medio |
+| NIA-ES 265 | 2026-06-23 | 1 | Bajo-Medio |
+| NIA-ES 330 | 2026-06-23 | 1 | Medio |
+| NIA-ES 402 | 2026-06-23 | 1 | Medio |
+| NIA-ES 450 | 2026-06-23 | 1 | Medio |
+| NIA-ES 530 | 2026-06-23 | 1 | Medio |
+| NIA-ES 540R | 2026-06-23 | 1 | Bajo-Medio |
+| NIA-ES 210 | 2026-06-23 | 1 | Alto |
+| NIA-ES 220R | 2026-06-23 | 1 | Medio-Alto |
+| NIA-ES 315R | 2026-06-23 | 1 | Medio-Alto |
+| NIA-ES 580 | 2026-06-23 | 1 | Medio |
+| NIA-ES 701 | 2026-06-23 | 1 | Alto |
 
 ---
 
@@ -229,11 +265,27 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - NIA-ES 550 ap. 21: no aparece espontáneamente
   - No citó NIA-ES 265 ap. 9 para comunicación escrita de deficiencias CI
 - **Puntos fuertes:**
-  - Cierre del informe con opinión concreta: notable mejoría (pregunta 3 caso PV perfecta)
+  - Cierre del informe con opinión concreta: notable mejoría
   - NIA-ES 580 ap. 20 bien interiorizado
   - Ap. 18-19 NIA-ES 550 clavados en el dictado
   - Buena comprensión jerarquía societaria y escalada cuando fraude llega al máximo nivel
-  - Concepto de parte vinculada y NRV 21ª PGC correctamente identificados
+
+### Sesión 2026-06-23
+- **Normas trabajadas:** NIA-ES 265 (pinceladas) + cronología normativa completa (10 preguntas) + bloque NIA-ES 330/402/530/450/540R (5 preguntas)
+- **Tipo de práctica:** ejercicio cronológico encadenado + bloque temático
+- **Puntuación media estimada:** 6,5/10
+- **Errores cometidos:**
+  - Usó NIA-ES 260 en lugar de **265** para deficiencias de CI
+  - Usó NIA-ES 501 en lugar de **540R** para valoración de existencias
+  - Confundió NIA-ES 580 con **560** para hechos posteriores
+  - No citó apartados concretos de NIA-ES 705R (ap. 5.a y ap. 20)
+- **Puntos fuertes:**
+  - Razonamiento auditor impecable en todas las preguntas
+  - Detectó la trampa AMRA/CCA (NIA-ES 701) correctamente
+  - Distinción pruebas de controles vs sustantivas muy bien explicada
+  - Agregación de incorrecciones (NIA-ES 450) bien aplicada
+  - Mapa cronológico del encargo muy bien asimilado — recurso clave identificado
+- **Hito de sesión:** construcción del mapa cronológico normativo completo (Fases 1-5) — recurso de alto valor para el examen
 
 ---
 
@@ -245,6 +297,8 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - Le gustan los mini casos, opción múltiple con trampa y dictados normativos
 - Formato tarjetas de memoria muy útil para él — guardar y acumular
 - Importante: verificar siempre la respuesta exacta de Eduardo antes de atribuirle errores
+- El mapa cronológico del encargo (Fases 1-5) es un recurso clave — Eduardo lo identificó como muy valioso
+- Aprende mejor con anclaje cronológico que con normas aisladas — usar siempre que sea posible
 
 ### Formatos de ejercicio confirmados
 - ✅ Casos prácticos tipo examen
@@ -252,3 +306,4 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - ✅ Dictado normativo (concepto → apartado)
 - ✅ Tarjetas de memoria acumulativas
 - ✅ Corrección con checklist y puntuación por criterios
+- ✅ Ejercicio cronológico encadenado (muy efectivo — sesión 3)

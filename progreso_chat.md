@@ -143,6 +143,15 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **NRV 21ª PGC** → definición y revelación en memoria (familiares cercanos de administradores)  
 > Regla: PV fuera de mercado sin documentación → activa NIA-ES 550 + NRV 21ª + NIA-ES 240 ap. 35-37
 
+### NIA-ES 260 — Comunicación con responsables del gobierno
+> **AP. 15** → responsabilidades, alcance y calendario  
+> **AP. 16** → asuntos relevantes: estimaciones con incertidumbre, deficiencias CI, dificultades, incorrecciones  
+> **AP. 17** → declaración de independencia ante RRGE (siempre obligatoria, haya o no amenazas)  
+> **AP. 18** → momento oportuno de la comunicación  
+> **AP. 19** → forma escrita para asuntos significativos; oral para menores (con constancia en archivo)  
+> Regla: independencia siempre se declara — aunque no haya amenazas  
+> Regla: restricción de acceso por dirección → ap. 16 (dificultades) + posible limitación al alcance → NIA-ES 705R ap. 6-7
+
 ### Independencia — LAC
 > **Art. 16.1.a.2** → instrumentos financieros significativos → incompatibilidad  
 > **Art. 16.1.b.1** → servicios de contabilidad → incompatibilidad absoluta  

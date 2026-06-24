@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-06-23
+> Última actualización: 2026-06-24
 
 ---
 
@@ -98,9 +98,11 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **AP. 11** → ME siempre inferior a MP  
 > **AP. 12** → revisar MP si cambian las circunstancias  
 > **AP. 13** → documentación de MP y ME  
-> **AP. A3** → resultado anormalmente bajo → considerar base alternativa
+> **AP. A3** → resultado anormalmente bajo → considerar base alternativa  
+> **Regla CIRET vs CIREF:** el informe de auditoría usa siempre CIREF / CIRET es el umbral de ejecución (75-85% de CIREF)
 
 ### NIA-ES 560 — Hechos posteriores
+> **AP. 4** → período cubierto: desde fecha EEFF hasta fecha del informe  
 > **AP. 6** → tipo I (antes del cierre, conocido después) → ajuste en EEFF  
 > **AP. 7** → tipo II (ocurre después del cierre) → solo revelación en memoria  
 > **AP. 14-17** → hecho conocido tras emitir el informe → hablar con dirección + posible nuevo informe  
@@ -122,10 +124,12 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla: incorrección → desfavorable / limitación → denegación
 
 ### NIA-ES 501 — Evidencia para partidas específicas
-> **AP. 1** → existencias → presencia en recuento físico  
+> **AP. 1-8** → existencias → presencia en recuento físico  
+> **AP. 3** → encargo inicial: recuento en fecha alternativa + retroceder mediante movimientos  
 > **AP. 9-15** → litigios y reclamaciones → carta a asesores legales  
 > **AP. 16-20** → información por segmentos  
-> Regla: litigio → 501 ap. 9 / existencias (existencia física) → 501 ap. 1 / valoración existencias → 540R
+> Regla: litigio → 501 ap. 9 / existencias (existencia física) → 501 ap. 1 / valoración existencias → 540R  
+> Regla encargo inicial: litigio en apertura → 501 ap. 9 → doble utilidad (apertura + cierre)
 
 ### NIA-ES 240 — Fraude
 > **AP. 3** → dos tipos: apropiación indebida y manipulación de EEFF  
@@ -133,7 +137,8 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **AP. 35-37** → respuesta del auditor ante indicios detectados  
 > **AP. 43** → comunicación a responsables del gobierno  
 > Regla: fraude por dirección → activa NIA-ES 580 ap. 20 + NIA-ES 550 + NIA-ES 240 ap. 43  
-> Regla: presunto implicado controla órgano de gobierno → valorar asesoramiento legal externo
+> Regla: presunto implicado controla órgano de gobierno → valorar asesoramiento legal externo  
+> ⚠️ La norma se llama NIA-ES 240 — NO existe "240R"
 
 ### NIA-ES 550 — Partes vinculadas
 > **AP. 10.b** → definición de parte vinculada → remite a NRV 21ª PGC  
@@ -186,28 +191,69 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Si agregado > CIREF → salvedad (705R ap. 5.a)  
 > **Regla clave:** siempre agregar antes de concluir — varias pequeñas pueden ser material conjuntamente
 
+### NIA-ES 505 — Confirmaciones externas
+> **AP. 7** → el auditor controla íntegramente el proceso (envío y recepción directa, sin pasar por la entidad)  
+> **AP. 9** → confirmación positiva para saldos de riesgo elevado  
+> **AP. 11** → si la dirección veta la confirmación → documentar razones + evaluar implicaciones para el encargo → posible NIA-ES 240  
+> **AP. 15-16** → si no hay respuesta → procedimientos alternativos (cobros posteriores, contratos, albaranes)  
+> Regla: 505 = circularizar + auditor controla el proceso / dirección veta → señal de alerta
+
+### NIA-ES 510 — Encargos iniciales
+> **AP. 3** → objetivo: saldos iniciales no contienen incorrecciones que afecten al ejercicio actual  
+> **AP. 6** → revisar papeles del auditor anterior (si existen y hay acceso)  
+> **AP. 7** → procedimientos alternativos si no hay acceso: registros contables + movimientos + trabajar hacia atrás  
+> **AP. 10** → si no suficiente evidencia → limitación al alcance → 705R ap. 6-7  
+> **AP. 11** → políticas contables deben ser consistentes con las del ejercicio actual  
+> Regla: error en existencias iniciales → se propaga a resultados → riesgo de denegación, no solo salvedad
+
+### NIA-ES 540R — Estimaciones contables
+> **AP. 8** → comprender cómo la dirección realiza la estimación (metodología + datos + supuestos)  
+> **AP. 13** → evaluar si los supuestos son razonables a la vista de la evidencia disponible  
+> **AP. 14** → considerar si existe sesgo en la estimación  
+> Regla: 540R = ap. 8 (metodología) + ap. 13 (supuestos) + ap. 14 (sesgo)
+
+### NIA-ES 580 — Manifestaciones escritas
+> **AP. 20** → inconsistencia con otra evidencia → reconsiderar fiabilidad de las manifestaciones  
+> **AP. 21** → dirección no rectifica → auditor no puede confiar en ellas → limitación al alcance  
+> **Regla crítica:** falta/invalidez de manifestaciones escritas → siempre limitación generalizada → siempre denegación (705R ap. 7)  
+> No admite gradación — no existe escenario donde sea solo salvedad
+
+### NIA-ES 700 + 701 + 705R + 706R — Estructura del informe
+> **Orden secciones (700 ap. 24):**  
+> 1. Opinión (o con salvedades/desfavorable/denegación)  
+> 2. Fundamentos de la opinión (705R ap. 20 si modificada)  
+> 3. AMRA — NIA-ES 701 (si aplica)  
+> 4. Otra información — NIA-ES 720 (si aplica)  
+> 5. Responsabilidades de los administradores  
+> 6. Responsabilidades del auditor  
+> 7. Otras cuestiones — 706R ap. 8 (si primer año o auditor anterior)  
+> **701 ap. 9** → criterio inclusión AMRA: cuestión que ha requerido atención significativa  
+> **701 ap. 15** → AMRA nunca puede incluir lo que ya está en fundamentos de opinión modificada  
+> **706R ap. 8** → otras cuestiones primer año: mencionar auditor anterior + fecha + tipo de opinión
+
 ---
 
 ## 📊 Estado actual
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 3 |
-| Normas trabajadas | NIA-ES 210, 220R, 240, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 530, 540R, 550, 560, 570R, 580, 600R, 701, 705R, 720, LAC independencia, NIGC 1 y 2 |
-| Última sesión | 2026-06-23 |
+| Sesiones realizadas | 4 |
+| Normas trabajadas | NIA-ES 210, 220R, 240, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
+| Última sesión | 2026-06-24 |
 
 ---
 
 ## 🎯 Puntos débiles activos
 
-- **Justificación normativa:** juicio profesional sólido pero faltan artículos concretos — patrón persistente
-- **260 vs 265:** tiende a usar 260 para deficiencias de CI (correcto es 265)
-- **501 vs 540R:** tiende a usar 501 para valoración de existencias (501 = existencia física / 540R = valoración)
-- **560 vs 580:** confusión puntual (560 = hechos posteriores / 580 = manifestaciones escritas)
-- **Apartados NIA-ES 705R:** ap. 5.a y ap. 20 no aparecen espontáneamente
-- **NIA-ES 550 ap. 13-14:** tiende a desplazar un número (dijo 14-15)
-- **NIA-ES 550 ap. 21:** operación no revelada — no aparece espontáneamente
-- **NIA-ES 265 ap. 9:** comunicación escrita de deficiencias CI — mejorando pero necesita consolidación
+- **Apartados concretos bajo presión:** patrón persistente — juicio correcto pero sin citar ap. precisos
+- **260 vs 265:** tiende a usar 260 para deficiencias de CI (correcto es 265) — mejorando
+- **501 vs 540R:** tiende a usar 501 para valoración de existencias — mejorando (no apareció en sesión 4)
+- **505 ap. 7, 11, 15-16:** no aparecen espontáneamente
+- **510 ap. 10:** limitación al alcance si evidencia insuficiente — no aparece espontáneamente
+- **701 ap. 15:** prohibición AMRA si ya en fundamentos de opinión modificada — nuevo punto débil
+- **706R ap. 8 vs 701:** confusión de norma para "otras cuestiones" primer año
+- **700 ap. 24:** orden secciones del informe — no se cita espontáneamente
+- **NIA-ES 240:** denominación incorrecta "240R" — corregir
 
 ---
 
@@ -217,9 +263,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 |---|---|---|---|
 | NIA-ES 570R | 2026-06-17 | 1 | Medio |
 | LAC Independencia | 2026-06-17 | 1 | Alto |
-| NIA-ES 705R | 2026-06-23 | 2 | Medio-Alto |
-| NIA-ES 501 | 2026-06-17 | 1 | Bajo |
-| NIA-ES 560 | 2026-06-23 | 2 | Medio |
+| NIA-ES 705R | 2026-06-24 | 3 | Alto |
+| NIA-ES 501 | 2026-06-24 | 2 | Medio |
+| NIA-ES 560 | 2026-06-24 | 3 | Medio-Alto |
 | NIA-ES 320 | 2026-06-17 | 1 | Bajo-Medio |
 | NIA-ES 240 | 2026-06-21 | 1 | Medio |
 | NIA-ES 550 | 2026-06-21 | 1 | Medio |
@@ -228,12 +274,16 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 402 | 2026-06-23 | 1 | Medio |
 | NIA-ES 450 | 2026-06-23 | 1 | Medio |
 | NIA-ES 530 | 2026-06-23 | 1 | Medio |
-| NIA-ES 540R | 2026-06-23 | 1 | Bajo-Medio |
+| NIA-ES 540R | 2026-06-24 | 2 | Medio |
 | NIA-ES 210 | 2026-06-23 | 1 | Alto |
 | NIA-ES 220R | 2026-06-23 | 1 | Medio-Alto |
 | NIA-ES 315R | 2026-06-23 | 1 | Medio-Alto |
-| NIA-ES 580 | 2026-06-23 | 1 | Medio |
-| NIA-ES 701 | 2026-06-23 | 1 | Alto |
+| NIA-ES 580 | 2026-06-24 | 2 | Medio-Alto |
+| NIA-ES 701 | 2026-06-24 | 2 | Medio-Alto |
+| NIA-ES 505 | 2026-06-24 | 1 | Bajo-Medio |
+| NIA-ES 510 | 2026-06-24 | 1 | Medio |
+| NIA-ES 700 | 2026-06-24 | 1 | Medio |
+| NIA-ES 706R | 2026-06-24 | 1 | Medio |
 
 ---
 
@@ -275,9 +325,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Tipo de práctica:** ejercicio cronológico encadenado + bloque temático
 - **Puntuación media estimada:** 6,5/10
 - **Errores cometidos:**
-  - Usó NIA-ES 260 en lugar de **265** para deficiencias de CI
-  - Usó NIA-ES 501 en lugar de **540R** para valoración de existencias
-  - Confundió NIA-ES 580 con **560** para hechos posteriores
+  - Usó NIA-ES 260 en lugar de 265 para deficiencias de CI
+  - Usó NIA-ES 501 en lugar de 540R para valoración de existencias
+  - Confundió NIA-ES 580 con 560 para hechos posteriores
   - No citó apartados concretos de NIA-ES 705R (ap. 5.a y ap. 20)
 - **Puntos fuertes:**
   - Razonamiento auditor impecable en todas las preguntas
@@ -285,7 +335,25 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Distinción pruebas de controles vs sustantivas muy bien explicada
   - Agregación de incorrecciones (NIA-ES 450) bien aplicada
   - Mapa cronológico del encargo muy bien asimilado — recurso clave identificado
-- **Hito de sesión:** construcción del mapa cronológico normativo completo (Fases 1-5) — recurso de alto valor para el examen
+- **Hito de sesión:** construcción del mapa cronológico normativo completo (Fases 1-5)
+
+### Sesión 2026-06-24
+- **Normas trabajadas:** NIA-ES 505 + 510 (caso integrado Distribuciones Levante, S.L. — 4 preguntas encadenadas)
+- **Tipo de práctica:** caso práctico progresivo tipo examen — desde ejecución hasta emisión del informe
+- **Puntuación media estimada:** 7/10
+- **Progresión dentro de la sesión:** P1: 4/10 → P2: 6,5/10 → P3: 8,5/10 → P4: 8,5/10 — mejora clara a lo largo del caso
+- **Errores cometidos:**
+  - P1: 505 ap. 7, 9, 11, 15-16 no citados; 540R ap. 8, 13, 14 no citados; no cerró hacia 705R
+  - P2: 510 ap. 10 (limitación si insuficiente) no aparece; 706R ap. 8 no citado
+  - P3: 580 ap. 21 no citado; 240 ap. 43 no citado; denominó "NIA-ES 240R" (no existe sufijo R)
+  - P4: 701 ap. 15 (prohibición AMRA si ya en fundamentos) no citado; 706R ap. 8 confundido con 701; 700 ap. 24 no citado
+- **Puntos fuertes:**
+  - Detectó trampa CIRET vs CIREF — exactamente el tipo de trampa del examen
+  - 501 vs 540R NO confundidos — mejora consolidada respecto a sesiones anteriores
+  - Razonamiento sobre invalidez de manifestaciones escritas → denegación directa — técnicamente preciso y bien defendido
+  - Identificación de AMRA para estimaciones contables con subjetividad alta — bien razonado
+  - Cierre hacia el informe consistente en P3 y P4
+- **Hito de sesión:** consolidación del esquema completo de informe (700 + 701 + 705R + 706R) en un solo caso integrado
 
 ---
 
@@ -299,6 +367,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - Importante: verificar siempre la respuesta exacta de Eduardo antes de atribuirle errores
 - El mapa cronológico del encargo (Fases 1-5) es un recurso clave — Eduardo lo identificó como muy valioso
 - Aprende mejor con anclaje cronológico que con normas aisladas — usar siempre que sea posible
+- Defiende sus respuestas cuando considera que son correctas — hacerlo y tener razón (sesión 4, P3 sobre denegación por manifestaciones)
 
 ### Formatos de ejercicio confirmados
 - ✅ Casos prácticos tipo examen
@@ -307,3 +376,4 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - ✅ Tarjetas de memoria acumulativas
 - ✅ Corrección con checklist y puntuación por criterios
 - ✅ Ejercicio cronológico encadenado (muy efectivo — sesión 3)
+- ✅ Caso integrado progresivo (muy efectivo — sesión 4)

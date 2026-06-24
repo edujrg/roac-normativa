@@ -237,7 +237,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 4 |
+| Sesiones realizadas | 5 |
 | Normas trabajadas | NIA-ES 210, 220R, 240, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
 | Última sesión | 2026-06-24 |
 
@@ -264,17 +264,17 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 570R | 2026-06-17 | 1 | Medio |
 | LAC Independencia | 2026-06-17 | 1 | Alto |
 | NIA-ES 705R | 2026-06-24 | 3 | Alto |
-| NIA-ES 501 | 2026-06-24 | 2 | Medio |
-| NIA-ES 560 | 2026-06-24 | 3 | Medio-Alto |
-| NIA-ES 320 | 2026-06-17 | 1 | Bajo-Medio |
+| NIA-ES 501 | 2026-06-24 | 3 | Medio |
+| NIA-ES 560 | 2026-06-24 | 4 | Medio-Alto |
+| NIA-ES 320 | 2026-06-24 | 2 | Medio |
 | NIA-ES 240 | 2026-06-21 | 1 | Medio |
 | NIA-ES 550 | 2026-06-21 | 1 | Medio |
-| NIA-ES 265 | 2026-06-23 | 1 | Bajo-Medio |
-| NIA-ES 330 | 2026-06-23 | 1 | Medio |
+| NIA-ES 265 | 2026-06-24 | 2 | Medio |
+| NIA-ES 330 | 2026-06-24 | 2 | Medio |
 | NIA-ES 402 | 2026-06-23 | 1 | Medio |
 | NIA-ES 450 | 2026-06-23 | 1 | Medio |
 | NIA-ES 530 | 2026-06-23 | 1 | Medio |
-| NIA-ES 540R | 2026-06-24 | 2 | Medio |
+| NIA-ES 540R | 2026-06-24 | 3 | Medio |
 | NIA-ES 210 | 2026-06-23 | 1 | Alto |
 | NIA-ES 220R | 2026-06-23 | 1 | Medio-Alto |
 | NIA-ES 315R | 2026-06-23 | 1 | Medio-Alto |
@@ -354,6 +354,25 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Identificación de AMRA para estimaciones contables con subjetividad alta — bien razonado
   - Cierre hacia el informe consistente en P3 y P4
 - **Hito de sesión:** consolidación del esquema completo de informe (700 + 701 + 705R + 706R) en un solo caso integrado
+
+---
+
+
+### Sesión 2026-06-24 (sesión 5 — respuestas cortas)
+- **Normas trabajadas:** NIA-ES 560, NIA-ES 265, NIA-ES 540R, NIA-ES 501, NIA-ES 320, NIA-ES 330
+- **Tipo de práctica:** preguntas cortas aleatorias (6 preguntas) — formato respuesta breve
+- **Puntuación media estimada:** 7,5/10
+- **Errores cometidos:**
+  - NIA-ES 560: lógica correcta pero no citó apartados (ap. 14-17 para hechos conocidos tras emitir informe)
+  - NIA-ES 265: no recordó los apartados concretos (ap. 9 y 11)
+  - NIA-ES 320: no consideró inicialmente el patrón agregado — corrigió al ser preguntado; concepto materialidad de desempeño activado con ayuda
+- **Puntos fuertes:**
+  - NIA-ES 265: secuencia (toda deficiencia oralmente, significativas por escrito a gobernanza) bien razonada
+  - NIA-ES 540R: procedimientos sobre estimaciones (metodología + importe + probabilidad + abogado) bien identificados
+  - NIA-ES 501 vs 540R: no confundidos — mejora consolidada
+  - NIA-ES 330: detectó riesgo de sobrevaloración en ventas + procedimientos clave (prueba de corte + devoluciones posteriores) bien argumentados
+  - NIA-ES 320 + 450: agregación de errores y patrón bien entendidos una vez activados
+- **Nota:** sesión muy corta (formato micro-práctica) — útil para refrescar sin agotamiento
 
 ---
 

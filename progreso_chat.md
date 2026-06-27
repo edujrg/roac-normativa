@@ -396,3 +396,16 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - ✅ Corrección con checklist y puntuación por criterios
 - ✅ Ejercicio cronológico encadenado (muy efectivo — sesión 3)
 - ✅ Caso integrado progresivo (muy efectivo — sesión 4)
+
+---
+
+## 📝 Sesión 2026-06-27 — Consulta y mantenimiento de chuleta
+
+- Tipo: sesión de consulta (sin ejercicios)
+- Actividad: mejoras al artefacto chuleta-roac.html
+  - Añadidas tarjetas faltantes: 505, 510, 700, 706R
+  - Actualización de apartados: 540R (AP.8/13/14), 560 (AP.4), 580 (AP.21)
+  - Badges redefinidos como **frecuencia/peso en examen** (Alto/Medio-Alto/Medio/Bajo)
+  - Versión de impresión añadida (CSS @media print)
+  - Tarjetas ordenadas por número de norma
+- Estado chuleta: 23 normas con tarjeta, todas enlazadas desde el mapa

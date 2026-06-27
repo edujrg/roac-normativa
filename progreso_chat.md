@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-06-24
+> Última actualización: 2026-06-27
 
 ---
 
@@ -158,6 +158,29 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Art. 24.1** → concentración honorarios: 30% / 3 ejercicios (no EIP)  
 > **Art. 45.2 RLAC** → IF significativo: >5% capital / >10% patrimonio auditor / influencia en gestión
 
+### NIA-ES 520 — Procedimientos analíticos
+> **AP. 3** → procedimientos analíticos en **planificación** → finalidad: identificar riesgos de incorrección material  
+> **AP. 4** → procedimientos analíticos al **cierre** → finalidad: verificar coherencia global de los EEFF  
+> **AP. 5** → tres condiciones para usar analíticos como prueba sustantiva: (1) datos fiables, (2) expectativa suficientemente precisa, (3) diferencia tolerable adecuada  
+> **AP. 6** → al final del encargo: verificar que los EEFF son coherentes con el conocimiento del auditor  
+> **AP. 7** → variación significativa inexplicada → obtener evidencia adicional antes de concluir  
+> **Regla 330 ap. 21 — TRAMPA DE EXAMEN:**  
+> - Riesgo significativo + **solo procedimientos sustantivos** (sin probar controles) → prueba de detalle **obligatoria**  
+> - Riesgo significativo + **controles probados eficaces** + analíticos sustantivos → prueba de detalle **NO obligatoria**  
+> - La prohibición es condicional ("cuando la forma de enfocar consista únicamente en procedimientos sustantivos"), no absoluta  
+> **Regla de fases:** ap. 3 = planificación / ap. 6 = cierre / ap. 7 = variación inexplicada → más evidencia
+
+### NIA-ES 230 — Documentación de auditoría
+> **AP. 8** → documentar: naturaleza, momento y extensión de los procedimientos + resultados + conclusiones  
+> **AP. 9** → identificar: características específicas de las partidas examinadas + quién realizó el trabajo y cuándo + quién lo revisó y cuándo  
+> **AP. 13** → **prohibido** eliminar o suprimir documentación una vez cerrado el expediente (tras los 60 días)  
+> **AP. 18** → plazo máximo para compilar el expediente final: **60 días** desde la fecha del informe  
+> **Esquema temporal crítico:**  
+> - Fecha del informe → expediente no cerrado aún; se puede compilar pero NO crear evidencia sustantiva nueva  
+> - Fecha informe + 60 días → expediente **cerrado definitivamente** → ap. 13 en toda su extensión  
+> **Regla:** ap. 8 = qué documentar / ap. 9 = quién y cuándo / ap. 13 = intocable tras 60 días / ap. 18 = 60 días para compilar (no para crear evidencia)  
+> **Matiz clave:** durante los 60 días solo se compila y ordena — evidencia sustantiva nueva retroactiva NO está permitida en ningún momento tras la fecha del informe
+
 ### 🗺️ Cronología normativa del encargo — MAPA COMPLETO
 > **Fase 1 — Aceptación:** 210 (carta de encargo) + 220R (calidad del encargo) + NIGC 1 y 2  
 > **Fase 2 — Planificación:** 300 (estrategia) + 315R (riesgos) + 320 (materialidad) + 240 (fraude) + 250 (leyes) + 600R (grupos)  
@@ -264,8 +287,8 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 7 |
-| Normas trabajadas | NIA-ES 210, 220R, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
+| Sesiones realizadas | 8 |
+| Normas trabajadas | NIA-ES 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
 | Última sesión | 2026-06-27 |
 
 ---
@@ -281,6 +304,8 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **706R ap. 8 vs 701:** confusión de norma para "otras cuestiones" primer año
 - **700 ap. 24:** orden secciones del informe — no se cita espontáneamente
 - **NIA-ES 240:** denominación incorrecta "240R" — corregir
+- **520 ap. 3, 6, 7:** fases de los analíticos no se citan espontáneamente
+- **230 ap. 8, 9, 13, 18:** contenido y plazos del expediente no se citan espontáneamente
 
 ---
 
@@ -314,6 +339,8 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 260 | 2026-06-27 | 1 | Bajo-Medio |
 | NIA-ES 300 | 2026-06-27 | 1 | Alto |
 | NIA-ES 250 | 2026-06-27 | 1 | Medio |
+| NIA-ES 520 | 2026-06-27 | 1 | Medio |
+| NIA-ES 230 | 2026-06-27 | 1 | Medio |
 
 ---
 
@@ -457,3 +484,22 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Versión de impresión añadida (CSS @media print)
   - Tarjetas ordenadas por número de norma
 - Estado chuleta: 23 normas con tarjeta, todas enlazadas desde el mapa
+
+---
+
+### Sesión 2026-06-27 (sesión 8)
+- **Normas trabajadas:** NIA-ES 520 (caso Industrias Náuticas Canarias — 3 preguntas) + NIA-ES 230 (caso Auditores del Sur — 2 preguntas)
+- **Tipo de práctica:** casos prácticos tipo examen
+- **Puntuación media estimada:** 520: 7,2/10 — 230: 6,25/10
+- **Errores cometidos:**
+  - 520 P1: faltó citar 520 ap. 3 y cerrar hacia 315R + 330
+  - 520 P2: lógica invertida en 330 ap. 21 — corregido con debate (ver hito de sesión)
+  - 520 P3: faltó 520 ap. 6 y ap. 7; distinción salvedad vs denegación según generalización no completada
+  - 230 P1: contenido correcto en esencia pero sin citar ap. 8 ni ap. 9
+  - 230 P2: ap. 13 y ap. 18 no citados por nombre; matiz "rehacer vs documentar el cambio" no captado
+- **Puntos fuertes:**
+  - 520 P1: conexión con NIA-ES 510 ap. 6 (papeles auditor anterior) espontánea — nivel alto
+  - 520 P2: defendió postura correcta sobre 330 ap. 21 y tenía razón — espíritu crítico valorable
+  - 230 P2: dos escenarios (antes/después del informe) bien diferenciados sin ayuda
+  - Pregunta de precisión sobre ap. 13 (¿cierre = informe o 60 días?) — excelente nivel de profundidad
+- **Hito de sesión:** aclaración definitiva de la trampa de 330 ap. 21 — la prohibición de analíticos en riesgo significativo es CONDICIONAL (solo si enfoque es únicamente sustantivo sin probar controles), no absoluta

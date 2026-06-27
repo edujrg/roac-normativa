@@ -174,6 +174,15 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla dos momentos: ap. 15 = antes de empezar / ap. 16 = al finalizar  
 > ⚠️ Destinatario siempre es el gobierno corporativo (consejo / comité de auditoría) — nunca solo la dirección
 
+### NIA-ES 300 — Planificación
+> **AP. 5** → establecer estrategia global en **cada encargo** — también en recurrentes  
+> **AP. 7** → plan de auditoría: naturaleza, momento y extensión de procedimientos — debe existir **antes** de iniciar trabajos de campo  
+> **AP. 8** → el socio supervisa la planificación — el equipo debe reportarle hallazgos relevantes durante el proceso  
+> **AP. 9** → en recurrentes: actualizar información anterior — no omitir ni reutilizar sin revisar  
+> **AP. 10** → el plan puede modificarse si surgen circunstancias imprevistas — pero el plan inicial debe preceder a la ejecución  
+> Regla: 300 = planificar antes de ejecutar / flexibilidad no elimina obligación previa  
+> Regla cadena fraude: riesgo fraude → escalar al socio (300 ap. 8 + 220R) → modificar procedimientos (240 ap. 35-37) → comunicar al gobierno al cierre (260 ap. 16)
+
 ### NIA-ES 265 — Deficiencias de control interno
 > **AP. 6.b** → deficiencia de CI: control no puede prevenir/detectar/corregir incorrecciones  
 > **AP. 6.c** → deficiencia significativa: suficientemente importante para el gobierno corporativo  
@@ -293,6 +302,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 700 | 2026-06-24 | 1 | Medio |
 | NIA-ES 706R | 2026-06-24 | 1 | Medio |
 | NIA-ES 260 | 2026-06-27 | 1 | Bajo-Medio |
+| NIA-ES 300 | 2026-06-27 | 1 | Alto |
 
 ---
 
@@ -384,18 +394,18 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Nota:** sesión muy corta (formato micro-práctica) — útil para refrescar sin agotamiento
 
 ### Sesión 2026-06-27
-- **Normas trabajadas:** NIA-ES 260 + 265 (contraste directo — caso Talleres Canarios del Norte, S.A., 3 preguntas)
-- **Tipo de práctica:** caso práctico integrado con trampa de destinatario
-- **Puntuación media estimada:** 5,5/10
+- **Normas trabajadas:** NIA-ES 260 + 265 (caso Talleres Canarios) + NIA-ES 300 (caso Conservas del Atlántico, 4 preguntas opción múltiple)
+- **Tipo de práctica:** caso práctico integrado + opción múltiple con trampa
+- **Puntuación media estimada:** 260/265: 5,5/10 — NIA-ES 300: 8,5/10
 - **Errores cometidos:**
-  - P1: citó NIA-ES 260 en lugar de 265 para deficiencia de CI — confusión persistente
-  - P2: no citó ap. 15 de NIA-ES 260 (alcance antes de empezar)
-  - P3: no respondida (confusión con preguntas anteriores)
+  - 260/265: citó NIA-ES 260 en lugar de 265 para deficiencia de CI — confusión persistente
+  - 260 ap. 15: no citado espontáneamente
+  - 300: ningún error de fondo — solo faltaban apartados concretos
 - **Puntos fuertes:**
-  - Razonamiento sobre umbral significativa vs no significativa correcto
-  - Matiz sobre dirección implicada → escalar al gobierno: correcto
-  - Duda práctica sobre encargos recurrentes: bien planteada y bien resuelta
-- **Hito de sesión:** primera vez trabajando NIA-ES 260 como norma principal — distinción 260/265 más clara al final
+  - NIA-ES 300 P3: identificó correctamente la cadena de escalada fraude (300 + 220R → 240 → 260)
+  - NIA-ES 300 P4: análisis técnico impecable sobre áreas significativas vs no significativas y rotación trienal de controles (330 ap. 9-10-18)
+  - Mejor puntuación en norma nueva hasta la fecha
+- **Hito de sesión:** razonamiento sobre pruebas de controles en áreas significativas vs no significativas — nivel examen
 
 ---
 

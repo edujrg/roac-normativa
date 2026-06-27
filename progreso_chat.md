@@ -174,6 +174,16 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla dos momentos: ap. 15 = antes de empezar / ap. 16 = al finalizar  
 > ⚠️ Destinatario siempre es el gobierno corporativo (consejo / comité de auditoría) — nunca solo la dirección
 
+### NIA-ES 250 — Cumplimiento de leyes y reglamentos
+> **AP. 13** → ante posible incumplimiento: obtener comprensión de la naturaleza del hecho y sus circunstancias  
+> **AP. 14** → si el incumplimiento puede ser material: consultar con el **asesor jurídico** de la entidad  
+> **AP. 16** → comunicar el incumplimiento a los **responsables del gobierno corporativo** (salvo que estén implicados)  
+> **AP. 20** → si incumplimiento grave y dirección/gobierno no actúan: valorar comunicación a **autoridades externas**  
+> Regla: 250 = cumplimiento normativo (licencias, leyes, permisos) / 240 = fraude (intención de engañar)  
+> Si incumplimiento consciente y deliberado para ocultar → puede activar ambas (250 + 240)  
+> Regla informe: omisión material en memoria → 250 ap.13 + 450 + 705R ap.5.a (salvedad si no generalizada)  
+> Regla comunicación: incumplimiento material → **250 ap.16 + 260 ap.16** → gobierno corporativo siempre, aunque dirección lo sepa y conste en informe
+
 ### NIA-ES 300 — Planificación
 > **AP. 5** → establecer estrategia global en **cada encargo** — también en recurrentes  
 > **AP. 7** → plan de auditoría: naturaleza, momento y extensión de procedimientos — debe existir **antes** de iniciar trabajos de campo  
@@ -255,7 +265,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | Campo | Valor |
 |---|---|
 | Sesiones realizadas | 7 |
-| Normas trabajadas | NIA-ES 210, 220R, 240, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
+| Normas trabajadas | NIA-ES 210, 220R, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
 | Última sesión | 2026-06-27 |
 
 ---
@@ -303,6 +313,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 706R | 2026-06-24 | 1 | Medio |
 | NIA-ES 260 | 2026-06-27 | 1 | Bajo-Medio |
 | NIA-ES 300 | 2026-06-27 | 1 | Alto |
+| NIA-ES 250 | 2026-06-27 | 1 | Medio |
 
 ---
 
@@ -394,18 +405,22 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Nota:** sesión muy corta (formato micro-práctica) — útil para refrescar sin agotamiento
 
 ### Sesión 2026-06-27
-- **Normas trabajadas:** NIA-ES 260 + 265 (caso Talleres Canarios) + NIA-ES 300 (caso Conservas del Atlántico, 4 preguntas opción múltiple)
-- **Tipo de práctica:** caso práctico integrado + opción múltiple con trampa
-- **Puntuación media estimada:** 260/265: 5,5/10 — NIA-ES 300: 8,5/10
+- **Normas trabajadas:** NIA-ES 260 + 265 (caso Talleres Canarios) + NIA-ES 300 (caso Conservas del Atlántico) + NIA-ES 250 (caso Grupo Marítimo Fuerteventura)
+- **Tipo de práctica:** caso práctico integrado + opción múltiple con trampa + caso progresivo
+- **Puntuación media estimada:** 260/265: 5,5/10 — NIA-ES 300: 8,5/10 — NIA-ES 250: 6,5/10
 - **Errores cometidos:**
   - 260/265: citó NIA-ES 260 en lugar de 265 para deficiencia de CI — confusión persistente
   - 260 ap. 15: no citado espontáneamente
-  - 300: ningún error de fondo — solo faltaban apartados concretos
+  - 250: apartados 13, 14, 16, 20 no citados espontáneamente (norma nueva)
+  - 250 ap. 16 + 260 ap. 16: citó solo 260, no la doble obligación
+  - 705R ap. 5.a y ap. 20: no citados al cerrar hacia el informe
 - **Puntos fuertes:**
-  - NIA-ES 300 P3: identificó correctamente la cadena de escalada fraude (300 + 220R → 240 → 260)
-  - NIA-ES 300 P4: análisis técnico impecable sobre áreas significativas vs no significativas y rotación trienal de controles (330 ap. 9-10-18)
-  - Mejor puntuación en norma nueva hasta la fecha
-- **Hito de sesión:** razonamiento sobre pruebas de controles en áreas significativas vs no significativas — nivel examen
+  - NIA-ES 300: razonamiento sobre áreas significativas vs no significativas y rotación trienal (330 ap. 9-10-18) — nivel examen
+  - NIA-ES 250 P1: instinto auditor impecable para norma nunca trabajada — estructura correcta sin conocer apartados
+  - NIA-ES 250 P2: distinción "solicitud presentada ≠ licencia válida" — evidencia insuficiente bien argumentada
+  - NIA-ES 250 P3: trampa comunicación gobierno detectada + 260 ap. 16 citado correctamente
+  - Mejor sesión en volumen de normas nuevas trabajadas
+- **Hito de sesión:** tres normas nuevas en una sesión — 250, 260 y 300 incorporadas al repertorio
 
 ---
 

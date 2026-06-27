@@ -166,6 +166,14 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Fase 5 — Informe:** 700 (formación opinión) + 705R (modificadas) + 706R (énfasis) + 701 (AMRA) + 720 (otra información)  
 > **Regla de oro:** 265 ≠ 260 / 560 ≠ 580 / 501 (existencia) ≠ 540R (valoración)
 
+### NIA-ES 260 — Comunicación con responsables del gobierno corporativo
+> **AP. 13** → identificar correctamente a los responsables del gobierno corporativo — comunicar a ellos, NO a la dirección  
+> **AP. 15** → comunicar alcance y momento de la auditoría → **antes de iniciar** los trabajos de campo  
+> **AP. 16** → comunicar hallazgos significativos, dificultades y cuestiones importantes → **al finalizar**  
+> Regla: 260 = comunicación general auditoría (qué hace el auditor y qué encontró) / 265 = deficiencias de CI  
+> Regla dos momentos: ap. 15 = antes de empezar / ap. 16 = al finalizar  
+> ⚠️ Destinatario siempre es el gobierno corporativo (consejo / comité de auditoría) — nunca solo la dirección
+
 ### NIA-ES 265 — Deficiencias de control interno
 > **AP. 6.b** → deficiencia de CI: control no puede prevenir/detectar/corregir incorrecciones  
 > **AP. 6.c** → deficiencia significativa: suficientemente importante para el gobierno corporativo  
@@ -237,16 +245,16 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 5 |
-| Normas trabajadas | NIA-ES 210, 220R, 240, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
-| Última sesión | 2026-06-24 |
+| Sesiones realizadas | 7 |
+| Normas trabajadas | NIA-ES 210, 220R, 240, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
+| Última sesión | 2026-06-27 |
 
 ---
 
 ## 🎯 Puntos débiles activos
 
 - **Apartados concretos bajo presión:** patrón persistente — juicio correcto pero sin citar ap. precisos
-- **260 vs 265:** tiende a usar 260 para deficiencias de CI (correcto es 265) — mejorando
+- **260 vs 265:** confusión persistente — 265 para deficiencias CI, 260 para comunicación general; ap. 13/15/16 de 260 no aparecen espontáneamente
 - **501 vs 540R:** tiende a usar 501 para valoración de existencias — mejorando (no apareció en sesión 4)
 - **505 ap. 7, 11, 15-16:** no aparecen espontáneamente
 - **510 ap. 10:** limitación al alcance si evidencia insuficiente — no aparece espontáneamente
@@ -284,6 +292,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 510 | 2026-06-24 | 1 | Medio |
 | NIA-ES 700 | 2026-06-24 | 1 | Medio |
 | NIA-ES 706R | 2026-06-24 | 1 | Medio |
+| NIA-ES 260 | 2026-06-27 | 1 | Bajo-Medio |
 
 ---
 
@@ -373,6 +382,20 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - NIA-ES 330: detectó riesgo de sobrevaloración en ventas + procedimientos clave (prueba de corte + devoluciones posteriores) bien argumentados
   - NIA-ES 320 + 450: agregación de errores y patrón bien entendidos una vez activados
 - **Nota:** sesión muy corta (formato micro-práctica) — útil para refrescar sin agotamiento
+
+### Sesión 2026-06-27
+- **Normas trabajadas:** NIA-ES 260 + 265 (contraste directo — caso Talleres Canarios del Norte, S.A., 3 preguntas)
+- **Tipo de práctica:** caso práctico integrado con trampa de destinatario
+- **Puntuación media estimada:** 5,5/10
+- **Errores cometidos:**
+  - P1: citó NIA-ES 260 en lugar de 265 para deficiencia de CI — confusión persistente
+  - P2: no citó ap. 15 de NIA-ES 260 (alcance antes de empezar)
+  - P3: no respondida (confusión con preguntas anteriores)
+- **Puntos fuertes:**
+  - Razonamiento sobre umbral significativa vs no significativa correcto
+  - Matiz sobre dirección implicada → escalar al gobierno: correcto
+  - Duda práctica sobre encargos recurrentes: bien planteada y bien resuelta
+- **Hito de sesión:** primera vez trabajando NIA-ES 260 como norma principal — distinción 260/265 más clara al final
 
 ---
 

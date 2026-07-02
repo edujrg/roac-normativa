@@ -341,6 +341,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 250 | 2026-06-27 | 1 | Medio |
 | NIA-ES 520 | 2026-06-27 | 1 | Medio |
 | NIA-ES 230 | 2026-06-27 | 1 | Medio |
+| NIA-ES 720 | 2026-07-02 | 1 | Medio |
 
 ---
 
@@ -503,3 +504,22 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - 230 P2: dos escenarios (antes/después del informe) bien diferenciados sin ayuda
   - Pregunta de precisión sobre ap. 13 (¿cierre = informe o 60 días?) — excelente nivel de profundidad
 - **Hito de sesión:** aclaración definitiva de la trampa de 330 ap. 21 — la prohibición de analíticos en riesgo significativo es CONDICIONAL (solo si enfoque es únicamente sustantivo sin probar controles), no absoluta
+
+### Sesión 2026-07-02
+- **Normas trabajadas:** NIA-ES 720 (caso Constructora Insular, S.A. — 2 preguntas)
+- **Tipo de práctica:** caso práctico tipo examen
+- **Puntuación media estimada:** P1: 6/10 — P2: 5,5/10
+- **Errores cometidos:**
+  - P1: citó ap. 12 (definiciones) en lugar de ap. 14 (leer y considerar)
+  - P1: omitió paso de contrastar con dirección (ap. 16) antes de solicitar corrección (ap. 17)
+  - P1: no citó ap. 22 para párrafo en informe si no se corrige
+  - P1: atribuyó renuncia al ap. 24 — incorrecto, ap. 24 no habla de renuncia (corregido con texto oficial)
+  - P2: no citó 720 ap. 20 como puente cuando la otra información revela incorrección en EEFF
+  - P2: no citó 501 ap. 9-11 para procedimientos sobre litigios
+  - P2: lógica correcta hacia 705R pero sin citar apartados (ap. 7, 8, 20)
+- **Puntos fuertes:**
+  - Distinción correcta: sección Otra información (720) vs párrafo otras cuestiones (706R)
+  - Secuencia lógica general correcta en ambas preguntas
+  - Cierre hacia salvedad/desfavorable con lógica materialidad/generalización bien razonada
+  - Identificó correctamente que el litigio apunta a incorrección en EEFF, no en otra información
+- **Hito de sesión:** NIA-ES 720 incorporada al repertorio; tarjeta verificada contra texto oficial ICAC

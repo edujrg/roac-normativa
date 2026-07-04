@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-06-27
+> Última actualización: 2026-07-04 (sesión 11)
 
 ---
 
@@ -92,36 +92,45 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 ## 🧠 Tarjetas de memoria — Repaso rápido normativo
 
 ### NIA-ES 320 — Materialidad
-> **AP. 6** → juicio profesional + selección de base  
-> **AP. 8** → determinar MP antes de valorar riesgos  
-> **AP. 9** → materialidades específicas por partida  
-> **AP. 11** → ME siempre inferior a MP  
-> **AP. 12** → revisar MP si cambian las circunstancias  
-> **AP. 13** → documentación de MP y ME  
+> **AP. 6** → juicio profesional al planificar: base para determinar naturaleza, momento y extensión de procedimientos  
+> **AP. 10** → determinar MP para los EEFF en su conjunto + materialidades específicas por partida  
+> **AP. 11** → determinar ME para la ejecución del trabajo  
+> **AP. 12** → revisar MP si cambian las circunstancias durante la auditoría  
+> **AP. 13** → si IR inferior a la determinada inicialmente → revisar ME  
+> **AP. 14** → documentación de MP, ME y cualquier revisión  
 > **AP. A3** → resultado anormalmente bajo → considerar base alternativa  
+> **⚠️ TRAMPA:** ap.8 = Objetivo del auditor; ap.9 = Definiciones (ME y riesgo de agregación) — NO son "determinar MP" ni "materialidades específicas"  
 > **Regla CIRET vs CIREF:** el informe de auditoría usa siempre CIREF / CIRET es el umbral de ejecución (75-85% de CIREF)
 
 ### NIA-ES 560 — Hechos posteriores
-> **AP. 4** → período cubierto: desde fecha EEFF hasta fecha del informe  
-> **AP. 6** → tipo I (antes del cierre, conocido después) → ajuste en EEFF  
-> **AP. 7** → tipo II (ocurre después del cierre) → solo revelación en memoria  
-> **AP. 14-17** → hecho conocido tras emitir el informe → hablar con dirección + posible nuevo informe  
-> Si dirección no actúa → auditor debe impedir uso del informe original
+> **AP. 2** → distinción conceptual: tipo I (evidencia sobre condiciones existentes en fecha EEFF → ajuste) / tipo II (condiciones surgidas después → solo revelación)  
+> **AP. 4** → objetivos del auditor: obtener evidencia sobre hechos entre fecha EEFF y fecha informe + reaccionar ante hechos conocidos después del informe  
+> **AP. 6** → aplicar procedimientos para identificar hechos entre fecha EEFF y fecha del informe  
+> **AP. 7** → procedimientos específicos que cubren ese período (actas, EEFF intermedios, indagación dirección)  
+> **AP. 10-13** → hecho conocido después del informe pero antes de publicación → discutir con dirección + nuevo informe si necesario  
+> **AP. 14-17** → hecho conocido tras publicación de los EEFF → mismas actuaciones + impedir uso del informe original si dirección no actúa  
+> **⚠️ TRAMPA:** la distinción tipo I/II está en ap.2, NO en ap.6/7 — estos son los procedimientos
 
 ### NIA-ES 570R — Empresa en funcionamiento
-> **AP. 10** → el auditor evalúa la hipótesis de empresa en funcionamiento  
-> **AP. 13** → período mínimo de evaluación: 12 meses desde la fecha del informe  
-> **AP. 16** → planes de dirección con hechos inciertos no resuelven la incertidumbre  
-> **AP. 23** → omisión de revelación → opinión modificada  
-> **Anexo** → indicadores financieros, operativos y de otro tipo de riesgo
+> **AP. 10** → procedimientos de valoración del riesgo: indagación inicial con dirección sobre si ha hecho valoración preliminar  
+> **AP. 12** → evaluar la valoración realizada por la dirección  
+> **AP. 13** → período mínimo de evaluación: 12 meses desde la fecha de los estados financieros  
+> **AP. 16** → procedimientos adicionales cuando se identifican hechos o condiciones (evaluar planes de dirección)  
+> **AP. 18** → concluir sobre si existe incertidumbre material  
+> **AP. 23** → si revelación inadecuada de la incertidumbre material → opinión con salvedades o desfavorable  
+> **⚠️ TRAMPA:** ap.10 NO es "evaluar la hipótesis EEF" — es la indagación inicial; evaluación real = ap.12-14. Ap.16 NO dice que los planes no resuelven la incertidumbre — eso es la conclusión del ap.18  
+> **Anexo** → ejemplos de indicadores financieros, operativos y de otro tipo de riesgo
 
 ### NIA-ES 705R — Opiniones modificadas
-> **AP. 5.a** → incorrección material no generalizada → salvedad  
-> **AP. 5.b** → incorrección material generalizada → desfavorable  
-> **AP. 6** → limitación al alcance no generalizada → salvedad  
-> **AP. 7** → limitación al alcance generalizada → denegación  
-> **AP. 20** → contenido del párrafo de salvedad  
-> Regla: incorrección → desfavorable / limitación → denegación
+> **AP. 5** → Definiciones: (a) generalizado; (b) opinión modificada  
+> **AP. 6** → situaciones que requieren opinión modificada (incorrección material o imposibilidad de obtener evidencia)  
+> **AP. 7(a)** → incorrección material no generalizada → salvedad  
+> **AP. 7(b)** → limitación al alcance no generalizada → salvedad  
+> **AP. 8** → incorrección material generalizada → desfavorable (adversa)  
+> **AP. 9** → limitación al alcance generalizada → denegación (abstención)  
+> **AP. 20** → fundamento de la opinión: cambiar título + incluir descripción de la cuestión  
+> **⚠️ TRAMPA CRÍTICA:** los apartados 5.a/5.b/6/7 de la chuleta anterior estaban TODOS MAL — la tabla real es: incorrección material: no generalizada = ap.7(a) → salvedad / generalizada = ap.8 → desfavorable; limitación: no generalizada = ap.7(b) → salvedad / generalizada = ap.9 → denegación  
+> **Regla:** incorrección → desfavorable si generalizada / limitación → denegación si generalizada
 
 ### NIA-ES 501 — Evidencia para partidas específicas
 > **AP. 1-8** → existencias → presencia en recuento físico  
@@ -159,27 +168,27 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Art. 45.2 RLAC** → IF significativo: >5% capital / >10% patrimonio auditor / influencia en gestión
 
 ### NIA-ES 520 — Procedimientos analíticos
-> **AP. 3** → procedimientos analíticos en **planificación** → finalidad: identificar riesgos de incorrección material  
-> **AP. 4** → procedimientos analíticos al **cierre** → finalidad: verificar coherencia global de los EEFF  
-> **AP. 5** → tres condiciones para usar analíticos como prueba sustantiva: (1) datos fiables, (2) expectativa suficientemente precisa, (3) diferencia tolerable adecuada  
-> **AP. 6** → al final del encargo: verificar que los EEFF son coherentes con el conocimiento del auditor  
-> **AP. 7** → variación significativa inexplicada → obtener evidencia adicional antes de concluir  
+> **AP. 3** → Objetivos del auditor (no "PA en planificación" — los PA en planificación no tienen ap. propio en 520)  
+> **AP. 4** → Definición de procedimientos analíticos  
+> **AP. 5** → condiciones para usar analíticos como prueba sustantiva: (a) idoneidad para la afirmación; (b) datos fiables; (c) expectativa suficientemente precisa; (d) diferencia tolerable adecuada  
+> **AP. 6** → al final del encargo: verificar que los EEFF son congruentes con el conocimiento del auditor (conclusión global al cierre)  
+> **AP. 7** → variación significativa inexplicada → indagación + otros procedimientos  
+> **⚠️ TRAMPA:** ap.3 = Objetivos (no "PA en planificación"); ap.4 = Definición (no "PA al cierre"); conclusión global al cierre = ap.6  
 > **Regla 330 ap. 21 — TRAMPA DE EXAMEN:**  
 > - Riesgo significativo + **solo procedimientos sustantivos** (sin probar controles) → prueba de detalle **obligatoria**  
 > - Riesgo significativo + **controles probados eficaces** + analíticos sustantivos → prueba de detalle **NO obligatoria**  
 > - La prohibición es condicional ("cuando la forma de enfocar consista únicamente en procedimientos sustantivos"), no absoluta  
-> **Regla de fases:** ap. 3 = planificación / ap. 6 = cierre / ap. 7 = variación inexplicada → más evidencia
+> **Regla de fases:** ap.5 = sustantivos / ap.6 = conclusión global al cierre / ap.7 = variación inexplicada → más evidencia
 
 ### NIA-ES 230 — Documentación de auditoría
-> **AP. 8** → documentar: naturaleza, momento y extensión de los procedimientos + resultados + conclusiones  
+> **AP. 8** → documentar: naturaleza, momento y extensión de los procedimientos + resultados + cuestiones significativas y conclusiones  
 > **AP. 9** → identificar: características específicas de las partidas examinadas + quién realizó el trabajo y cuándo + quién lo revisó y cuándo  
-> **AP. 13** → **prohibido** eliminar o suprimir documentación una vez cerrado el expediente (tras los 60 días)  
-> **AP. 18** → plazo máximo para compilar el expediente final: **60 días** desde la fecha del informe  
-> **Esquema temporal crítico:**  
-> - Fecha del informe → expediente no cerrado aún; se puede compilar pero NO crear evidencia sustantiva nueva  
-> - Fecha informe + 60 días → expediente **cerrado definitivamente** → ap. 13 en toda su extensión  
-> **Regla:** ap. 8 = qué documentar / ap. 9 = quién y cuándo / ap. 13 = intocable tras 60 días / ap. 18 = 60 días para compilar (no para crear evidencia)  
-> **Matiz clave:** durante los 60 días solo se compila y ordena — evidencia sustantiva nueva retroactiva NO está permitida en ningún momento tras la fecha del informe
+> **AP. 13** → documentar cuestiones surgidas **después de la fecha del informe** (nuevos procedimientos o conclusiones en circunstancias excepcionales)  
+> **AP. 14** → compilar el archivo final de auditoría oportunamente después de la fecha del informe  
+> **AP. 15** → **prohibido** eliminar o descartar documentación una vez compilado el archivo final  
+> **AP. A21** → plazo habitual (no requerimiento propio): **60 días** desde la fecha del informe  
+> **⚠️ TRAMPA:** ap.13 NO es "prohibición de eliminar" (eso es ap.15); los 60 días están en ap.A21 (guía de aplicación), no en un apartado de requerimientos numerado como ap.18  
+> **Regla:** ap.8 = qué documentar / ap.9 = quién y cuándo / ap.15 = intocable tras compilación / ap.A21 = 60 días para compilar (guía)
 
 ### 🗺️ Cronología normativa del encargo — MAPA COMPLETO
 > **Fase 1 — Aceptación:** 210 (carta de encargo) + 220R (calidad del encargo) + NIGC 1 y 2  
@@ -190,38 +199,46 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Regla de oro:** 265 ≠ 260 / 560 ≠ 580 / 501 (existencia) ≠ 540R (valoración)
 
 ### NIA-ES 260 — Comunicación con responsables del gobierno corporativo
-> **AP. 13** → identificar correctamente a los responsables del gobierno corporativo — comunicar a ellos, NO a la dirección  
-> **AP. 15** → comunicar alcance y momento de la auditoría → **antes de iniciar** los trabajos de campo  
+> **AP. 11** → determinar quién es la persona adecuada para las comunicaciones dentro de la estructura de gobierno  
+> **AP. 12** → si se comunica con un subgrupo (comité de auditoría), determinar si también hay que informar al órgano en pleno  
+> **AP. 13** → caso especial: si todos los responsables del gobierno participan en la dirección → comunicación simplificada  
+> **AP. 15** → comunicar alcance y momento de la auditoría planificados (incluye riesgos significativos) → **antes de iniciar** los trabajos  
 > **AP. 16** → comunicar hallazgos significativos, dificultades y cuestiones importantes → **al finalizar**  
-> Regla: 260 = comunicación general auditoría (qué hace el auditor y qué encontró) / 265 = deficiencias de CI  
-> Regla dos momentos: ap. 15 = antes de empezar / ap. 16 = al finalizar  
-> ⚠️ Destinatario siempre es el gobierno corporativo (consejo / comité de auditoría) — nunca solo la dirección
+> **⚠️ TRAMPA:** ap.13 NO es "identificar correctamente a los responsables" — eso es ap.11. Ap.13 es el caso especial donde gobierno = dirección  
+> Regla: 260 = comunicación general auditoría / 265 = deficiencias de CI  
+> Regla dos momentos: ap.15 = antes de empezar / ap.16 = al finalizar
 
 ### NIA-ES 250 — Cumplimiento de leyes y reglamentos
-> **AP. 13** → ante posible incumplimiento: obtener comprensión de la naturaleza del hecho y sus circunstancias  
-> **AP. 14** → si el incumplimiento puede ser material: consultar con el **asesor jurídico** de la entidad  
-> **AP. 16** → comunicar el incumplimiento a los **responsables del gobierno corporativo** (salvo que estén implicados)  
-> **AP. 20** → si incumplimiento grave y dirección/gobierno no actúan: valorar comunicación a **autoridades externas**  
-> Regla: 250 = cumplimiento normativo (licencias, leyes, permisos) / 240 = fraude (intención de engañar)  
-> Si incumplimiento consciente y deliberado para ocultar → puede activar ambas (250 + 240)  
-> Regla informe: omisión material en memoria → 250 ap.13 + 450 + 705R ap.5.a (salvedad si no generalizada)  
-> Regla comunicación: incumplimiento material → **250 ap.16 + 260 ap.16** → gobierno corporativo siempre, aunque dirección lo sepa y conste en informe
+> **AP. 13** → obtener conocimiento general del marco normativo aplicable a la entidad y al sector  
+> **AP. 14** → obtener evidencia sobre cumplimiento de disposiciones con efecto directo en los EEFF  
+> **AP. 15** → procedimientos para identificar otros incumplimientos que puedan tener efecto material  
+> **AP. 19** → ante posible incumplimiento: obtener comprensión de la naturaleza del hecho y sus circunstancias  
+> **AP. 20** → si posible incumplimiento puede ser material: discutir con dirección + obtener **asesoramiento jurídico**  
+> **AP. 23** → comunicar el incumplimiento a los **responsables del gobierno corporativo**  
+> **AP. 24** → si intencionado y material → comunicar tan pronto como sea posible  
+> **AP. 29** → si no actúan: valorar comunicación a **autoridades externas**  
+> **⚠️ TRAMPA CRÍTICA:** los ap. 13/14/16/20 de la chuleta anterior estaban TODOS MAL — los correctos son ap.19/20/23/29  
+> Regla: 250 = cumplimiento normativo / 240 = fraude (intención de engañar)  
+> Regla comunicación: incumplimiento material → 250 ap.23 + 260 ap.16 → gobierno corporativo
 
 ### NIA-ES 300 — Planificación
-> **AP. 5** → establecer estrategia global en **cada encargo** — también en recurrentes  
-> **AP. 7** → plan de auditoría: naturaleza, momento y extensión de procedimientos — debe existir **antes** de iniciar trabajos de campo  
-> **AP. 8** → el socio supervisa la planificación — el equipo debe reportarle hallazgos relevantes durante el proceso  
-> **AP. 9** → en recurrentes: actualizar información anterior — no omitir ni reutilizar sin revisar  
-> **AP. 10** → el plan puede modificarse si surgen circunstancias imprevistas — pero el plan inicial debe preceder a la ejecución  
-> Regla: 300 = planificar antes de ejecutar / flexibilidad no elimina obligación previa  
-> Regla cadena fraude: riesgo fraude → escalar al socio (300 ap. 8 + 220R) → modificar procedimientos (240 ap. 35-37) → comunicar al gobierno al cierre (260 ap. 16)
+> **AP. 5** → participación del socio del encargo y miembros clave en la planificación  
+> **AP. 6** → actividades preliminares: aceptación + ética/independencia + carta de encargo  
+> **AP. 7** → establecer **estrategia global** de auditoría (alcance, momento, dirección) — en **cada encargo**, también recurrentes  
+> **AP. 9** → desarrollar el **plan de auditoría** (naturaleza, momento y extensión de procedimientos) — debe existir **antes** de iniciar trabajos de campo  
+> **AP. 10** → actualizar estrategia y plan cuando sea necesario en el transcurso de la auditoría  
+> **AP. 11** → el socio del encargo revisa la estrategia global y el plan  
+> **AP. 12** → documentación: estrategia + plan + cambios significativos  
+> **⚠️ TRAMPA:** ap.5 = participación miembros clave (no "estrategia global"); ap.7 = estrategia (no "plan"); ap.9 = plan; ap.11 = supervisión socio (no ap.8)  
+> Regla: 300 = planificar antes de ejecutar / flexibilidad no elimina obligación previa
 
 ### NIA-ES 265 — Deficiencias de control interno
-> **AP. 6.b** → deficiencia de CI: control no puede prevenir/detectar/corregir incorrecciones  
-> **AP. 6.c** → deficiencia significativa: suficientemente importante para el gobierno corporativo  
-> **AP. 9** → deficiencias significativas → comunicación **escrita** a responsables del gobierno Y dirección  
-> **AP. 10** → comunicar aunque la dirección ya las conozca  
-> **AP. 11** → si hay indicio de fraude → activa NIA-ES 240  
+> **AP. 6(a)** → deficiencia de CI: control no puede prevenir/detectar/corregir incorrecciones (o no existe el control necesario)  
+> **AP. 6(b)** → deficiencia significativa: suficientemente importante para el gobierno corporativo  
+> **AP. 9** → deficiencias significativas → comunicación **escrita** a responsables del gobierno oportunamente  
+> **AP. 10** → comunicar también a la dirección (significativas por escrito; otras que merezcan atención)  
+> **AP. 11** → contenido de la comunicación escrita: descripción de las deficiencias + posibles efectos + contexto  
+> **⚠️ TRAMPA:** ap.6(a) es deficiencia de CI (no 6.b); ap.6(b) es deficiencia significativa (no 6.c); ap.11 NO menciona fraude — es el contenido de la comunicación  
 > Regla: 265 = deficiencias CI (escrito + gobierno) / 260 = comunicación general auditoría
 
 ### NIA-ES 330 — Respuestas a riesgos valorados
@@ -242,18 +259,22 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Regla clave:** siempre agregar antes de concluir — varias pequeñas pueden ser material conjuntamente
 
 ### NIA-ES 505 — Confirmaciones externas
-> **AP. 7** → el auditor controla íntegramente el proceso (envío y recepción directa, sin pasar por la entidad)  
-> **AP. 9** → confirmación positiva para saldos de riesgo elevado  
-> **AP. 11** → si la dirección veta la confirmación → documentar razones + evaluar implicaciones para el encargo → posible NIA-ES 240  
-> **AP. 15-16** → si no hay respuesta → procedimientos alternativos (cobros posteriores, contratos, albaranes)  
+> **AP. 7** → el auditor controla íntegramente el proceso (envío y recepción directa, sin pasar por la entidad) ✅  
+> **AP. 8** → si la dirección veta la confirmación: indagar motivos + evaluar implicaciones + aplicar procedimientos alternativos  
+> **AP. 9** → si negativa no es razonable o alternativos insuficientes → comunicar a gobierno (260 ap.16) + determinar implicaciones para opinión (705R)  
+> **AP. 12** → si no hay respuesta (sin contestación) → procedimientos alternativos  
+> **AP. 13** → si respuesta positiva es imprescindible y no se obtiene → implicaciones para la opinión (705R)  
+> **⚠️ TRAMPA:** confirmación positiva necesaria = ap.13 (no ap.9); negativa dirección = ap.8-9 (no ap.11); sin contestación = ap.12 (no ap.15-16)  
 > Regla: 505 = circularizar + auditor controla el proceso / dirección veta → señal de alerta
 
 ### NIA-ES 510 — Encargos iniciales
-> **AP. 3** → objetivo: saldos iniciales no contienen incorrecciones que afecten al ejercicio actual  
-> **AP. 6** → revisar papeles del auditor anterior (si existen y hay acceso)  
-> **AP. 7** → procedimientos alternativos si no hay acceso: registros contables + movimientos + trabajar hacia atrás  
-> **AP. 10** → si no suficiente evidencia → limitación al alcance → 705R ap. 6-7  
-> **AP. 11** → políticas contables deben ser consistentes con las del ejercicio actual  
+> **AP. 3** → objetivo: saldos iniciales no contienen incorrecciones que afecten al ejercicio actual ✅  
+> **AP. 6** → obtener evidencia sobre saldos de apertura: (a) traspasos correctos; (b) políticas contables; (c)(i) revisar papeles del auditor anterior si existen; (c)(ii)/(iii) procedimientos alternativos si no hay acceso  
+> **AP. 7** → si se obtiene evidencia de que los saldos contienen incorrecciones → procedimientos adicionales + comunicar a dirección y gobierno  
+> **AP. 8** → políticas contables deben ser congruentes con el período actual  
+> **AP. 10** → si no suficiente evidencia → salvedad o denegación (705R)  
+> **AP. 11** → si saldos contienen incorrección material no registrada adecuadamente → salvedad o desfavorable  
+> **⚠️ TRAMPA:** ap.7 NO son los procedimientos alternativos (eso es ap.6(c)); políticas contables congruentes = ap.8 (no ap.11); ap.11 = incorrección material en saldos  
 > Regla: error en existencias iniciales → se propaga a resultados → riesgo de denegación, no solo salvedad
 
 ### NIA-ES 540R — Estimaciones contables
@@ -263,23 +284,26 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla: 540R = ap. 8 (metodología) + ap. 13 (supuestos) + ap. 14 (sesgo)
 
 ### NIA-ES 580 — Manifestaciones escritas
-> **AP. 20** → inconsistencia con otra evidencia → reconsiderar fiabilidad de las manifestaciones  
-> **AP. 21** → dirección no rectifica → auditor no puede confiar en ellas → limitación al alcance  
-> **Regla crítica:** falta/invalidez de manifestaciones escritas → siempre limitación generalizada → siempre denegación (705R ap. 7)  
+> **AP. 17** → si manifestaciones escritas son incongruentes con otra evidencia → aplicar procedimientos para resolver + reconsiderar fiabilidad  
+> **AP. 19** → si dirección no proporciona manifestaciones escritas solicitadas → discutir + reevaluar integridad + adoptar medidas  
+> **AP. 20** → denegación obligatoria cuando: (a) dudas sobre integridad → manifestaciones no fiables; o (b) dirección no facilita las manifestaciones requeridas por ap.10-11  
+> **⚠️ TRAMPA:** ap.20 es la DENEGACIÓN (no la "inconsistencia con otra evidencia"); eso es ap.17. No existe ap.21 en los requerimientos  
+> **Regla crítica:** falta/invalidez de manifestaciones escritas sobre responsabilidades (ap.10-11) → siempre denegación (ap.20 → 705R ap.9)  
 > No admite gradación — no existe escenario donde sea solo salvedad
 
 ### NIA-ES 700 + 701 + 705R + 706R — Estructura del informe
-> **Orden secciones (700 ap. 24):**  
-> 1. Opinión (o con salvedades/desfavorable/denegación)  
-> 2. Fundamentos de la opinión (705R ap. 20 si modificada)  
-> 3. AMRA — NIA-ES 701 (si aplica)  
+> **Orden secciones (700 ap. 23 + ss.):**  
+> 1. Opinión (ap.23)  
+> 2. Fundamentos de la opinión (ap.28 / 705R ap.20 si modificada)  
+> 3. AMRA / Aspectos más relevantes — NIA-ES 701 ap.11 (si aplica)  
 > 4. Otra información — NIA-ES 720 (si aplica)  
 > 5. Responsabilidades de los administradores  
 > 6. Responsabilidades del auditor  
-> 7. Otras cuestiones — 706R ap. 8 (si primer año o auditor anterior)  
-> **701 ap. 9** → criterio inclusión AMRA: cuestión que ha requerido atención significativa  
-> **701 ap. 15** → AMRA nunca puede incluir lo que ya está en fundamentos de opinión modificada  
-> **706R ap. 8** → otras cuestiones primer año: mencionar auditor anterior + fecha + tipo de opinión
+> 7. Párrafo sobre otras cuestiones — 706R ap.10-11 (ej. primer año / auditor anterior)  
+> **701 ap. 9** → criterio inclusión AMRA: cuestión que ha requerido atención significativa ✅  
+> **701 ap. 15** → cuestión que origina opinión modificada NO va en AMRA — va en fundamentos ✅  
+> **706R ap. 8** → párrafos de **énfasis** (condiciones para incluirlos); lo del auditor anterior en primer año = guía ap.A9-A14 + ap.10-11  
+> **⚠️ TRAMPA 705R:** tabla correcta: incorrección no generalizada = ap.7(a) → salvedad; incorrección generalizada = ap.8 → desfavorable; limitación no generalizada = ap.7(b) → salvedad; limitación generalizada = ap.9 → denegación
 
 ---
 
@@ -287,7 +311,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 10 |
+| Sesiones realizadas | 11 |
 | Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
 | Última sesión | 2026-07-04 |
 
@@ -296,16 +320,25 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 ## 🎯 Puntos débiles activos
 
 - **Apartados concretos bajo presión:** patrón persistente — juicio correcto pero sin citar ap. precisos
-- **260 vs 265:** confusión persistente — 265 para deficiencias CI, 260 para comunicación general; ap. 13/15/16 de 260 no aparecen espontáneamente
-- **501 vs 540R:** tiende a usar 501 para valoración de existencias — mejorando (no apareció en sesión 4)
-- **505 ap. 7, 11, 15-16:** no aparecen espontáneamente
-- **510 ap. 10:** limitación al alcance si evidencia insuficiente — no aparece espontáneamente
-- **701 ap. 15:** prohibición AMRA si ya en fundamentos de opinión modificada — nuevo punto débil
-- **706R ap. 8 vs 701:** confusión de norma para "otras cuestiones" primer año
-- **700 ap. 24:** orden secciones del informe — no se cita espontáneamente
-- **NIA-ES 240:** denominación incorrecta "240R" — corregir
-- **520 ap. 3, 6, 7:** fases de los analíticos no se citan espontáneamente
-- **230 ap. 8, 9, 13, 18:** contenido y plazos del expediente no se citan espontáneamente
+- **Desplazamiento sistemático de apartados:** error estructural en la chuleta — muchas normas tienen los números desplazados 1-2 hacia abajo porque se contaron mal los ap. de Objetivo y Definiciones antes de los Requerimientos. Sesión 11 reveló esto en escala. Eduardo debe actualizar la chuleta.
+- **NIA-ES 705R:** todos los ap. clave estaban mal — incorrección no generalizada = ap.7(a) (no 5.a); generalizada = ap.8 (no 5.b); limitación no generalizada = ap.7(b) (no 6); limitación generalizada = ap.9 (no 7)
+- **NIA-ES 250:** todos desplazados — comprensión naturaleza = ap.19 (no 13); asesoramiento jurídico = ap.20 (no 14); comunicar a gobierno = ap.23 (no 16); autoridades externas = ap.29 (no 20)
+- **NIA-ES 300:** desplazados — estrategia global = ap.7 (no 5); plan de auditoría = ap.9 (no 7); supervisión socio = ap.11 (no 8); actualización recurrentes = ap.10 (no 9)
+- **NIA-ES 320:** ap.8 = Objetivo (no "determinar MP"); ap.9 = Definiciones; determinación MP = ap.10; documentación = ap.14 (no 13)
+- **NIA-ES 230:** ap.13 = cuestiones surgidas tras informe (no "prohibición eliminar"); no eliminar = ap.15; los 60 días están en ap.A21 (guía), no en apartado requerimiento propio
+- **NIA-ES 580:** inconsistencia con otra evidencia = ap.17 (no 20); dirección no proporciona = ap.19; denegación = ap.20 (no 21)
+- **NIA-ES 260:** ap.11 = identificar responsables del gobierno (no ap.13); ap.13 = caso especial cuando gobierno = dirección; ap.15 ✅; ap.16 ✅
+- **NIA-ES 265:** ap.6(a) = deficiencia CI (no 6.b); ap.6(b) = deficiencia significativa (no 6.c); ap.11 = contenido comunicación escrita (no fraude)
+- **NIA-ES 200:** ap.13(k) = juicio profesional (no ap.13.f); ap.13(f) = definición de estados financieros
+- **NIA-ES 560:** tipos I/II = ap.2 conceptual (no ap.6/7); ap.6 = procedimientos durante período; ap.7 = procedimientos que cubren hasta fecha informe
+- **NIA-ES 501:** existencias = ap.4-8 (no 1-8); litigios = ap.9-12 (no 9-15); información por segmentos = ap.13 solo (no 16-20)
+- **NIA-ES 505:** confirmación positiva necesaria = ap.13 (no ap.9); negativa dirección = ap.8-9 (no ap.11); sin contestación = ap.12
+- **NIA-ES 510:** políticas contables congruentes = ap.8 (no ap.11); procedimientos alternativos sin acceso = ap.6(c)(ii)/(iii) (no ap.7)
+- **NIA-ES 520:** ap.3 = Objetivos (no PA en planificación); ap.4 = Definición (no PA al cierre); PA al cierre = ap.6 ✅; ap.5 ✅; ap.7 ✅
+- **NIA-ES 570R:** evaluación propiamente dicha = ap.12-14 (no ap.10); ap.10 = procedimientos valoración riesgo e indagación inicial; conclusión sobre incertidumbre = ap.18 (no ap.16)
+- **706R ap.8:** ap.8 = párrafos de énfasis (condiciones); lo del auditor anterior en primer año está en guía ap.A9-A14, no en ap.8
+- **260 vs 265:** confusión persistente — 265 para deficiencias CI, 260 para comunicación general
+- **701 ap. 9 y 15:** ✅ confirmados correctos en sesión 11
 
 ---
 
@@ -546,3 +579,27 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Cierre hacia salvedad/desfavorable con lógica materialidad/generalización bien razonada
   - Identificó correctamente que el litigio apunta a incorrección en EEFF, no en otra información
 - **Hito de sesión:** NIA-ES 720 incorporada al repertorio; tarjeta verificada contra texto oficial ICAC
+
+### Sesión 2026-07-04 (sesión 11)
+- **Tipo:** sesión de verificación y corrección de chuleta (sin casos prácticos)
+- **Actividad:** revisión exhaustiva de TODOS los apartados de las tarjetas de la chuleta contra el compendio oficial ICAC (ICJCE, 2026) — 1.214 páginas, texto oficial en vigor
+- **Hito de sesión:** identificación de un patrón de error sistemático en la chuleta — desplazamiento de 1-2 números en muchas normas, causado por contar mal los ap. de Objetivo y Definiciones antes de los Requerimientos
+- **Normas con errores confirmados y corregidos en progreso_chat.md:**
+  - **NIA-ES 705R** — todos los ap. clave incorrectos: 7(a)/8/7(b)/9 (no 5.a/5.b/6/7)
+  - **NIA-ES 250** — todos desplazados: 19/20/23/29 (no 13/14/16/20)
+  - **NIA-ES 300** — desplazados: estrategia=ap.7, plan=ap.9, supervisión=ap.11, actualización=ap.10
+  - **NIA-ES 320** — ap.8=Objetivo; ap.9=Definiciones; MP=ap.10; documentación=ap.14 (no ap.13)
+  - **NIA-ES 230** — ap.13=cuestiones tras informe; no eliminar=ap.15; 60 días=ap.A21 (no requerimiento propio)
+  - **NIA-ES 580** — inconsistencia=ap.17 (no ap.20); denegación=ap.20; no existe ap.21 en requerimientos
+  - **NIA-ES 260** — identificar responsables=ap.11 (no ap.13); ap.13=caso especial gobierno=dirección
+  - **NIA-ES 265** — 6(a)=deficiencia CI; 6(b)=significativa; ap.11=contenido comunicación (no fraude)
+  - **NIA-ES 200** — ap.13(k)=juicio profesional (no ap.13.f); ap.13(f)=definición de estados financieros
+  - **NIA-ES 560** — tipos I/II=ap.2 conceptual (no ap.6/7); ap.6/7=procedimientos
+  - **NIA-ES 501** — existencias=ap.4-8; litigios=ap.9-12; segmentos=ap.13 solo
+  - **NIA-ES 505** — confirmación positiva necesaria=ap.13; negativa dirección=ap.8-9; sin contestación=ap.12
+  - **NIA-ES 510** — políticas contables=ap.8; procedimientos alternativos=ap.6(c); ap.11=incorrección material
+  - **NIA-ES 520** — ap.3=Objetivos; ap.4=Definición; conclusión global=ap.6 ✅; ap.5 ✅; ap.7 ✅
+  - **NIA-ES 570R** — evaluación=ap.12-14 (no ap.10); conclusión incertidumbre=ap.18 (no ap.16)
+  - **NIA-ES 706R** — ap.8=párrafos de énfasis; lo del auditor anterior en primer año=guía ap.A9-A14
+- **Normas verificadas correctas:** NIA-ES 240 (ap.3, 35-37, 43), NIA-ES 701 (ap.9, 15), NIA-ES 720 (ap.12-18, 21-25), NIA-ES 610 (ap.15-18-23-24), NIA-ES 620 (ap.7-13)
+- **Pendiente:** Eduardo debe actualizar la chuleta-roac.html con todos los apartados corregidos. Los números correctos están documentados en las tarjetas de memoria de este archivo y en los puntos débiles activos.

@@ -287,9 +287,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 8 |
-| Normas trabajadas | NIA-ES 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
-| Última sesión | 2026-06-27 |
+| Sesiones realizadas | 10 |
+| Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
+| Última sesión | 2026-07-04 |
 
 ---
 
@@ -342,6 +342,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 520 | 2026-06-27 | 1 | Medio |
 | NIA-ES 230 | 2026-06-27 | 1 | Medio |
 | NIA-ES 720 | 2026-07-02 | 1 | Medio |
+| NIA-ES 610 | 2026-07-03 | 1 | Medio-Alto |
+| NIA-ES 620 | 2026-07-04 | 1 | Medio-Alto |
+| NIA-ES 200 | 2026-07-04 | 1 | Medio |
 
 ---
 
@@ -450,6 +453,26 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Mejor sesión en volumen de normas nuevas trabajadas
 - **Hito de sesión:** tres normas nuevas en una sesión — 250, 260 y 300 incorporadas al repertorio
 
+
+### Sesión 2026-07-03 (sesión 9)
+- **Normas trabajadas:** NIA-ES 610 (caso Marítima del Norte — 2 preguntas)
+- **Tipo de práctica:** caso práctico tipo examen
+- **Puntuación media estimada:** Medio-Alto
+- **Puntos fuertes:** flujo completo ap.15→18→23→24 bien aplicado; distinción objetividad cuestionable vs excelente; activación de NIA-ES 265 cuando se encuentra deficiencia de CI
+- **Puntos débiles:** ap.18 no recordado espontáneamente; ap.23 confundido inicialmente con ap.20; ap.24 (reejecución obligatoria) solo recordado con pista
+- **Pendiente:** Eduardo debe actualizar tarjeta de NIA-ES 610 en chuleta con apartados correctos
+
+### Sesión 2026-07-04 (sesión 10)
+- **Normas trabajadas:** NIA-ES 620 (caso Marítima del Atlántico — caso práctico integrado) + NIA-ES 200 (inicio de caso, incompleto)
+- **Tipo de práctica:** caso práctico tipo examen + verificación de tarjetas
+- **Hitos de sesión:**
+  - NIA-ES 620: tarjeta verificada contra texto oficial ICAC — todos los apartados estaban desplazados un número hacia arriba. Correctos: ap.7 necesidad, ap.8 naturaleza y extensión procedimientos, ap.9 competencia/capacidad/objetividad, ap.10 conocimiento del campo, ap.11 acuerdo, ap.12-13 evaluación adecuación, ap.14-15 referencia en informe
+  - NIA-ES 200: tarjeta verificada — ap.17 es evidencia suficiente y adecuada (NO cumplimiento de NIA); ap.18 es cumplimiento de NIA; limitaciones inherentes están en guía de aplicación ap.A47-A54 sin apartado numerado propio
+  - NIA-ES 240: tarjeta confirmada correcta — ap.3 sí es los dos tipos de fraude (apropiación indebida + manipulación EEFF)
+  - Distinción crítica consolidada: experto del auditor (contratado por auditor) → NIA-ES 620 / experto de la dirección (contratado por entidad) → NIA-ES 500 ap.A45-A59
+- **Puntos fuertes:** detectó inmediatamente que el experto del caso era de la dirección, no del auditor; secuencia lógica 7→10→9→11→8→12-13 bien asimilada tras corrección; cierre hacia salvedad por limitación al alcance bien razonado; comunicación a gobierno corporativo bajo NIA-ES 260 ap.16 citada correctamente
+- **Puntos débiles:** ap.10 (conocimiento del campo) no aparece espontáneamente en la secuencia; orden exacto 9 antes de 11 necesitó refuerzo
+- **Pendiente:** Eduardo debe actualizar tarjetas de NIA-ES 620 y NIA-ES 200 en chuleta. Revisión exhaustiva de todas las tarjetas pendiente para próxima sesión.
 ---
 
 ## 📝 Notas acumuladas

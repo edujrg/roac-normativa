@@ -141,23 +141,30 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla encargo inicial: litigio en apertura → 501 ap. 9 → doble utilidad (apertura + cierre)
 
 ### NIA-ES 240 — Fraude
-> **AP. 3** → dos tipos: apropiación indebida y manipulación de EEFF  
+> **AP. 3** → dos tipos: apropiación indebida de activos y manipulación de EEFF (información financiera fraudulenta)  
 > **Anexo 1** → "Ejemplos de factores de riesgo de fraude"  
-> **AP. 35-37** → respuesta del auditor ante indicios detectados  
-> **AP. 43** → comunicación a responsables del gobierno  
-> Regla: fraude por dirección → activa NIA-ES 580 ap. 20 + NIA-ES 550 + NIA-ES 240 ap. 43  
+> **AP. 35-37** → evaluación de la evidencia: ap.35 = analíticos al cierre para detectar fraude; ap.36 = incorrección indicativa de fraude → evaluar implicaciones; ap.37 = si implicada la dirección → reconsiderar valoración del riesgo  
+> **AP. 40** → manifestaciones escritas: dirección reconoce responsabilidad en prevención/detección del fraude  
+> **AP. 42** → si fraude en que participa la dirección → comunicar a responsables del gobierno  
+> **AP. 43** → comunicar a gobierno cualquier otra cuestión relativa a fraude relevante  
+> Regla: fraude por dirección → activa NIA-ES 580 **ap.17** (inconsistencia evidencia) + NIA-ES 550 + NIA-ES 240 ap.43  
 > Regla: presunto implicado controla órgano de gobierno → valorar asesoramiento legal externo  
 > ⚠️ La norma se llama NIA-ES 240 — NO existe "240R"
 
 ### NIA-ES 550 — Partes vinculadas
-> **AP. 10.b** → definición de parte vinculada → remite a NRV 21ª PGC  
-> **AP. 13-14** → indagación e identificación de todas las operaciones con PV  
-> **AP. 18-19** → operaciones significativas fuera del curso normal del negocio  
-> **AP. 21** → operación no revelada por dirección → evaluar intencionalidad → posible fraude  
+> **AP. 10(b)** → definición de parte vinculada (en España remite a NRV 21ª PGC)  
+> **AP. 13** → indagación sobre identidad, naturaleza y transacciones con PV  
+> **AP. 14** → conocimiento de los controles sobre PV (identificación, autorización, operaciones fuera del curso normal)  
+> **AP. 16** → si se detectan transacciones significativas fuera del curso normal del negocio → indagar su naturaleza y si participan PV  
+> **AP. 18** → identificar y valorar riesgos de incorrección material asociados a PV (transacciones significativas ajenas al curso normal = riesgo significativo)  
+> **AP. 21** → si el auditor identifica PV o transacciones no reveladas previamente → determinar si confirman la existencia; si sí, procedimientos adicionales + evaluar si falta de revelación es intencionada  
+> **AP. 23** → para transacciones significativas ajenas al curso normal: inspeccionar contratos + evaluar fundamento empresarial + comprobar contabilización  
 > **NRV 21ª PGC** → definición y revelación en memoria (familiares cercanos de administradores)  
-> Regla: PV fuera de mercado sin documentación → activa NIA-ES 550 + NRV 21ª + NIA-ES 240 ap. 35-37
+> **⚠️ TRAMPA:** ap.18-19 son identificación y valoración de riesgos (NO "operaciones fuera del curso normal"); las operaciones fuera del curso normal → ap.16 (indagación) + ap.23 (respuesta)  
+> Regla: PV fuera de mercado sin documentación → activa NIA-ES 550 ap.23 + NRV 21ª + NIA-ES 240 ap.35-37
 
 ### Independencia — LAC
+> ⚠️ **Verificación pendiente contra texto directo LAC** — el compendio ICAC 2026 no incluye el texto de la LAC. Artículos de sesiones anteriores, pendientes de confirmar:  
 > **Art. 16.1.a.2** → instrumentos financieros significativos → incompatibilidad  
 > **Art. 16.1.b.1** → servicios de contabilidad → incompatibilidad absoluta  
 > **Art. 18** → marco general de amenazas y salvaguardas  
@@ -165,7 +172,8 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Art. 22** → comunicar incompatibilidad sobrevenida y renunciar  
 > **Art. 23** → documentar análisis de independencia  
 > **Art. 24.1** → concentración honorarios: 30% / 3 ejercicios (no EIP)  
-> **Art. 45.2 RLAC** → IF significativo: >5% capital / >10% patrimonio auditor / influencia en gestión
+> **Art. 45.2 RLAC** → IF significativo: >5% capital / >10% patrimonio auditor / influencia en gestión  
+> El compendio confirma que el marco de independencia se regula en: art. 2.3 + sección 2ª capítulo III (Título I) + sección 3ª capítulo IV (Título I) de la LAC
 
 ### NIA-ES 520 — Procedimientos analíticos
 > **AP. 3** → Objetivos del auditor (no "PA en planificación" — los PA en planificación no tienen ap. propio en 520)  
@@ -242,21 +250,33 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla: 265 = deficiencias CI (escrito + gobierno) / 260 = comunicación general auditoría
 
 ### NIA-ES 330 — Respuestas a riesgos valorados
-> Regula el **diseño y ejecución** de respuestas a riesgos valorados (pruebas de controles + sustantivas)  
-> Pruebas de controles → eficacia operativa de los controles  
-> Si controles eficaces → se pueden reducir sustantivos, pero **nunca eliminarlos** en áreas de riesgo significativo  
-> 330 = cómo respondes / 500 = qué es evidencia suficiente y adecuada
+> **AP. 5** → respuestas globales al riesgo valorado (composición del equipo, imprevisibilidad, enfoque global)  
+> **AP. 6-7** → diseñar procedimientos cuya naturaleza, momento y extensión respondan a los riesgos valorados  
+> **AP. 8** → pruebas de controles: obligatorias cuando se incorpora expectativa de que los controles operan eficazmente o cuando los sustantivos solos son insuficientes  
+> **AP. 18** → independientemente del riesgo valorado, aplicar procedimientos sustantivos para cada área material  
+> **AP. 21** → riesgo significativo + enfoque únicamente sustantivo → prueba de detalle **obligatoria** (no puede sustituirse por analíticos)  
+> **AP. 25-27** → evaluación de si se ha obtenido evidencia suficiente y adecuada  
+> **⚠️ TRAMPA ap.21:** la prohibición es CONDICIONAL — "cuando la forma de enfocar consista únicamente en procedimientos sustantivos". Si controles probados eficaces + analíticos → prueba de detalle NO obligatoria  
+> 330 = cómo respondes al riesgo / 500 = qué es evidencia suficiente y adecuada
 
 ### NIA-ES 402 — Organizaciones de servicios
-> **Informe tipo I** → describe controles diseñados, en un momento puntual. No prueba funcionamiento.  
-> **Informe tipo II** → describe controles diseñados + prueba eficacia operativa durante un período  
-> Tipo II = evidencia real sobre funcionamiento de controles
+> **AP. 8(b) Informe tipo 1** → describe controles diseñados e implementados **en una fecha determinada** (momento puntual). No prueba eficacia operativa.  
+> **AP. 8(c) Informe tipo 2** → describe controles diseñados + prueba **eficacia operativa durante un período** + descripción de las pruebas realizadas y resultados  
+> **AP. 16** → para confiar en controles de la organización de servicios → obtener informe tipo 2 (o realizar pruebas directas)  
+> **AP. 17** → criterios para usar el informe tipo 2 como evidencia (período adecuado, controles complementarios, pruebas suficientes)  
+> Tipo 1 = solo diseño / Tipo 2 = diseño + eficacia operativa probada → evidencia real sobre funcionamiento de controles  
+> Las definiciones tipo 1 y tipo 2 están en **ap.8** (definiciones), no en apartados de requerimientos
 
 ### NIA-ES 450 — Evaluación de incorrecciones
-> Evaluar incorrecciones **no corregidas** de forma agregada  
-> Incorrecciones corregidas → documentar pero no condicionan opinión  
-> Si agregado > CIREF → salvedad (705R ap. 5.a)  
-> **Regla clave:** siempre agregar antes de concluir — varias pequeñas pueden ser material conjuntamente
+> **AP. 5** → acumular todas las incorrecciones identificadas, salvo las claramente insignificantes  
+> **AP. 8** → comunicar a la dirección todas las incorrecciones + solicitar corrección  
+> **AP. 10** → antes de evaluar, revisar si la importancia relativa (MP) sigue siendo adecuada  
+> **AP. 11** → determinar si las incorrecciones no corregidas son materiales individualmente o de forma agregada  
+> **AP. 12** → comunicar a los responsables del gobierno las incorrecciones no corregidas + su efecto agregado  
+> Si agregado > CIREF → salvedad por incorrección no generalizada (**705R ap.7(a)**)  
+> **⚠️ TRAMPA:** la referencia correcta es 705R ap.7(a), no ap.5.a  
+> **Regla clave:** siempre agregar antes de concluir — varias pequeñas pueden ser material conjuntamente  
+> Incorrecciones corregidas → documentar pero no condicionan opinión
 
 ### NIA-ES 505 — Confirmaciones externas
 > **AP. 7** → el auditor controla íntegramente el proceso (envío y recepción directa, sin pasar por la entidad) ✅  
@@ -278,10 +298,15 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla: error en existencias iniciales → se propaga a resultados → riesgo de denegación, no solo salvedad
 
 ### NIA-ES 540R — Estimaciones contables
-> **AP. 8** → comprender cómo la dirección realiza la estimación (metodología + datos + supuestos)  
-> **AP. 13** → evaluar si los supuestos son razonables a la vista de la evidencia disponible  
-> **AP. 14** → considerar si existe sesgo en la estimación  
-> Regla: 540R = ap. 8 (metodología) + ap. 13 (supuestos) + ap. 14 (sesgo)
+> **AP. 11** → Objetivo: obtener evidencia suficiente y adecuada de que las estimaciones son razonables  
+> **AP. 12** → Definiciones: estimación contable, incertidumbre en la estimación, sesgo de la dirección  
+> **AP. 13** → procedimientos de valoración del riesgo: obtener conocimiento de la metodología, datos y CI sobre estimaciones  
+> **AP. 14** → revisar el desenlace de estimaciones contables anteriores  
+> **AP. 18** → respuestas a riesgos valorados: (a) hechos hasta fecha informe; (b) comprobar cómo la dirección realizó la estimación; (c) desarrollar estimación propia del auditor  
+> **AP. 22-26** → comprobar: ap.23 = método / ap.24 = hipótesis significativas / ap.25 = datos  
+> **AP. 32** → evaluar si los juicios de la dirección son indicadores de posible **sesgo**  
+> **⚠️ TRAMPA CRÍTICA:** ap.8/13/14 de la chuleta anterior TODOS MAL. Ap.8 no existe como requerimiento propio. Correctos: metodología + datos = ap.13; desenlace estimaciones anteriores = ap.14; sesgo = ap.32  
+> Regla: 540R = conocer estimación (ap.13) + comprobar método/hipótesis/datos (ap.22-26) + sesgo (ap.32)
 
 ### NIA-ES 580 — Manifestaciones escritas
 > **AP. 17** → si manifestaciones escritas son incongruentes con otra evidencia → aplicar procedimientos para resolver + reconsiderar fiabilidad  
@@ -601,5 +626,12 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - **NIA-ES 520** — ap.3=Objetivos; ap.4=Definición; conclusión global=ap.6 ✅; ap.5 ✅; ap.7 ✅
   - **NIA-ES 570R** — evaluación=ap.12-14 (no ap.10); conclusión incertidumbre=ap.18 (no ap.16)
   - **NIA-ES 706R** — ap.8=párrafos de énfasis; lo del auditor anterior en primer año=guía ap.A9-A14
+  - **NIA-ES 540R** — ap.8/13/14 anteriores TODOS MAL: metodología/datos=ap.13; desenlace anterior=ap.14; método/hipótesis/datos=ap.22-26; sesgo=ap.32
+  - **NIA-ES 450** — referencia "705R ap.5.a" corregida a **705R ap.7(a)**; añadidos ap.5, 8, 10-12
+  - **NIA-ES 402** — añadidas referencias a ap.8(b)/8(c) para tipo 1/tipo 2; ap.16-17 para uso de tipo 2
+  - **NIA-ES 240** — referencia "580 ap.20" corregida a **580 ap.17**; añadidos ap.35-37 con detalle correcto; ap.40, ap.42
+  - **NIA-ES 550** — ap.18-19 corregidos (son valoración de riesgos, no "operaciones fuera del curso normal"); operaciones fuera del curso = ap.16 + ap.23
+  - **NIA-ES 330** — tarjeta enriquecida con ap.5, 6-7, 8, 18, 21, 25-27 verificados
+  - **Independencia LAC** — marcada como pendiente de verificación contra texto directo LAC (no incluido en compendio ICAC 2026)
 - **Normas verificadas correctas:** NIA-ES 240 (ap.3, 35-37, 43), NIA-ES 701 (ap.9, 15), NIA-ES 720 (ap.12-18, 21-25), NIA-ES 610 (ap.15-18-23-24), NIA-ES 620 (ap.7-13)
 - **Pendiente:** Eduardo debe actualizar la chuleta-roac.html con todos los apartados corregidos. Los números correctos están documentados en las tarjetas de memoria de este archivo y en los puntos débiles activos.

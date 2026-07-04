@@ -164,16 +164,18 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > Regla: PV fuera de mercado sin documentación → activa NIA-ES 550 ap.23 + NRV 21ª + NIA-ES 240 ap.35-37
 
 ### Independencia — LAC
-> ⚠️ **Verificación pendiente contra texto directo LAC** — el compendio ICAC 2026 no incluye el texto de la LAC. Artículos de sesiones anteriores, pendientes de confirmar:  
-> **Art. 16.1.a.2** → instrumentos financieros significativos → incompatibilidad  
-> **Art. 16.1.b.1** → servicios de contabilidad → incompatibilidad absoluta  
-> **Art. 18** → marco general de amenazas y salvaguardas  
-> **Art. 19.1.c** → personas vinculadas al auditor  
-> **Art. 22** → comunicar incompatibilidad sobrevenida y renunciar  
-> **Art. 23** → documentar análisis de independencia  
-> **Art. 24.1** → concentración honorarios: 30% / 3 ejercicios (no EIP)  
-> **Art. 45.2 RLAC** → IF significativo: >5% capital / >10% patrimonio auditor / influencia en gestión  
-> El compendio confirma que el marco de independencia se regula en: art. 2.3 + sección 2ª capítulo III (Título I) + sección 3ª capítulo IV (Título I) de la LAC
+> **Art. 14** → principio general de independencia: abstención cuando independencia comprometida  
+> **Art. 15** → identificación de **amenazas** y adopción de **medidas de salvaguarda**: autorrevisión, interés propio, abogacía, familiaridad, intimidación. Documentar en papeles de trabajo  
+> **Art. 16.1.a.2** → interés significativo directo en la entidad auditada: poseer **instrumentos financieros** significativos → incompatibilidad  
+> **Art. 16.1.b.1** → prestación de **servicios de contabilidad** o preparación de registros o EEFF → incompatibilidad absoluta  
+> **Art. 18** → incompatibilidades por **familiares** de los auditores principales responsables  
+> **Art. 19.1.c** → personas vinculadas al auditor: **socios** de la sociedad de auditoría  
+> **Art. 21.2** → incompatibilidad sobrevenida por IF: liquidar en 1 mes; si no posible → abstenerse y comunicar conforme al **art. 5.2**  
+> **Art. 22** → régimen de contratación: período inicial **no inferior a 3 años ni superior a 9**; prórrogas de hasta 3 años  
+> **Art. 23** → prohibiciones posteriores: **1 año** tras finalización sin formar parte de órganos de administración ni tener interés financiero significativo  
+> **Art. 25** → abstención por honorarios: si en los **3 últimos ejercicios** los honorarios de auditoría + otros servicios a la entidad auditada superan el **30%** de los ingresos totales del auditor → abstención en el ejercicio siguiente  
+> **RLAC art. 45.2** → IF **significativo** cuando: a) >**10%** del patrimonio del auditor; ó b) ≥**5%** del capital social, derechos de voto o patrimonio de la entidad auditada; ó c) permite influir en la gestión  
+> **⚠️ TRAMPA:** Art.18 NO es "marco general de amenazas" — ese es el **Art.15**. Art.18 = incompatibilidades por familiares. Art.22 = régimen de contratación (plazos), NO "comunicar incompatibilidad sobrevenida" — eso es Art.21.2 + Art.5.2. Art.23 = prohibiciones POSTERIORES (cooling-off), NO "documentar análisis de independencia" — eso es Art.15 ap.3. Art.24 = honorarios (fijación previa y transparencia). Concentración honorarios = **Art.25** (no Art.24.1)
 
 ### NIA-ES 520 — Procedimientos analíticos
 > **AP. 3** → Objetivos del auditor (no "PA en planificación" — los PA en planificación no tienen ap. propio en 520)  

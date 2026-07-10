@@ -637,3 +637,27 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - **Independencia LAC** — marcada como pendiente de verificación contra texto directo LAC (no incluido en compendio ICAC 2026)
 - **Normas verificadas correctas:** NIA-ES 240 (ap.3, 35-37, 43), NIA-ES 701 (ap.9, 15), NIA-ES 720 (ap.12-18, 21-25), NIA-ES 610 (ap.15-18-23-24), NIA-ES 620 (ap.7-13)
 - **Pendiente:** Eduardo debe actualizar la chuleta-roac.html con todos los apartados corregidos. Los números correctos están documentados en las tarjetas de memoria de este archivo y en los puntos débiles activos.
+
+
+### Sesión 2026-07-10 (sesión 12)
+- **Normas trabajadas:** Repaso general — dictado rápido (20 preguntas) cubriendo NIA-ES 570R, 265, 580, 510, 520, 610, 260, 330, 505, 570R, 720, 230, 701, 240, 250, 600R, 705R, 500, 320, 540R
+- **Tipo de práctica:** Dictado rápido concepto → apartado, con chuleta delante
+- **Puntuación media estimada:** Notable — respuestas precisas con apartados correctos en la mayoría
+- **Errores / matices detectados:**
+  - NIA-ES 610: tarjeta de chuleta incorrecta (ap.14=objetividad, ap.15=competencia) — en realidad ap.14=Definiciones, ap.15=Evaluación completa (objetividad+competencia+enfoque). Error de tarjeta, no de Eduardo
+  - NIA-ES 701: ap.7 en chuleta descrito como "seleccionar AMRA entre cuestiones comunicadas al gobierno" — en realidad ap.7=objetivo de la norma. Criterio correcto: ap.9 (atención significativa) + ap.10 (mayor significatividad). Eduardo detectó el error del ap.10 consultando el texto
+- **Correcciones realizadas en memoria:**
+  - NIA-ES 701: ap.7=objetivo / ap.9=primer filtro (atención significativa) / ap.10=segundo filtro (mayor significatividad) → AMRA
+  - NIA-ES 240 Anexo 1: añadida estructura completa (triángulo del fraude: incentivos/presiones + oportunidades + actitudes/racionalizaciones, para cada tipo de fraude)
+- **Pendiente chuleta (Eduardo actualiza desde otra conversación):**
+  - NIA-ES 610: corregir ap.14=Definiciones / ap.15=Evaluación (objetividad+competencia+enfoque sistemático)
+  - NIA-ES 200: ap.17=evidencia suficiente y adecuada / ap.18=cumplimiento NIA
+  - NIA-ES 701: ap.7=objetivo / ap.9=primer filtro / ap.10=segundo filtro
+  - NIA-ES 240: añadir tarjeta con Anexo 1 (triángulo del fraude)
+- **Puntos fuertes:**
+  - Apartados precisos en la gran mayoría de normas — mejora clara respecto a sesiones anteriores
+  - Distinción experto del auditor (620) vs experto de la dirección (500 ap.A45-A59) consolidada
+  - 705R ap.8 (desfavorable), 580 ap.17/19/20, 510 ap.10, 330 ap.21 — todos correctos y espontáneos
+  - Detectó error en ap.10 de 701 consultando texto oficial — espíritu crítico clave para el examen
+- **Hito de sesión:** Metodología de estudio consolidada — practicar con chuleta delante, detectar errores en tarjetas en tiempo real, corregir memoria en sesión. Este es el patrón a seguir hasta el examen.
+- **Normas con nivel actualizado:** Sin cambios de nivel — sesión de repaso transversal

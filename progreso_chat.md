@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-09-06 (sesión 13)
+> Última actualización: 2026-09-06 (sesión 13, continuación)
 
 ---
 
@@ -206,6 +206,11 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Art.17.5** → esas prórrogas requieren recomendación del comité de auditoría + propuesta aprobada en junta general.
 > **Art.17.6** → agotado el máximo, la EIP (NO el comité de auditoría) puede solicitar con carácter excepcional a la AUTORIDAD COMPETENTE (regulador externo, en España el ICAC) una prórroga adicional máxima de 2 años para volver a designar al mismo auditor, si se cumplen las condiciones del ap.4.
 > **Art.17.7** → rotación del socio principal: máximo 7 años desde su designación (España, vía LAC, lo reduce a 5 años) + cooling-off de 3 años antes de poder volver a participar.
+> **📐 Regla de cómputo del cooling-off (sesión 13 — ancla SIEMPRE en el ejercicio auditado, nunca en la fecha de emisión del informe):**
+> Si el último ejercicio auditado es el año N, cuenta los ejercicios siguientes uno a uno:
+> - Rotación externa (art.17.3, firma) — 4 ejercicios: N+1, N+2, N+3, N+4 excluidos → primer ejercicio disponible = N+5.
+> - Rotación interna (art.17.7, socio principal) — 3 ejercicios: N+1, N+2, N+3 excluidos → primer ejercicio disponible = N+4.
+> Ejemplo con N=2023: firma vuelve en 2028 / socio vuelve en 2027. (Trampa detectada en sesión: 2027 todavía cae dentro del enfriamiento de 4 años de la firma — no confundir con el de 3 años del socio.)
 > **⚠️ TRAMPAS DETECTADAS EN SESIÓN 13:**
 > - Art.11 (informe adicional) confundido con art.10 (informe de auditoría público) — son documentos distintos con contenido distinto.
 > - Art.17.6 (prórroga excepcional tras agotar 10 años): decide la AUTORIDAD COMPETENTE a petición de la EIP, NO el comité de auditoría — no confundir con el mecanismo del art.4.3, donde sí decide el comité.

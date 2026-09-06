@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-07-04 (sesión 11)
+> Última actualización: 2026-09-06 (sesión 13)
 
 ---
 
@@ -190,6 +190,28 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > - La prohibición es condicional ("cuando la forma de enfocar consista únicamente en procedimientos sustantivos"), no absoluta  
 > **Regla de fases:** ap.5 = sustantivos / ap.6 = conclusión global al cierre / ap.7 = variación inexplicada → más evidencia
 
+### RUE 537/2014 — Independencia EIP (verificado sesión 13 contra texto oficial BOE-DOUE)
+> **Art.4.2** → techo **70%**: honorarios por servicios ajenos a la auditoría (no prohibidos por art.5.1), durante 3+ ejercicios consecutivos, no pueden superar el 70% de la media de honorarios de auditoría de esos mismos 3 años. Sin excepción en España (no se ha usado la facultad de exención de la autoridad competente).
+> **Art.4.3** → techo **15%** (concentración de un solo cliente): honorarios de UNA EIP > 15% de ingresos totales del auditor en cada uno de 3 ejercicios consecutivos → comunicar al comité de auditoría + examinar amenazas/salvaguardas; el comité valora si procede revisión de control de calidad por otro auditor antes de emitir el informe. Si persiste al año siguiente → el comité decide (razones objetivas) si puede continuar un período adicional máximo de 2 años.
+> **Art.5.1** → lista cerrada de servicios prohibidos ajenos a la auditoría: fiscales agresivos, gestión/toma de decisiones, contabilidad, nóminas, diseño/implantación de controles internos sobre información financiera, valoración (incl. actuariales/litigios), servicios jurídicos, auditoría interna, financiación/estructura de capital, promoción de acciones, RRHH de directivos clave.
+> **Art.6.1** → antes de aceptar o continuar un encargo EIP: verificar y documentar cumplimiento arts.4-5, cumplimiento art.17 (duración), integridad de los órganos de gobierno de la entidad.
+> **Art.6.2** → confirmación anual por escrito de independencia al comité de auditoría + examen conjunto de amenazas y salvaguardas.
+> **Art.10** → informe de auditoría (el público, junto a las cuentas anuales).
+> **Art.11** → informe adicional al comité de auditoría (documento distinto y exclusivo: metodología, materialidad, deficiencias significativas de CI, dificultades, cuestiones significativas). ⚠️ NO es el art.10.
+> **Art.16.2** → recomendación del comité de auditoría al órgano de administración: motivada, mínimo 2 alternativas, preferencia justificada, libre de influencias de terceros — EXENTA de estos requisitos si se trata de una renovación conforme al art.17 aps.1 y 2 (dentro del período máximo ordinario, sin agotarlo).
+> **Art.16.3** → proceso de selección competitivo (salvo renovación) — responsabilidad del comité de auditoría.
+> **Art.17.1** → encargo inicial mínimo 1 año; duración total (inicial + renovaciones) máximo 10 años.
+> **Art.17.3** → agotado el máximo (o sus prórrogas) → cooling-off de 4 años antes de que el mismo auditor (o miembros de su red en la UE) pueda volver a auditar la misma EIP.
+> **Art.17.4** → prórroga ordinaria hasta 20 años (licitación pública, art.16.2-5) o 24 años (coauditoría con informe conjunto, art.28 Directiva 2006/43).
+> **Art.17.5** → esas prórrogas requieren recomendación del comité de auditoría + propuesta aprobada en junta general.
+> **Art.17.6** → agotado el máximo, la EIP (NO el comité de auditoría) puede solicitar con carácter excepcional a la AUTORIDAD COMPETENTE (regulador externo, en España el ICAC) una prórroga adicional máxima de 2 años para volver a designar al mismo auditor, si se cumplen las condiciones del ap.4.
+> **Art.17.7** → rotación del socio principal: máximo 7 años desde su designación (España, vía LAC, lo reduce a 5 años) + cooling-off de 3 años antes de poder volver a participar.
+> **⚠️ TRAMPAS DETECTADAS EN SESIÓN 13:**
+> - Art.11 (informe adicional) confundido con art.10 (informe de auditoría público) — son documentos distintos con contenido distinto.
+> - Art.17.6 (prórroga excepcional tras agotar 10 años): decide la AUTORIDAD COMPETENTE a petición de la EIP, NO el comité de auditoría — no confundir con el mecanismo del art.4.3, donde sí decide el comité.
+> - Art.16.2 (renovación ordinaria, sin agotar los 10 años) ≠ Art.17.6 (prórroga excepcional, tras agotar los 10 años) — situaciones temporalmente distintas, con actores distintos.
+> - Art.4.2 (70%, sin excepción en España) ≠ Art.4.3 (15%, con margen de decisión del comité de auditoría) — dos artículos consecutivos, dos mecánicas distintas.
+
 ### NIA-ES 230 — Documentación de auditoría
 > **AP. 8** → documentar: naturaleza, momento y extensión de los procedimientos + resultados + cuestiones significativas y conclusiones  
 > **AP. 9** → identificar: características específicas de las partidas examinadas + quién realizó el trabajo y cuándo + quién lo revisó y cuándo  
@@ -338,9 +360,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 11 |
-| Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700, 701, 705R, 706R, 720, LAC independencia, NIGC 1 y 2 |
-| Última sesión | 2026-07-04 |
+| Sesiones realizadas | 13 |
+| Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700, 701, 705R, 706R, 720, LAC independencia, RUE 537/2014 (independencia EIP), NIGC 1 y 2 |
+| Última sesión | 2026-09-06 |
 
 ---
 
@@ -405,6 +427,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 610 | 2026-07-03 | 1 | Medio-Alto |
 | NIA-ES 620 | 2026-07-04 | 1 | Medio-Alto |
 | NIA-ES 200 | 2026-07-04 | 1 | Medio |
+| RUE 537/2014 (Independencia EIP) | 2026-09-06 | 1 | Medio |
 
 ---
 
@@ -661,3 +684,20 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Detectó error en ap.10 de 701 consultando texto oficial — espíritu crítico clave para el examen
 - **Hito de sesión:** Metodología de estudio consolidada — practicar con chuleta delante, detectar errores en tarjetas en tiempo real, corregir memoria en sesión. Este es el patrón a seguir hasta el examen.
 - **Normas con nivel actualizado:** Sin cambios de nivel — sesión de repaso transversal
+
+### Sesión 2026-09-06 (sesión 13)
+- **Normas trabajadas:** RUE 537/2014 — Independencia EIP (norma nueva, primera vez trabajada) — 2 casos prácticos (Naviera Atlántica, S.A. y Financiera Insular, S.A.)
+- **Tipo de práctica:** casos prácticos tipo examen + verificación exhaustiva de artículos contra texto oficial (BOE-DOUE-L-2014-81090)
+- **Puntuación media estimada:** Caso 1: 8/10 — Caso 2: 5/10
+- **Errores cometidos:**
+  - Caso 1: confundió el mecanismo del art.4.3 (15%, concentración de un solo cliente, con margen de decisión del comité de auditoría de 2 años adicionales) con el art.4.2 (70%, techo cuantitativo de servicios ajenos a la auditoría, sin excepción en España)
+  - Caso 2 P1: informe adicional al comité de auditoría atribuido al art.10 — correcto es art.11 (art.10 es el informe de auditoría público)
+  - Caso 2 P2: prórroga excepcional tras agotar los 10 años atribuida al comité de auditoría — en realidad la solicita la EIP y la concede la AUTORIDAD COMPETENTE (art.17.6), no el comité
+  - Caso 2 P3: confundió el escenario de renovación ordinaria (art.16.2, exenta de dos alternativas si es renovación conforme art.17 aps.1-2) con el de prórroga excepcional (art.17.6) — mezcló ambos mecanismos
+- **Puntos fuertes:**
+  - Identificación correcta e inmediata de los servicios prohibidos del art.5.1 (valoración + diseño de controles internos sobre información financiera) sobre una norma nunca trabajada
+  - Buena intuición conceptual en los tres escenarios del caso 2, aunque con confusión de artículos/actores
+  - Rotación externa (art.17: 10→20/24 años + cooling-off 4 años) y rotación del socio principal (5 años + cooling-off 3 años vía LAC) clavadas con cifras exactas
+  - Espíritu crítico: pidió parar y revisar con calma el articulado tras detectar la confusión — mismo patrón de estudio que en sesión 12
+- **Hito de sesión:** RUE 537/2014 incorporado al repertorio como norma nueva; tarjeta de memoria completa verificada línea por línea contra el texto oficial del Reglamento (arts.4, 5, 6, 10, 11, 16, 17)
+- **Pendiente:** Eduardo debe añadir tarjeta de RUE 537/2014 a la chuleta-roac.html con los artículos verificados en este archivo

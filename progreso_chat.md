@@ -282,6 +282,17 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **⚠️ TRAMPA:** ap.5 = participación miembros clave (no "estrategia global"); ap.7 = estrategia (no "plan"); ap.9 = plan; ap.11 = supervisión socio (no ap.8)  
 > Regla: 300 = planificar antes de ejecutar / flexibilidad no elimina obligación previa
 
+### NIA-ES 200 — Objetivos globales del auditor (verificado sesión 13 contra Resolución ICAC 11/04/2024 — CORRIGE error de memoria previo)
+> **Ap.11-12** = Objetivos globales del auditor (⚠️ NO es ap.5 — corrección importante)
+> **Ap.13** = Definiciones (lista con letras a-o), incluye: (f) Estados financieros; (k) Juicio profesional (definición); (l) Escepticismo profesional (definición)
+> **Ap.14** = requerimientos de ética
+> **Ap.15** = **escepticismo profesional** (requerimiento propio, distinto de la definición del ap.13.l)
+> **Ap.16** = **juicio profesional** (requerimiento propio — ⚠️ NO es ap.13.f, que es la definición de "estados financieros"; la definición de juicio profesional está en ap.13(k))
+> **Ap.17** = evidencia de auditoría suficiente y adecuada y riesgo de auditoría
+> **Ap.18-24** = realización de la auditoría de conformidad con las NIA
+> **⚠️ CORRECCIÓN CRÍTICA (sesión 13):** la memoria previa tenía "Ap.5=objetivo auditor" (incorrecto, es Ap.11-12) y "Ap.13.f=juicio profesional" (incorrecto, Ap.13.f es la definición de estados financieros; juicio profesional está en Ap.13.k como definición y Ap.16 como requerimiento). Escepticismo profesional (Ap.13.l como definición) sí estaba bien, pero falta el requerimiento propio del Ap.15.
+> **Regla:** cada concepto clave (juicio profesional, escepticismo profesional) tiene DOS apartados relevantes — la definición dentro del ap.13 (lista con letras) y el requerimiento propio como apartado independiente (15 o 16).
+
 ### NIA-ES 265 — Deficiencias de control interno
 > **AP. 6(a)** → deficiencia de CI: control no puede prevenir/detectar/corregir incorrecciones (o no existe el control necesario)  
 > **AP. 6(b)** → deficiencia significativa: suficientemente importante para el gobierno corporativo  
@@ -834,7 +845,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - **NIA-ES 240** — referencia "580 ap.20" corregida a **580 ap.17**; añadidos ap.35-37 con detalle correcto; ap.40, ap.42
   - **NIA-ES 550** — ap.18-19 corregidos (son valoración de riesgos, no "operaciones fuera del curso normal"); operaciones fuera del curso = ap.16 + ap.23
   - **NIA-ES 330** — tarjeta enriquecida con ap.5, 6-7, 8, 18, 21, 25-27 verificados
-  - **Independencia LAC** — marcada como pendiente de verificación contra texto directo LAC (no incluido en compendio ICAC 2026)
+  - **Independencia LAC** — ✅ verificada en sesión 13 contra texto oficial LAC/RLAC (arts.14,15,16.1.a.2,16.1.b.1,18,19.1.c,21.2+5.2,22,23,25, RLAC art.45.2) — todos confirmados correctos, ya NO está pendiente
 - **Normas verificadas correctas:** NIA-ES 240 (ap.3, 35-37, 43), NIA-ES 701 (ap.9, 15), NIA-ES 720 (ap.12-18, 21-25), NIA-ES 610 (ap.15-18-23-24), NIA-ES 620 (ap.7-13)
 - **Pendiente:** Eduardo debe actualizar la chuleta-roac.html con todos los apartados corregidos. Los números correctos están documentados en las tarjetas de memoria de este archivo y en los puntos débiles activos.
 
@@ -910,3 +921,12 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Hallazgo relevante:** NIA-ES 500 ap.8 (experto de la dirección) SÍ es un apartado de requerimiento numerado, no solo guía de aplicación como decía la nota anterior — corregido
 - **Hallazgo relevante:** NIGC 2-ES ap.19 introduce un TERCER tipo de cooling-off (2 años, socio del encargo → revisor de calidad del encargo), distinto de los de RUE 537 (4 años rotación externa / 3 años rotación interna) — tres períodos de enfriamiento distintos en el marco normativo completo, cada uno con su propia finalidad
 - **Pendiente:** Eduardo debe trasladar las 7 tarjetas nuevas a la chuleta-roac.html (NIA-ES 315R, 500, 530, 210, 220R, NIGC 1-ES, NIGC 2-ES)
+
+### Continuación sesión 13 (repaso exhaustivo de TODO el fichero de progreso contra textos oficiales)
+- **Actividad:** a petición de Eduardo, revisión completa de cada apartado citado en el fichero de progreso contra los textos oficiales disponibles en el proyecto (Resolución ICAC 11/04/2024 + LAC + RLAC, extraídos y contrastados línea por línea)
+- **Normas confirmadas 100% correctas sin cambios:** NIA-ES 230, 240, 250R, 260R, 300, 320, 330, 402, 450, 501, 505, 510, 540R, 550, 560, 570R, 580, 610R, 620, 700R, 701, 705R, 706R, 720R, RUE 537/2014, NIA-ES 600R
+- **Hito importante:** Independencia LAC/RLAC — que estaba marcada como pendiente de verificación — queda ahora 100% confirmada contra el texto oficial directo de la LAC y el RLAC (extraídos página a página desde el proyecto). Ya NO está pendiente.
+- **Errores encontrados y corregidos:**
+  - **NIA-ES 200** (no tenía tarjeta propia en este archivo, solo en memoria de Claude): errores importantes — "ap.5=objetivo auditor" era incorrecto (correcto: ap.11-12); "ap.13.f=juicio profesional" era incorrecto (ap.13.f es la definición de "estados financieros"; juicio profesional está en ap.13.k como definición y ap.16 como requerimiento propio). Escepticismo profesional definido en ap.13.l, con requerimiento propio en ap.15. Tarjeta completa añadida y corregida.
+  - **NIA-ES 265 ap.11**: la memoria de Claude (no el fichero de progreso, que ya estaba bien) tenía una atribución incorrecta relacionando ap.11 con indicadores de fraude — confirmado que el fichero de progreso YA tenía la nota correcta ("ap.11 NO menciona fraude"), así que no requirió corrección en GitHub, solo en la memoria de Claude.
+- **Aprendizaje de sesión:** un repaso exhaustivo periódico contra texto oficial (no solo confiar en verificaciones de sesiones anteriores) sigue revelando errores puntuales incluso en normas "ya verificadas" — merece la pena repetir este ejercicio de tanto en tanto, especialmente antes del examen final.

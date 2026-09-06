@@ -194,6 +194,19 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Art.4.2** → techo **70%**: honorarios por servicios ajenos a la auditoría (no prohibidos por art.5.1), durante 3+ ejercicios consecutivos, no pueden superar el 70% de la media de honorarios de auditoría de esos mismos 3 años. Sin excepción en España (no se ha usado la facultad de exención de la autoridad competente).
 > **Art.4.3** → techo **15%** (concentración de un solo cliente): honorarios de UNA EIP > 15% de ingresos totales del auditor en cada uno de 3 ejercicios consecutivos → comunicar al comité de auditoría + examinar amenazas/salvaguardas; el comité valora si procede revisión de control de calidad por otro auditor antes de emitir el informe. Si persiste al año siguiente → el comité decide (razones objetivas) si puede continuar un período adicional máximo de 2 años.
 > **Art.5.1** → lista cerrada de servicios prohibidos ajenos a la auditoría: fiscales agresivos, gestión/toma de decisiones, contabilidad, nóminas, diseño/implantación de controles internos sobre información financiera, valoración (incl. actuariales/litigios), servicios jurídicos, auditoría interna, financiación/estructura de capital, promoción de acciones, RRHH de directivos clave.
+> **Detalle por letra (dictado sesión 13, ronda de incompatibilidades — 7/8):**
+> a) fiscales — prohibidos en general; i)/iv)/v)/vi)/vii) admiten excepción del art.5.3 si exigido por ley (iv, v) o si efecto poco importante+documentado+comité (todas salvo ii, iii)
+> b) gestión/toma de decisiones — prohibición absoluta, sin excepción (art.5.5.a)
+> c) contabilidad y preparación de registros/EEFF — prohibición absoluta, sin condiciones
+> d) NÓMINAS — prohibición absoluta, sin condiciones (⚠️ NO confundir con k); error cometido en sesión 13: se marcó como "servicio admitido" — es sistemáticamente prohibido, igual que c)
+> e) diseño/implantación CI o gestión de riesgos sobre información financiera — prohibición absoluta, sin excepción (art.5.5.a)
+> f) valoración (incl. actuarial/litigios) — prohibido pero SÍ admite excepción del art.5.3 (poca importancia + documentado en informe adicional art.11 + independencia respetada)
+> g) servicios jurídicos (asesoramiento general, negociación, defensa en litigios) — prohibición absoluta
+> h) auditoría interna — prohibición absoluta
+> i) financiación/estructura capital/estrategia inversión — prohibido, EXCEPTO servicios de verificación tipo comfort letters sobre folletos de emisión
+> j) promoción/negociación/suscripción de acciones — prohibición absoluta
+> k) RRHH — SOLO prohibido para cargos directivos con influencia significativa en información financiera (búsqueda/selección + verificación referencias) + diseño organizativo + control de costes; RRHH para posiciones NO directivas está PERMITIDO
+> **🧠 Regla para no repetir el error:** c) contabilidad y d) nóminas van siempre juntas como bloque duro y sin condiciones — no confundir con k) RRHH general, que sí distingue directivos (prohibido) de no directivos (permitido).
 > **Art.6.1** → antes de aceptar o continuar un encargo EIP: verificar y documentar cumplimiento arts.4-5, cumplimiento art.17 (duración), integridad de los órganos de gobierno de la entidad.
 > **Art.6.2** → confirmación anual por escrito de independencia al comité de auditoría + examen conjunto de amenazas y salvaguardas.
 > **Art.10** → informe de auditoría (el público, junto a las cuentas anuales).

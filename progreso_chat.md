@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-09-06 (sesión 13, continuación)
+> Última actualización: 2026-09-06 (sesión 13, cierre)
 
 ---
 
@@ -358,6 +358,51 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Regla crítica:** falta/invalidez de manifestaciones escritas sobre responsabilidades (ap.10-11) → siempre denegación (ap.20 → 705R ap.9)  
 > No admite gradación — no existe escenario donde sea solo salvedad
 
+### NIA-ES 600 (Revisada) — Auditorías de grupos (verificado sesión 13 contra Resolución ICAC 11/04/2024, texto oficial completo)
+> **⚠️ CAMBIO ESTRUCTURAL IMPORTANTE:** la versión revisada (aplicable a ejercicios iniciados desde el 1 de enero de 2024) ELIMINA la definición de "componente significativo" que existía en la NIA-ES 600 anterior. Ya no hay clasificación binaria significativo/no significativo — el enfoque es de valoración de riesgo continua por componente (ap.37). Si en tus materiales antiguos aparece "componente significativo" con apartados tipo 30/40/49 de la versión anterior, están OBSOLETOS.
+> **Ap.14-15** = Definiciones
+> **Ap.16** = responsabilidad del socio del encargo del grupo sobre calidad del encargo
+> **Ap.17** = Aceptación: ¿se puede esperar razonablemente obtener evidencia suficiente y adecuada?
+> **Ap.18** = Continuidad: si tras aceptar concluye que NO se puede obtener esa evidencia, considerar efectos
+> **Ap.19** = Términos del encargo: confirmación de la dirección del grupo (acceso a información/personas)
+> **Ap.20** = restricciones al acceso a información/personas fuera del control de la dirección del grupo
+> **Ap.22-24** = Estrategia global y plan de auditoría del grupo (rango completo ap.22-29)
+> **Ap.25** = requerimientos de ética/independencia aplicables a los auditores de componentes
+> **Ap.26(a)** = determinar competencia y capacidad de los auditores de componentes
+> **Ap.27** = obtener evidencia SIN participación del componente si: (a) no cumple ética/independencia, o (b) reservas serias sobre ap.23-26
+> **Ap.28** = dirección y supervisión de componentes (naturaleza/momento/extensión)
+> **Ap.29** = comunicación de responsabilidades y expectativas a los auditores de componentes
+> **Ap.30** = conocimiento del grupo y su entorno, marco de información financiera, sistema de CI del grupo
+> **Ap.31** = el auditor del GRUPO comunica al componente (riesgo, partes vinculadas, empresa en funcionamiento)
+> **Ap.32** = el auditor del grupo SOLICITA al componente que comunique (fraude/error, partes vinculadas nuevas, empresa en funcionamiento)
+> **Ap.33** = identificación y valoración de riesgos de incorrección material del grupo (incl. proceso de consolidación)
+> **Ap.34** = evaluar si la evidencia de valoración de riesgos (propia + componentes) es base adecuada
+> **Ap.35** = **Importancia relativa**: (a) materialidad de ejecución de componentes — SIEMPRE inferior a la del grupo, para reducir riesgo de agregación; (b) umbral de comunicación de incorrecciones del componente al grupo (no superior a lo claramente insignificante para el grupo)
+> **Ap.36** = comunicar esos importes del ap.35 a los auditores de componentes
+> **Ap.37** = responsabilidad sobre naturaleza/momento/extensión de procedimientos posteriores + determinar en qué componentes se aplican (aquí es donde antes se hablaba de "componente significativo" — ahora es evaluación de riesgo directa)
+> **Ap.38** = proceso de consolidación: (a) integridad de entidades incluidas; (b) ajustes/reclasificaciones; (c) sesgo de dirección; (d) fraude en consolidación
+> **Ap.39** = ajustar información financiera si políticas contables distintas a las del grupo
+> **Ap.40** = ajustar información financiera si fecha de cierre distinta a la del grupo
+> **Ap.41-43** = comunicación grupo↔componente sobre diseño de respuestas a riesgos + evaluación de procedimientos en riesgos significativos + dirección/supervisión en consolidación de subgrupos
+> **Ap.44** = determinar si la información comunicada por el componente (ap.45.a) es la incorporada a los EEFF del grupo
+> **Ap.45** = solicitar al componente que comunique cuestiones relevantes — lista a-k: identificación info financiera, trabajo realizado, ética/independencia, incumplimientos legales, incorrecciones que superan el umbral (ap.36), sesgo de dirección, deficiencias de CI, fraude, otras cuestiones significativas, hallazgos globales
+> **Ap.46** = discutir cuestiones significativas + evaluar si las comunicaciones del componente son adecuadas para los fines del grupo
+> **Ap.47** = determinar si es necesaria revisión de documentación adicional del componente (considerando naturaleza/momento/extensión de su trabajo, competencia (ap.26.a), dirección/supervisión)
+> **Ap.48** = si el trabajo del componente NO es adecuado → determinar procedimientos adicionales (¿los aplica el componente o el propio auditor del grupo?)
+> **Ap.49-50** = Hechos posteriores al cierre (procedimientos propios + solicitar a componentes que notifiquen)
+> **Ap.51** = evaluar si se obtuvo evidencia suficiente y adecuada (incl. trabajo de componentes) para la opinión
+> **Ap.52** = evaluar efecto en la opinión de incorrecciones no corregidas / evidencia insuficiente obtenida
+> **Ap.53** = **Informe de auditoría**: regla general = NO mencionar al auditor del componente, salvo exigencia legal expresa (y si se menciona, no reduce la responsabilidad del socio del encargo del grupo) — mismo patrón que NIA-ES 701 ap.15
+> **Ap.54** = comunicar a la dirección del grupo enfoque y momento planificados (incl. trabajo en componentes)
+> **Ap.55** = comunicar fraude (propio o comunicado por componente vía ap.45.h) al nivel adecuado de dirección del grupo
+> **Ap.56** = si auditor de componente debe opinar por separado sobre EEFF de su entidad → protocolo de escalado si dirección del grupo rehúsa comunicar cuestiones relevantes al componente
+> **Ap.57-58** = Comunicación con responsables del gobierno del grupo
+> **Ap.59** = Documentación
+> **🧠 Reglas de examen:**
+> - Materialidad de ejecución de componente SIEMPRE menor que la del grupo (ap.35.a) — mismo principio que NIA-ES 320, aplicado a nivel de grupo.
+> - Ap.53 = espejo de la regla "no mencionar salvo excepción legal" que ya conoces de otras normas de informe.
+> - Ya NO existe "componente significativo" como categoría fija — sustituido por evaluación de riesgo continua (ap.37).
+
 ### NIA-ES 700 + 701 + 705R + 706R — Estructura del informe
 > **Orden secciones (700 ap. 23 + ss.):**  
 > 1. Opinión (ap.23)  
@@ -446,6 +491,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 620 | 2026-07-04 | 1 | Medio-Alto |
 | NIA-ES 200 | 2026-07-04 | 1 | Medio |
 | RUE 537/2014 (Independencia EIP) | 2026-09-06 | 1 | Medio |
+| NIA-ES 600R | 2026-09-06 | 2 | Medio-Alto |
 
 ---
 
@@ -737,3 +783,10 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Buen razonamiento matemático sobre exclusión de honorarios prohibidos del cómputo del 70% (válido para el test cuantitativo, aunque no sustituye al cualitativo)
 - **Regla nueva para grabar en chuleta:** un test cuantitativo superado (art.4.2/4.3, honorarios) NUNCA neutraliza un test cualitativo incumplido (art.5.1, servicios prohibidos) — son acumulativos, no alternativos. Primero se pregunta SI se puede prestar el servicio (art.5), y solo después CUÁNTO se puede facturar por los servicios permitidos (art.4).
 - **Pendiente adicional:** añadir a la chuleta la regla de secuencia art.5 (cualitativo) → art.4 (cuantitativo), y la nota sobre la vía art.17.6 (2 años, plazo duro) vs las vías de 20/24 años (sin trámite adicional una vez aprobadas)
+
+### Continuación sesión 13 (verificación NIA-ES 600R con archivo oficial subido por Eduardo)
+- **Actividad:** Eduardo subió el PDF oficial de la Resolución ICAC de 11/04/2024 (NIA-ES 600 Revisada) tras detectar que el caso previo usaba terminología obsoleta ("componente significativo")
+- **Hito crítico:** confirmado que la NIA-ES 600 (Revisada), aplicable desde ejercicios iniciados el 1/1/2024, ELIMINÓ la definición de "componente significativo" de la versión anterior. Enfoque sustituido por valoración de riesgo continua (ap.37). Cualquier apartado antiguo tipo "30/40/49 = componente significativo" queda OBSOLETO.
+- **Tarjeta completa verificada línea por línea contra el PDF oficial** (aps.14-59), añadida al archivo de progreso — ver tarjeta arriba
+- **Pendiente:** Eduardo debe añadir la tarjeta de NIA-ES 600R (Revisada) a la chuleta-roac.html, sustituyendo cualquier contenido antiguo basado en la versión pre-2024 de la norma
+- **Aprendizaje de sesión:** ante cualquier norma revisada recientemente (600R, 610R, etc.), verificar SIEMPRE la fecha de vigencia y comparar contra la versión anterior antes de dar apartados — las revisiones pueden cambiar la estructura completa, no solo renumerar

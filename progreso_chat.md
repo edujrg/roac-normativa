@@ -706,3 +706,21 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - Espíritu crítico: pidió parar y revisar con calma el articulado tras detectar la confusión — mismo patrón de estudio que en sesión 12
 - **Hito de sesión:** RUE 537/2014 incorporado al repertorio como norma nueva; tarjeta de memoria completa verificada línea por línea contra el texto oficial del Reglamento (arts.4, 5, 6, 10, 11, 16, 17)
 - **Pendiente:** Eduardo debe añadir tarjeta de RUE 537/2014 a la chuleta-roac.html con los artículos verificados en este archivo
+
+### Continuación sesión 13 (mismo día, 2026-09-06)
+- **Actividad adicional:** ejemplo numérico de cómputo del cooling-off (art.17.3 vs art.17.7) + caso integrador (Grupo Empresarial Insular, S.A.) combinando duración del encargo, rotación de socio, honorarios (art.4.2) y servicios prohibidos (art.5.1)
+- **Puntuación estimada caso integrador:** 7,5/10
+- **Hitos:**
+  - Regla de cómputo del cooling-off fijada con ejemplo numérico: ancla siempre en el EJERCICIO AUDITADO (no en la fecha de emisión del informe); N = último ejercicio auditado → N+1 a N+4 excluidos para rotación externa (art.17.3), N+1 a N+3 excluidos para rotación interna del socio (art.17.7)
+  - Cálculo de duración de encargo con fecha de inicio y ejercicios consecutivos: dominado perfectamente (2015→2024 = 10 ejercicios; identificó correctamente que en 2025 ya debía haberse activado una vía de prórroga)
+  - Rotación del socio principal con cifras exactas: designado 2020 → audita hasta 2024 (5 años, regla LAC) → cooling-off 2025-2027 → vuelve 2028
+  - Debate importante sobre secuencia de análisis de independencia: Eduardo aplicó correctamente la lógica de que excluir honorarios de un servicio prohibido del cómputo del art.4.2 solo puede hacer bajar el porcentaje, nunca subirlo — argumento matemático válido para el test cuantitativo. Sin embargo, se corrigió que esto NO exime de aplicar el test cualitativo del art.5.1: un servicio prohibido genera incompatibilidad directa independientemente del importe facturado. Eduardo entendió la distinción con claridad tras la explicación.
+- **Errores cometidos:**
+  - No aplicó el filtro del art.5.1 (servicios prohibidos) antes de evaluar el art.4.2 (techo de honorarios) — folleto de "asesoramiento fiscal no agresivo" está en la lista prohibida (art.5.1.a.vii) con independencia de su importe
+  - Matiz sobre "sin más trámite" en 2026: no distinguió que la vía de prórroga excepcional del art.17.6 (máximo 2 años) se agotaría justo en 2026, mientras que las vías de licitación pública/coauditoría permiten continuar sin problema
+- **Puntos fuertes:**
+  - Excelente insight: detectó que en 2025 (year 11 desde 2015) ya debía haberse activado obligatoriamente alguna vía de prórroga del art.17.4/17.6, sin que se le indicara explícitamente en el enunciado
+  - Cálculos numéricos de rotación (externa e interna) perfectos y consistentes con la regla fijada en la sesión
+  - Buen razonamiento matemático sobre exclusión de honorarios prohibidos del cómputo del 70% (válido para el test cuantitativo, aunque no sustituye al cualitativo)
+- **Regla nueva para grabar en chuleta:** un test cuantitativo superado (art.4.2/4.3, honorarios) NUNCA neutraliza un test cualitativo incumplido (art.5.1, servicios prohibidos) — son acumulativos, no alternativos. Primero se pregunta SI se puede prestar el servicio (art.5), y solo después CUÁNTO se puede facturar por los servicios permitidos (art.4).
+- **Pendiente adicional:** añadir a la chuleta la regla de secuencia art.5 (cualitativo) → art.4 (cuantitativo), y la nota sobre la vía art.17.6 (2 años, plazo duro) vs las vías de 20/24 años (sin trámite adicional una vez aprobadas)

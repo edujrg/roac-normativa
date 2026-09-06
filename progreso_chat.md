@@ -403,6 +403,116 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > - Ap.53 = espejo de la regla "no mencionar salvo excepción legal" que ya conoces de otras normas de informe.
 > - Ya NO existe "componente significativo" como categoría fija — sustituido por evaluación de riesgo continua (ap.37).
 
+### NIA-ES 315 (Revisada 2019) — Identificación y valoración del riesgo de incorrección material (verificado sesión 13 contra Resolución ICAC 11/04/2024)
+> **Ap.13** = objetivo de los procedimientos de valoración del riesgo: (a) base para identificar/valorar riesgos; (b) diseño de procedimientos posteriores (NIA 330) — sin sesgo hacia evidencia corroborativa
+> **Ap.14** = procedimientos incluyen: (a) indagaciones (incl. auditoría interna); (b) analíticos; (c) observación e inspección
+> **Ap.15** = info de fuentes: aceptación/continuidad + otros encargos del socio para la entidad
+> **Ap.16** = evaluar relevancia/fiabilidad de información de auditorías anteriores
+> **Ap.17** = discusión del equipo del encargo (socio + miembros clave) sobre susceptibilidad de los EEFF a incorrección
+> **Ap.18** = comunicar a quienes no participaron en la discusión
+> **Ap.19** = conocimiento de la entidad y su entorno: estructura organizativa/gobierno/modelo de negocio + factores sectoriales/normativos + mediciones de resultado + marco de información financiera/políticas contables + factores de riesgo inherente
+> **Ap.20** = evaluar si las políticas contables son adecuadas y congruentes
+> **Ap.21** = entorno de control
+> **Ap.22-23** = proceso de valoración del riesgo por la entidad (+ riesgos que la dirección no identificó)
+> **Ap.24** = proceso de seguimiento del sistema de CI
+> **Ap.25** = sistema de información y comunicación
+> **Ap.26** = actividades de control: identificar controles que responden a riesgo significativo, controles sobre asientos de diario, controles cuya eficacia operativa se piensa probar, aplicaciones de TI
+> **Ap.27** = deficiencias de control (resultado de evaluar los 5 componentes del sistema de CI)
+> **Ap.28** = identificar riesgos de incorrección material (en EEFF o en afirmaciones)
+> **Ap.29** = determinar afirmaciones relevantes y tipos de transacciones/saldos/información
+> **Ap.30** = valorar riesgos en EEFF (afecta afirmaciones + efecto generalizado)
+> **Ap.31** = valorar riesgo inherente (probabilidad × magnitud)
+> **Ap.32** = determinar si es riesgo significativo
+> **Ap.33** = determinar si los sustantivos por sí solos NO bastan
+> **Ap.34** = valorar riesgo de control (si no se prueba eficacia operativa → riesgo de control = tal que RIM = riesgo inherente)
+> **Ap.35** = evaluar si la evidencia obtenida es base adecuada (si no, más procedimientos)
+> **Ap.36** = revisar tipos no significativos pero sí materiales
+> **Ap.37** = revisar la valoración si aparece info nueva incongruente
+> **Ap.38** = documentación (referencia cruzada a ap.19,21,22,24,25 y ap.26)
+> **🧠 Regla clave:** riesgo inherente = probabilidad × magnitud (ap.31) → riesgo significativo (ap.32, subconjunto del inherente) → riesgo de control (ap.34, depende de si se prueban controles) → RIM = combinación. La secuencia importa.
+
+### NIA-ES 500 — Evidencia de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024)
+> **Ap.6** = evidencia de auditoría suficiente y adecuada — diseñar/aplicar procedimientos adecuados
+> **Ap.7** = relevancia y fiabilidad de la información a utilizar como evidencia (incl. fuentes externas)
+> **Ap.8** = **experto de la dirección** — SÍ es un apartado de requerimiento propio (no solo guía A45-A59): (a) evaluar competencia/capacidad/objetividad; (b) obtener conocimiento del trabajo del experto; (c) evaluar adecuación del trabajo como evidencia
+> **Ap.9** = información generada por la entidad — evaluar exactitud/integridad + precisión/detalle suficientes
+> **Ap.10** = selección de elementos para pruebas (controles y detalle)
+> **Ap.11** = incongruencia en la evidencia o reservas sobre su fiabilidad → modificar/añadir procedimientos
+> **⚠️ Corrección de chuleta:** el experto de la dirección tiene apartado de requerimiento propio (ap.8), con guía de aplicación en A45-A59 — no es solo guía sin apartado numerado.
+
+### NIA-ES 530 — Muestreo de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024)
+> **Ap.6** = diseño de la muestra: objetivo del procedimiento + características de la población
+> **Ap.7** = determinar tamaño suficiente para reducir riesgo de muestreo
+> **Ap.8** = seleccionar elementos de forma que todas las unidades tengan posibilidad de selección
+> **Ap.9** = aplicar procedimientos adecuados a cada elemento seleccionado
+> **Ap.10** = si el procedimiento no es aplicable → elemento de sustitución
+> **Ap.11** = si no se pueden aplicar procedimientos (ni alternativos) → tratar como desviación (controles) o incorrección (detalle)
+> **Ap.12** = investigar naturaleza y causa de desviaciones/incorrecciones + efecto en otras áreas
+> **Ap.13** = anomalía (circunstancias extremadamente poco frecuentes) — requiere alto grado de certidumbre de que NO es representativa
+> **Ap.14** = extrapolación de incorrecciones (solo pruebas de detalle)
+> **Ap.15** = evaluación de resultados: (a) resultados de la muestra; (b) si el muestreo dio base razonable para conclusiones sobre la población
+> **🧠 Regla:** ap.13 (anomalía) es la EXCEPCIÓN — por defecto toda incorrección encontrada se trata como representativa y se extrapola (ap.14); solo se excluye si se obtiene alto grado de certidumbre de que no lo es.
+
+### NIA-ES 210 — Acuerdo de los términos del encargo de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024)
+> **Ap.6** = condiciones previas: (a) marco de información financiera aceptable; (b) confirmación de dirección sobre sus responsabilidades (preparación EEFF, CI necesario, acceso a información/personas)
+> **Ap.7** = si se propone una limitación al alcance que llevaría a denegación → NO aceptar como encargo de auditoría (salvo obligación legal)
+> **Ap.8** = si no se dan las condiciones previas → discutir con dirección; no aceptar salvo obligación legal
+> **Ap.9** = acordar los términos con dirección/responsables del gobierno
+> **Ap.10** = términos constan en carta de encargo — incluye: objetivo/alcance, responsabilidades auditor y dirección, marco de información financiera, referencia a estructura del informe, posibilidad de que difiera
+> **Ap.11** = si disposiciones legales prescriben los términos con detalle suficiente → no hace falta acuerdo escrito (salvo confirmar aplicabilidad + responsabilidades del ap.6.b)
+> **Ap.12** = disposiciones legales con responsabilidades equivalentes al ap.6.b → se puede usar su redacción
+> **Ap.13** = auditorías recurrentes: valorar si hace falta revisar/recordar términos existentes
+> **Ap.14** = NO aceptar modificación de términos sin justificación razonable
+> **Ap.15** = si se solicita convertir a encargo de menor seguridad → determinar si hay justificación razonable
+> **Ap.16** = si cambian términos → nueva carta de encargo/acuerdo escrito
+> **Ap.17** = si el auditor NO acepta el cambio y dirección no permite continuar el encargo original: (a) renunciar (si LAC lo permite — arts.5.2 y 22 LAC); (b) determinar obligación de informar a terceros
+> **Ap.18-21** = consideraciones adicionales: conflictos entre normas de información financiera y disposiciones legales adicionales; marco prescrito legalmente inaceptable de no ser por la ley (ap.19-20, aplicación limitada en España); informe prescrito legalmente que difiere de las NIA (ap.21)
+> **🧠 Regla:** ap.7 = limitación al alcance ANTES de aceptar (nunca se acepta) / ap.14-17 = cambios de términos DESPUÉS de aceptar (requieren justificación razonable, si no hay → renuncia + deber de informar).
+
+### NIA-ES 220 (Revisada) — Gestión de la calidad de una auditoría de EEFF (verificado sesión 13 contra Resolución ICAC 11/04/2024)
+> **Ap.13-15** = responsabilidades de liderazgo del socio del encargo (crear entorno, cultura, escepticismo profesional)
+> **Ap.16-21** = ética/independencia: ap.16 conocer requerimientos; ap.17 informar al equipo; ap.21 antes de fechar el informe → determinar cumplimiento de ética/independencia
+> **Ap.22-24** = aceptación y continuidad de clientes/encargos (remite a art.29.1 LAC; en EIP también art.6 RUE 537/2014)
+> **Ap.25-28** = recursos para el encargo: ap.25 recursos suficientes/adecuados; ap.26 competencia y capacidad del equipo (incl. expertos externos y ayuda directa de auditoría interna); ap.27 si son insuficientes → medidas; ap.28 utilización adecuada de recursos
+> **Ap.29-30** = dirección, supervisión y revisión: ap.29 responsabilidad del socio; ap.30 naturaleza/momento/extensión conforme a políticas de la firma
+> **Ap.31-34** = revisión de documentación, evidencia suficiente y adecuada antes de fechar el informe, revisión de EEFF/informe (incl. AMRA/CCA), revisión de comunicaciones formales
+> **Ap.35** = consultas sobre cuestiones complejas/controvertidas
+> **Ap.36** = revisión de calidad del encargo: nombrar revisor, colaborar, discutir juicios significativos, NO fechar el informe hasta que finalice
+> **Ap.37-38** = diferencias de opinión — resolver antes de fechar el informe
+> **Ap.39** = seguimiento y corrección (proceso de la firma/red)
+> **Ap.40** = responsabilidad global del socio antes de fechar el informe
+> **Ap.41** = documentación
+> **🧠 Regla:** ap.25-26 (recursos/competencia) y ap.29 (dirección y supervisión) son justo los apartados que NIA-ES 600R y 610R citan al referirse a "competencia del auditor de componente/AI" — coherencia entre normas.
+
+### NIGC 1-ES — Gestión de la calidad en las firmas de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024 — estructura por secciones, norma extensa orientada a políticas de firma)
+> **Ap.17-18** = aplicación y cumplimiento de los requerimientos aplicables
+> **Ap.19-22** = el sistema de gestión de la calidad (diseño, implementación, operación; asignación de responsabilidad última)
+> **Ap.23-27** = proceso de valoración del riesgo por la firma de auditoría
+> **Ap.28** = objetivos de calidad — gobierno y liderazgo
+> **Ap.29** = objetivos de calidad — requerimientos de ética aplicables
+> **Ap.30** = objetivos de calidad — aceptación y continuidad de clientes/encargos
+> **Ap.31** = objetivos de calidad — realización del encargo
+> **Ap.32** = objetivos de calidad — recursos
+> **Ap.33** = objetivos de calidad — información y comunicación
+> **Ap.34** = respuestas predeterminadas (catálogo de respuestas que la firma puede usar)
+> **Ap.35-47** = proceso de seguimiento y corrección
+> **Ap.48-52** = requerimientos de la red o servicios de la red
+> **Ap.53-56** = evaluación del sistema de gestión de la calidad
+> **Ap.57-60** = documentación
+> **Nota:** norma orientada a nivel de FIRMA (no de encargo individual) — es la base sobre la que actúa el socio del encargo en NIA-ES 220R.
+
+### NIGC 2-ES — Revisiones de la calidad de los encargos (verificado sesión 13 contra Resolución ICAC 11/04/2024)
+> **Ap.14-16** = aplicación y cumplimiento de requerimientos aplicables
+> **Ap.17** = nombramiento del revisor de calidad del encargo (asignar responsabilidad a persona con competencia/capacidad/autoridad adecuadas)
+> **Ap.18** = criterios de elegibilidad: (a) competencia/capacidad/tiempo/autoridad; (b) ética — objetividad e independencia; (c) disposiciones legales — el revisor NO puede ser miembro del equipo del encargo
+> **Ap.19** = **período de enfriamiento de 2 años** (o más si la ética lo exige) antes de que un socio del encargo pueda pasar a ser revisor de calidad del ENCARGO — no confundir con los cooling-off de rotación externa (4 años, RUE art.17.3) ni interna (3 años, RUE art.17.7)
+> **Ap.20** = criterios de elegibilidad de quienes ayudan al revisor
+> **Ap.21** = responsabilidad global del revisor + dirección/supervisión de quienes le ayudan
+> **Ap.22-23** = qué hacer si la elegibilidad del revisor se ve afectada negativamente (rehusar o interrumpir la revisión)
+> **Ap.24-27** = realización de la revisión: ap.25 (a-g) leer/discutir/revisar documentación y juicios significativos, incl. independencia y AMRA/CCA; ap.26 notificar reservas al socio del encargo; ap.27 el revisor determina si se cumplieron los requerimientos antes de que el socio pueda fechar el informe
+> **Ap.28-30** = documentación
+> **🧠 Regla nueva de cooling-off:** NIGC 2-ES ap.19 añade un TERCER tipo de período de enfriamiento (2 años, socio→revisor de calidad), distinto de los de RUE 537 (rotación externa 4 años / interna 3 años). Tres cooling-offs distintos, tres finalidades distintas — no mezclarlos.
+
 ### NIA-ES 700 + 701 + 705R + 706R — Estructura del informe
 > **Orden secciones (700 ap. 23 + ss.):**  
 > 1. Opinión (ap.23)  
@@ -470,11 +580,14 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 | NIA-ES 330 | 2026-06-24 | 2 | Medio |
 | NIA-ES 402 | 2026-06-23 | 1 | Medio |
 | NIA-ES 450 | 2026-06-23 | 1 | Medio |
-| NIA-ES 530 | 2026-06-23 | 1 | Medio |
+| NIA-ES 530 | 2026-09-06 | 1 (+verificado s.13) | Medio |
+| NIA-ES 500 | 2026-09-06 | 1 (verificado s.13) | Alto |
+| NIGC 1-ES | 2026-09-06 | 1 (verificado s.13) | Medio |
+| NIGC 2-ES | 2026-09-06 | 1 (verificado s.13) | Medio |
 | NIA-ES 540R | 2026-06-24 | 3 | Medio |
-| NIA-ES 210 | 2026-06-23 | 1 | Alto |
-| NIA-ES 220R | 2026-06-23 | 1 | Medio-Alto |
-| NIA-ES 315R | 2026-06-23 | 1 | Medio-Alto |
+| NIA-ES 210 | 2026-09-06 | 1 (+verificado s.13) | Alto |
+| NIA-ES 220R | 2026-09-06 | 1 (+verificado s.13) | Medio-Alto |
+| NIA-ES 315R | 2026-09-06 | 2 (verificado s.13) | Alto |
 | NIA-ES 580 | 2026-06-24 | 2 | Medio-Alto |
 | NIA-ES 701 | 2026-06-24 | 2 | Medio-Alto |
 | NIA-ES 505 | 2026-06-24 | 1 | Bajo-Medio |
@@ -790,3 +903,10 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Tarjeta completa verificada línea por línea contra el PDF oficial** (aps.14-59), añadida al archivo de progreso — ver tarjeta arriba
 - **Pendiente:** Eduardo debe añadir la tarjeta de NIA-ES 600R (Revisada) a la chuleta-roac.html, sustituyendo cualquier contenido antiguo basado en la versión pre-2024 de la norma
 - **Aprendizaje de sesión:** ante cualquier norma revisada recientemente (600R, 610R, etc.), verificar SIEMPRE la fecha de vigencia y comparar contra la versión anterior antes de dar apartados — las revisiones pueden cambiar la estructura completa, no solo renumerar
+
+### Continuación sesión 13 (verificación masiva: NIA-ES 315R, 500, 530, 210, 220R, NIGC 1-ES, NIGC 2-ES)
+- **Actividad:** Eduardo confirmó que la normativa oficial (Resolución ICAC 11/04/2024) ya estaba disponible en el repositorio del proyecto — se extrajo y verificó texto completo de las 7 normas restantes que quedaban pendientes de verificación
+- **Hito:** cierra la barrida de verificación iniciada en sesión 11 — todas las normas del bloque B (NIA-ES) y bloque C (NIGC) quedan ahora con tarjeta verificada contra texto oficial, salvo Independencia LAC (pendiente de verificar contra texto directo LAC)
+- **Hallazgo relevante:** NIA-ES 500 ap.8 (experto de la dirección) SÍ es un apartado de requerimiento numerado, no solo guía de aplicación como decía la nota anterior — corregido
+- **Hallazgo relevante:** NIGC 2-ES ap.19 introduce un TERCER tipo de cooling-off (2 años, socio del encargo → revisor de calidad del encargo), distinto de los de RUE 537 (4 años rotación externa / 3 años rotación interna) — tres períodos de enfriamiento distintos en el marco normativo completo, cada uno con su propia finalidad
+- **Pendiente:** Eduardo debe trasladar las 7 tarjetas nuevas a la chuleta-roac.html (NIA-ES 315R, 500, 530, 210, 220R, NIGC 1-ES, NIGC 2-ES)

@@ -980,3 +980,10 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 - Bloque 2 del informe = siempre a) impuesto sociedades → b) FEUE → c) informe adicional comisión auditoría → d) periodo contratación → e) servicios prestados. Solo a) es universal (toda auditoría de cuentas anuales); b)-e) son condicionales (b: emisoras; c-d-e: EIP).
 - Un test cualitativo (art.5.1, servicios prohibidos) que se extiende a filiales del grupo (art.5.4) no se resuelve solo con "declarar el servicio" — primero hay que evaluar si el servicio estaba permitido en absoluto.
+
+### ✅ Verificación adicional (mismo día): Eduardo subió el PDF oficial completo (65 págs., NIA-ES 700R, RICAC 22/01/2026) al proyecto de Claude
+
+- Confirmado contra el texto completo (los 4 ejemplos de informe íntegros, no solo el fragmento obtenido por búsqueda web previamente): todo lo trabajado en la sesión de hoy es correcto, sin cambios.
+- **Detalle fino nuevo, útil para examen:** en el Ejemplo 2 (cuentas anuales consolidadas de un grupo con dominante EIP), la letra a) del Bloque 2 (impuesto de sociedades) se redacta comprobando la obligación de **la sociedad dominante** específicamente, no del grupo consolidado como conjunto — "Nuestro trabajo... ha consistido únicamente en comprobar y declarar si la sociedad dominante se encontraba obligada a presentar el informe...".
+- Confirmado también que "Servicios prestados" (letra e) solo se incluye si no consta ya en la memoria consolidada o el informe de gestión consolidado.
+- Este PDF completo queda ahora como referencia preferente sobre búsquedas web para NIA-ES 700R en próximas sesiones.

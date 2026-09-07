@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-09-06 (sesión 13, cierre)
+> Última actualización: 2026-09-07 (sesión 14, cierre)
 
 ---
 
@@ -544,9 +544,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 13 |
-| Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700, 701, 705R, 706R, 720, LAC independencia, RUE 537/2014 (independencia EIP), NIGC 1 y 2 |
-| Última sesión | 2026-09-06 |
+| Sesiones realizadas | 14 |
+| Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700R (2026), 701, 705R, 706R, 710, 720, LAC independencia, RUE 537/2014 (independencia EIP), NIGC 1 y 2 |
+| Última sesión | 2026-09-07 |
 
 ---
 
@@ -930,3 +930,53 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
   - **NIA-ES 200** (no tenía tarjeta propia en este archivo, solo en memoria de Claude): errores importantes — "ap.5=objetivo auditor" era incorrecto (correcto: ap.11-12); "ap.13.f=juicio profesional" era incorrecto (ap.13.f es la definición de "estados financieros"; juicio profesional está en ap.13.k como definición y ap.16 como requerimiento propio). Escepticismo profesional definido en ap.13.l, con requerimiento propio en ap.15. Tarjeta completa añadida y corregida.
   - **NIA-ES 265 ap.11**: la memoria de Claude (no el fichero de progreso, que ya estaba bien) tenía una atribución incorrecta relacionando ap.11 con indicadores de fraude — confirmado que el fichero de progreso YA tenía la nota correcta ("ap.11 NO menciona fraude"), así que no requirió corrección en GitHub, solo en la memoria de Claude.
 - **Aprendizaje de sesión:** un repaso exhaustivo periódico contra texto oficial (no solo confiar en verificaciones de sesiones anteriores) sigue revelando errores puntuales incluso en normas "ya verificadas" — merece la pena repetir este ejercicio de tanto en tanto, especialmente antes del examen final.
+
+---
+
+## 🚨 Sesión 2026-09-07 (sesión 14) — HALLAZGO CRÍTICO: Reforma NIA-ES 700R/705R/706R/710/720/510/570R/600R (Resolución ICAC 22/01/2026)
+
+### ⚠️ Reforma normativa que TODAS las sesiones anteriores desconocían
+
+- **Origen:** Ley 28/2022 (empresas emergentes) modificó la Disposición Adicional Undécima de la LAC, transponiendo la obligación europea de "informe país por país" sobre el Impuesto de Sociedades (o impuestos análogos). Esto obligó al ICAC a modificar 8 NIA-ES mediante **Resolución de 22 de enero de 2026** (BOE 30/01/2026): **NIA-ES 510, 570R, 600R, 700R, 705R, 706R, 710 y 720R**.
+- **Entrada en vigor:** obligatoria para encargos contratados/encargados desde el **1/1/2026**, independientemente del ejercicio auditado. La parte específica de la obligación de informar sobre el impuesto de sociedades aplica ya a ejercicios iniciados desde el **22/6/2025**.
+- **🎯 Relevancia directa para el examen de diciembre 2026:** cualquier encargo activo en esa fecha está contratado bajo la norma nueva → el examen debe asumir SIEMPRE la estructura reformada de informe.
+
+### Cambio estructural clave — DOS BLOQUES separados (NIA-ES 700R ap.43-45)
+
+- **BLOQUE 1 — "Informe sobre las cuentas anuales"** (agrupa ap.21-40 de la norma): Opinión → Fundamento de la opinión → [Párrafo de énfasis, si aplica] → Cuestiones clave/AMRA → Otra información → Responsabilidades de la dirección → Responsabilidades del auditor.
+- **BLOQUE 2 — "Informe sobre otros requerimientos legales y reglamentarios"** (ap.43, letras fijas en este orden):
+  - **a)** Obligación de informar acerca del impuesto sobre sociedades o impuestos de naturaleza idéntica o análoga (LAC art.5.1.g + disposición adicional undécima) — **NUEVO**, aplica a TODA auditoría de cuentas anuales
+  - **b)** Formato electrónico único europeo (FEUE) — solo emisoras de valores en mercado regulado UE
+  - **c)** Informe adicional para la comisión de auditoría — solo EIP (RUE 537/2014 art.10.2.e)
+  - **d)** Período de contratación — solo EIP (RUE 537/2014 art.10.2.b)
+  - **e)** Servicios prestados — solo EIP (RUE 537/2014 art.10.2.g)
+- Cierre común a ambos bloques: nombre y ROAC del auditor, firma, dirección, fecha (ap.46-49).
+- **Contenido exacto letra a):** declaración de si la entidad estaba obligada a presentar el informe de impuesto de sociedades en el ejercicio PREVIO al auditado y, si lo estaba, si lo publicó en Registro Mercantil + web. El auditor NUNCA comprueba si el informe se preparó conforme a normativa — solo si existía obligación y si se publicó.
+
+### Corrección de un error propio de Claude (memoria de sesiones anteriores)
+
+- **Ubicación del párrafo de énfasis/otras cuestiones:** la memoria previa afirmaba una posición fija "al final" (posición 7, tras Responsabilidades del auditor). **Esto era incorrecto.** El texto oficial (NIA-ES 706R ap.A16) establece que la ubicación **depende del juicio del auditor sobre la naturaleza y significatividad de la cuestión** — no hay posición obligatoria fija. El modelo ilustrativo oficial (Anexo NIA-ES 706R) coloca el párrafo de énfasis justo **después de "Fundamento de la opinión" y antes de AMRA/Cuestiones clave** — esa es la convención de referencia a usar por defecto, salvo que el contenido del párrafo esté ligado a otra sección concreta (p.ej. auditor anterior → cerca de esa sección).
+- Eduardo detectó la inconsistencia cuestionando el orden — la duda estaba bien fundada.
+
+### Casos prácticos trabajados
+
+**Caso 1 — Constructora Insular, S.A. (individual, no EIP, opinión favorable):**
+- Estructura completa del informe con la reforma 2026 aplicada correctamente por Eduardo casi en su totalidad tras las correcciones de orden/bloques.
+- Errores iniciales: (a) colocó el párrafo de énfasis/otras cuestiones en posición final incorrecta (corregido — ver arriba); (b) no distinguió inicialmente que "Informe sobre otros requerimientos legales y reglamentarios" es un BLOQUE separado y no una sección numerada más de la lista 1-7.
+- Puntos fuertes: título, destinatario, opinión, fundamento con los 3 párrafos estándar, terminología "Aspectos más relevantes" (no EIP) todo correcto sin ayuda; detectó él mismo la existencia de la reforma antes de que Claude la mencionara.
+
+**Caso 2 — Constructora Insular, S.A. y Sociedades Dependientes (consolidado, EIP, opinión con salvedades):**
+- Opinión y Fundamento "con salvedades" correctos (limitación al alcance no generalizada → 705R ap.7(b)).
+- "Cuestiones clave de la auditoría" (terminología EIP) correcta, y aplicó bien NIA-ES 701 ap.15 (la cuestión que originó la salvedad no se repite en cuestiones clave).
+- Bloque 2 con las 5 letras identificadas correctamente en contenido, pero orden/etiquetado impreciso (colocó FEUE al final en vez de en la letra b), justo tras impuesto de sociedades).
+- **Trampa detectada por Claude y bien gestionada por Eduardo:** servicio de valoración de intangible a una filial del grupo — no es solo un dato a declarar en la letra e) "Servicios prestados". Es un **servicio prohibido** (RUE 537/2014 art.5.1.f) que además se extiende a filiales del grupo en la UE (art.5.4), salvo excepción de poca importancia documentada (art.5.3). Eduardo identificó correctamente la amenaza a la independencia pero, con buen criterio, no forzó una conclusión sin que el enunciado confirmara si se aplicó la excepción del art.5.3 — actitud correcta para examen (no sobre-concluir sin datos).
+
+### 📌 Pendiente para Eduardo
+
+- **Actualizar la chuleta-roac.html** con la reforma completa: NIA-ES 700R (estructura de dos bloques + letras a-e), NIA-ES 706R (ubicación flexible del párrafo de énfasis, no fija), y revisar de pasada las tarjetas de 705R, 720, 510, 570R, 600R, 710 por si la reforma tocó algún apartado citado en ellas (pendiente de repaso apartado por apartado en próxima sesión — hoy solo se verificó 700R y 706R en profundidad).
+- Añadir a la chuleta la extensión de servicios prohibidos EIP a filiales del grupo (RUE 537/2014 art.5.4), enlazándolo con la tarjeta ya existente de RUE 537/2014.
+
+### 🧠 Regla nueva para recordar
+
+- Bloque 2 del informe = siempre a) impuesto sociedades → b) FEUE → c) informe adicional comisión auditoría → d) periodo contratación → e) servicios prestados. Solo a) es universal (toda auditoría de cuentas anuales); b)-e) son condicionales (b: emisoras; c-d-e: EIP).
+- Un test cualitativo (art.5.1, servicios prohibidos) que se extiende a filiales del grupo (art.5.4) no se resuelve solo con "declarar el servicio" — primero hay que evaluar si el servicio estaba permitido en absoluto.

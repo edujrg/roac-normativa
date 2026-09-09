@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-09-07 (sesión 14, cierre)
+> Última actualización: 2026-09-09 (sesión 15, cierre)
 
 ---
 
@@ -544,9 +544,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 14 |
+| Sesiones realizadas | 15 |
 | Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700R (2026), 701, 705R, 706R, 710, 720, LAC independencia, RUE 537/2014 (independencia EIP), NIGC 1 y 2 |
-| Última sesión | 2026-09-07 |
+| Última sesión | 2026-09-09 |
 
 ---
 
@@ -745,6 +745,16 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Puntos débiles:** ap.10 (conocimiento del campo) no aparece espontáneamente en la secuencia; orden exacto 9 antes de 11 necesitó refuerzo
 - **Pendiente:** Eduardo debe actualizar tarjetas de NIA-ES 620 y NIA-ES 200 en chuleta. Revisión exhaustiva de todas las tarjetas pendiente para próxima sesión.
 ---
+
+
+### Sesión 2026-09-09 (sesión 15) — test rápido sin chuleta, formato conceptual
+- **Tipo de práctica:** 3 preguntas de razonamiento libre, sin exigencia de cita normativa exacta (Eduardo sin chuleta a mano, en cama)
+- **Temas cubiertos:** NIA-ES 505 (confirmaciones externas, control del proceso por el auditor) + NIA-ES 560/570R (hecho posterior tipo 2 que además activa empresa en funcionamiento) + NIA-ES 550/240/580 (parte vinculada no revelada con indicios de fraude)
+- **P1 (confirmaciones externas):** muy buena respuesta — identificó correctamente que el auditor debe controlar el proceso de circularización y que, si no es indispensable, puede sustituirse por evidencia de otra fuente. Sin fisuras.
+- **P2 (hecho posterior + going concern):** identificó bien que es hecho posterior tipo 2 (revelación en memoria, sin ajuste), pero no conectó espontáneamente con NIA-ES 570R (el hecho es un indicador fuerte de empresa en funcionamiento, no solo una nota) ni con la señal de alarma de enterarse por prensa y no por la dirección (conexión con fiabilidad de manifestaciones, NIA-ES 580).
+- **P3 (parte vinculada no revelada + fraude):** buen olfato para detectar el fraude (240), pero no mencionó NIA-ES 550 explícitamente (parte vinculada no revelada, evaluar intencionalidad de la no revelación) ni el matiz de escalar a gobierno corporativo en vez de "dirección" cuando el propio administrador puede estar implicado.
+- **Patrón identificado en esta sesión:** buen instinto para detectar la norma "principal" de la pregunta, pero tiende a no encadenar espontáneamente 2-3 normas relacionadas en un mismo escenario (going concern + hechos posteriores + manifestaciones; o partes vinculadas + fraude + comunicación a gobierno). Es un patrón de encadenamiento normativo a reforzar, no de conocimiento de apartados (coherente con no tener la chuleta en esta sesión).
+- **Formato:** sesión corta, sin exigencia de cita de apartados — útil como test de razonamiento puro antes de dormir, sin desgaste de memorización de números.
 
 ## 📝 Notas acumuladas
 

@@ -997,3 +997,56 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **Detalle fino nuevo, útil para examen:** en el Ejemplo 2 (cuentas anuales consolidadas de un grupo con dominante EIP), la letra a) del Bloque 2 (impuesto de sociedades) se redacta comprobando la obligación de **la sociedad dominante** específicamente, no del grupo consolidado como conjunto — "Nuestro trabajo... ha consistido únicamente en comprobar y declarar si la sociedad dominante se encontraba obligada a presentar el informe...".
 - Confirmado también que "Servicios prestados" (letra e) solo se incluye si no consta ya en la memoria consolidada o el informe de gestión consolidado.
 - Este PDF completo queda ahora como referencia preferente sobre búsquedas web para NIA-ES 700R en próximas sesiones.
+
+## Sesión 15 (nueva línea de estudio: caso práctico integrado del examen)
+
+### 🆕 Nueva rama de estudio creada: "Caso práctico integrado"
+
+Eduardo identifica que el ejercicio práctico largo del examen ROAC (caso de 20-25 páginas: materialidad, deficiencias de control interno, control de calidad, matriz de riesgos, evaluación de riesgos, pruebas y respuesta a los riesgos) es el que más puntúa — 4 puntos sobre 10 en los últimos exámenes — y no tenía línea de práctica propia dentro del sistema de estudio (chuleta + dictados). Se acuerda crear esta rama para alternarla con el resto de formatos (dictado rápido, casos encadenados, memoria de tarjetas, etc.), sin necesidad de construir un enunciado completo de 25 páginas cada vez.
+
+**Formato acordado:**
+- Cliente ficticio recurrente: se reutiliza la misma empresa (sector, tamaño, cifras clave) sesión tras sesión, añadiendo solo un dato o hecho nuevo cada vez, para no tener que redescribir el contexto completo.
+- Micro-casos por bloque (1 página aprox.), aislando una habilidad concreta cada vez: materialidad (CIRE/CIRET/IICI), deficiencias de control interno (NIA-ES 265), matriz de riesgos (RI x RC = RD), respuesta a riesgos / diseño de procedimientos (NIA-ES 330), control de calidad (NIGC 1-ES/2-ES).
+- Cada cierto número de sesiones: caso semi-integrado de 3-5 páginas combinando varios bloques sobre el mismo cliente recurrente, para entrenar la conexión materialidad → riesgos → respuesta.
+- Corrección con la misma estructura habitual: ✅/⚠️/📖/🧠/📋/📊.
+
+Eduardo eligió empezar por materialidad, formato micro-caso suelto.
+
+### Cliente ficticio recurrente (fijar para próximas sesiones)
+
+Sociedad limitada, distribución mayorista de material eléctrico. Sin cotizar, sin financiación bancaria significativa (pasivo fundamentalmente comercial). Usuario principal: socio único no involucrado en la gestión diaria, supervisa la rentabilidad a través de las cuentas anuales a cierre. Sin antecedentes de incidencias relevantes de control interno.
+
+Datos del ejercicio auditado (primer micro-caso, materialidad):
+- Cifra de negocio: 18.500.000 €
+- Resultado antes de impuestos: 420.000 € (ejercicio anterior: 1.100.000 € — BAI volátil)
+- Total activo: 9.200.000 €
+- Patrimonio neto: 2.100.000 €
+
+### Micro-caso 1 resuelto: materialidad (CIRE/CIRET/IICI)
+
+Eduardo eligió correctamente INCN como parámetro base (razonamiento: BAI muy volátil entre ejercicios, INCN más estable y coherente con el perfil de la empresa — buen argumento cualitativo). Aplicó 3% sobre INCN (extremo superior del rango, justificado por auditoría recurrente y sin incidencias de control interno previas).
+
+Errores detectados y corregidos:
+- CIRET: aplicó 85% sobre CIRE — fuera de rango. Rango defendible en examen: 50%-75% (70-75% para perfil de bajo riesgo/buen control interno, que es el caso de este cliente).
+- IICI: aplicó 15% sobre CIRE — fuera de rango. Rango defendible: 5%-10% del CIRE (no del CIRET).
+- Aritmética: una vez corregido el parámetro base de cálculo del IICI (era sobre CIREF, no sobre CIRET; error de transcripción de Eduardo, no de cálculo), 555k x 15% = 83,25k cuadraba correctamente, pero el % seguía fuera de rango.
+
+Cifras corregidas manteniendo el criterio de Eduardo (INCN, 3%):
+- CIRE = 18.500k x 3% = 555k
+- CIRET = 555k x 75% = 416,25k
+- IICI = 555k x 10% = 55,5k
+
+Normativa a citar: NIA-ES 320 ap.10 (materialidad para las cuentas anuales en su conjunto), NIA-ES 320 ap.11 (materialidad de ejecución), NIA-ES 450 (relación con evaluación de incidencias e IICI).
+
+### 🧠 Regla nueva para recordar
+
+- CIRE se calcula sobre el parámetro más estable y representativo del usuario de las cuentas (aquí: INCN, por volatilidad del BAI).
+- CIRET siempre es un % del CIRE (50%-75%, nunca al revés).
+- IICI siempre es un % del CIRE (5%-10%), nunca del CIRET.
+- Moverse al extremo superior de un rango con buena justificación cualitativa (bajo riesgo, sin incidencias) es correcto y esperado en examen; salirse del rango (85%, 15%) no se acepta aunque el razonamiento cualitativo sea sólido — el rango en sí es la referencia normativa, y es lo que hace perder puntos si no se respeta.
+
+### 📌 Pendiente para próxima sesión de esta rama
+
+- Continuar con el mismo cliente ficticio recurrente.
+- Opciones abiertas: segundo micro-caso de materialidad para consolidar rangos, o pasar a deficiencias de control interno (NIA-ES 265) como segundo bloque de esta rama.
+- Recordar alternar esta rama con el resto de formatos habituales (dictado rápido, tarjetas, etc.) en la planificación de sesiones.

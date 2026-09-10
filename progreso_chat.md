@@ -481,6 +481,15 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Ap.15** = evaluación de resultados: (a) resultados de la muestra; (b) si el muestreo dio base razonable para conclusiones sobre la población
 > **🧠 Regla:** ap.13 (anomalía) es la EXCEPCIÓN — por defecto toda incorrección encontrada se trata como representativa y se extrapola (ap.14); solo se excluye si se obtiene alto grado de certidumbre de que no lo es.
 > **⚠️ TRAMPA CHULETA (detectada sesión 16):** la chuleta HTML tenía "error tolerable" atribuido al ap.14 — es incorrecto, error tolerable es la DEFINICIÓN del ap.5(i). Ap.14 es el REQUERIMIENTO de extrapolar (obligatorio en pruebas de detalle; en controles no hace falta extrapolación explícita porque el % de la muestra ya es el % de la población, guía A20).
+> **🧭 Terminología — NO mezclar los dos planos (sesión 16):**
+>   - **Pruebas de CONTROLES** → se habla de **PORCENTAJE de desviación tolerable** (ap.5(j)) — mide fiabilidad del control, nunca genera un ajuste contable directo
+>   - **Pruebas de DETALLE** → se habla de **IMPORTE (incorrección) tolerable** (ap.5(i)) — mide una posible incorrección monetaria, puede generar ajuste
+>   - Regla mnemotécnica: controles = %, detalle = €. Si la pregunta habla de "importe tolerable" en un contexto de control, está mal planteada o hay que pedir aclaración.
+> **🧠 Secuencia lógica para pruebas de controles (sesión 16, a reforzar en práctica):**
+>   1. Indagar/identificar si el control EXISTE (diseño) — si no existe o está mal diseñado, ya hay deficiencia (265) sin necesidad de más pasos; NO tiene sentido comparar tasas de desviación tolerable sobre un control inexistente
+>   2. Si existe, comprobar su implantación (walkthrough — un solo caso para ver el procedimiento end-to-end)
+>   3. Si está implantado, probar su EFICACIA OPERATIVA sobre una muestra (aquí es donde se compara tasa observada vs % de desviación tolerable, ap.15) — y con muestras pequeñas, el punto observado nunca se compara aislado: hay que considerar el riesgo de muestreo (límite superior de desviación real puede superar el observado)
+>   - **Error de examen a evitar:** comparar % observado vs % tolerable cuando el fallo real es de DISEÑO (control no existe) — ahí no hay nada que "tolerar", la deficiencia ya está confirmada en el paso 1
 
 ### NIA-ES 210 — Acuerdo de los términos del encargo de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024)
 > **Ap.6** = condiciones previas: (a) marco de información financiera aceptable; (b) confirmación de dirección sobre sus responsabilidades (preparación EEFF, CI necesario, acceso a información/personas)

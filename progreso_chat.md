@@ -468,7 +468,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **⚠️ Corrección de chuleta:** el experto de la dirección tiene apartado de requerimiento propio (ap.8), con guía de aplicación en A45-A59 — no es solo guía sin apartado numerado.
 
 ### NIA-ES 530 — Muestreo de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024; ap.5(i) confirmado sesión 16 contra índice oficial)
+> **📌 PENDIENTE DE TRASLADAR A CHULETA HTML (sesión 16):** Eduardo confirma que su chuleta actual NO tiene ap.5(e), ap.5(i), ap.12 ni ap.13 de esta norma — están abajo, listos para copiar a la tarjeta de NIA-ES 530.
 > **Ap.5(i)** = Definiciones — incluye **incorrección tolerable** ("error tolerable"): importe establecido por el auditor para obtener seguridad de que las incorrecciones reales de la población no lo superan
+> **Ap.5(e)** = Definiciones — incluye **anomalía**: incorrección o desviación que se puede demostrar que NO es representativa de las incorrecciones/desviaciones de la población (exige alto grado de certidumbre; su tratamiento y efecto en el cálculo de la tasa se desarrolla en ap.13)
 > **Ap.6** = diseño de la muestra: objetivo del procedimiento + características de la población
 > **Ap.7** = determinar tamaño suficiente para reducir riesgo de muestreo
 > **Ap.8** = seleccionar elementos de forma que todas las unidades tengan posibilidad de selección

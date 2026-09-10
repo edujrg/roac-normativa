@@ -296,8 +296,14 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 ### NIA-ES 265 — Deficiencias de control interno
 > **AP. 6(a)** → deficiencia de CI: control no puede prevenir/detectar/corregir incorrecciones (o no existe el control necesario)  
 > **AP. 6(b)** → deficiencia significativa: suficientemente importante para el gobierno corporativo  
-> **AP. 9** → deficiencias significativas → comunicación **escrita** a responsables del gobierno oportunamente  
-> **AP. 10** → comunicar también a la dirección (significativas por escrito; otras que merezcan atención)  
+> **AP. 9** → deficiencias significativas → comunicación **escrita** a responsables del gobierno oportunamente (SOLO significativas van a gobierno)  
+> **AP. 10** → comunicar a la DIRECCIÓN — dos sub-escenarios en el mismo apartado:
+>   - Si es SIGNIFICATIVA → a la dirección también, **por escrito** (mismo nivel de formalidad que al gobierno vía ap.9)
+>   - Si es SIMPLE pero merece su atención → a la dirección, forma **no necesariamente escrita** (verbal aceptable), oportunamente
+> **🧭 Esquema rápido de destinatario/forma:**
+>   - Significativa → Gobierno (ap.9, escrito) + Dirección (ap.10, escrito)
+>   - Simple con atención requerida → SOLO Dirección (ap.10, forma libre) — NO va a gobierno
+>   - Simple sin relevancia → puede no comunicarse formalmente (documentar en papeles de trabajo es suficiente)  
 > **AP. 11** → contenido de la comunicación escrita: descripción de las deficiencias + posibles efectos + contexto  
 > **⚠️ TRAMPA:** ap.6(a) es deficiencia de CI (no 6.b); ap.6(b) es deficiencia significativa (no 6.c); ap.11 NO menciona fraude — es el contenido de la comunicación  
 > Regla: 265 = deficiencias CI (escrito + gobierno) / 260 = comunicación general auditoría

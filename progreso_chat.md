@@ -301,6 +301,16 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **AP. 11** → contenido de la comunicación escrita: descripción de las deficiencias + posibles efectos + contexto  
 > **⚠️ TRAMPA:** ap.6(a) es deficiencia de CI (no 6.b); ap.6(b) es deficiencia significativa (no 6.c); ap.11 NO menciona fraude — es el contenido de la comunicación  
 > Regla: 265 = deficiencias CI (escrito + gobierno) / 260 = comunicación general auditoría
+>
+> **🧭 Criterio simple vs significativa (guía de aplicación ap.6(b)/A-):** factores que empujan hacia SIGNIFICATIVA:
+> - Probabilidad e importe: a mayor probabilidad de incorrección y mayor magnitud potencial, más significativa
+> - Susceptibilidad de fraude: si el fallo facilita fraude (no solo error) → sube de categoría casi automáticamente
+> - Subjetividad y complejidad de la partida afectada (estimaciones, valoraciones) → más subjetividad, más significativa
+> - Interacción con otras deficiencias: varias menores en la misma área pueden combinarse y ser significativas juntas
+> - Efecto real ya materializado: pesa más que un riesgo solo teórico
+> - Naturaleza de la causa: fallo puntual/aislado (ej. error humano por desconocimiento) pesa menos que fallo de diseño estructural (el control simplemente no existe)
+> **Resumen:** deficiencia SIMPLE = falla o no existe el control, pero área de bajo riesgo, poco material, sin indicios de fraude, hecho aislado sin efecto real detectado. SIGNIFICATIVA = cualquier combinación de alta probabilidad + importe relevante + riesgo de fraude + ya materializada.
+> **⚠️ Error de examen común:** describir bien la deficiencia y sus causas pero NO cerrar explícitamente la calificación (decir "por tanto, es significativa/simple") — la conclusión explícita es lo que puntúa, no solo la descripción.
 
 ### NIA-ES 330 — Respuestas a riesgos valorados
 > **AP. 5** → respuestas globales al riesgo valorado (composición del equipo, imprevisibilidad, enfoque global)  

@@ -467,7 +467,8 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Ap.11** = incongruencia en la evidencia o reservas sobre su fiabilidad → modificar/añadir procedimientos
 > **⚠️ Corrección de chuleta:** el experto de la dirección tiene apartado de requerimiento propio (ap.8), con guía de aplicación en A45-A59 — no es solo guía sin apartado numerado.
 
-### NIA-ES 530 — Muestreo de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024)
+### NIA-ES 530 — Muestreo de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024; ap.5(i) confirmado sesión 16 contra índice oficial)
+> **Ap.5(i)** = Definiciones — incluye **incorrección tolerable** ("error tolerable"): importe establecido por el auditor para obtener seguridad de que las incorrecciones reales de la población no lo superan
 > **Ap.6** = diseño de la muestra: objetivo del procedimiento + características de la población
 > **Ap.7** = determinar tamaño suficiente para reducir riesgo de muestreo
 > **Ap.8** = seleccionar elementos de forma que todas las unidades tengan posibilidad de selección
@@ -479,6 +480,7 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 > **Ap.14** = extrapolación de incorrecciones (solo pruebas de detalle)
 > **Ap.15** = evaluación de resultados: (a) resultados de la muestra; (b) si el muestreo dio base razonable para conclusiones sobre la población
 > **🧠 Regla:** ap.13 (anomalía) es la EXCEPCIÓN — por defecto toda incorrección encontrada se trata como representativa y se extrapola (ap.14); solo se excluye si se obtiene alto grado de certidumbre de que no lo es.
+> **⚠️ TRAMPA CHULETA (detectada sesión 16):** la chuleta HTML tenía "error tolerable" atribuido al ap.14 — es incorrecto, error tolerable es la DEFINICIÓN del ap.5(i). Ap.14 es el REQUERIMIENTO de extrapolar (obligatorio en pruebas de detalle; en controles no hace falta extrapolación explícita porque el % de la muestra ya es el % de la población, guía A20).
 
 ### NIA-ES 210 — Acuerdo de los términos del encargo de auditoría (verificado sesión 13 contra Resolución ICAC 11/04/2024)
 > **Ap.6** = condiciones previas: (a) marco de información financiera aceptable; (b) confirmación de dirección sobre sus responsabilidades (preparación EEFF, CI necesario, acceso a información/personas)

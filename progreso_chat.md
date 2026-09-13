@@ -1,7 +1,7 @@
 # Progreso ROAC — Sesiones de Chat
 
 > Fichero gestionado automáticamente por Claude al final de cada sesión de práctica.  
-> Última actualización: 2026-09-09 (sesión 15, cierre)
+> Última actualización: 2026-09-13 (sesión 16, cierre)
 
 ---
 
@@ -573,9 +573,9 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 
 | Campo | Valor |
 |---|---|
-| Sesiones realizadas | 15 |
+| Sesiones realizadas | 16 |
 | Normas trabajadas | NIA-ES 200, 210, 220R, 230, 240, 250, 260, 265, 300, 315R, 320, 330, 402, 450, 500, 501, 505, 510, 520, 530, 540R, 550, 560, 570R, 580, 600R, 610, 620, 700R (2026), 701, 705R, 706R, 710, 720, LAC independencia, RUE 537/2014 (independencia EIP), NIGC 1 y 2 |
-| Última sesión | 2026-09-09 |
+| Última sesión | 2026-09-13 |
 
 ---
 
@@ -601,6 +601,11 @@ Al iniciar cada sesión con "sesión ROAC", Claude debe:
 - **706R ap.8:** ap.8 = párrafos de énfasis (condiciones); lo del auditor anterior en primer año está en guía ap.A9-A14, no en ap.8
 - **260 vs 265:** confusión persistente — 265 para deficiencias CI, 260 para comunicación general
 - **701 ap. 9 y 15:** ✅ confirmados correctos en sesión 11
+- **NIA-ES 265 ap.10:** confunde el escenario "significativa" (por escrito, igual que a gobierno) con el escenario "simple pero merece atención" (forma libre, solo a dirección) — tiende a aplicar el tratamiento de significativa incluso cuando la deficiencia es simple
+- **NIA-ES 530 terminología:** confunde "% de desviación tolerable" (pruebas de controles) con "importe tolerable" (pruebas de detalle) — tiende a hablar de "importe de tolerancia" en contexto de controles
+- **NIA-ES 530 secuencia de pruebas de controles:** tiende a comparar % observado vs % tolerable incluso cuando el fallo es de DISEÑO (control inexistente) — en ese caso no hay nada que comparar, la deficiencia ya está confirmada. Cuando el control SÍ existe, tiende a concluir directamente del punto observado sin considerar el margen de muestreo (limite superior) ni el efecto del tamaño de muestra
+- **NIA-ES 530 anomalía (ap.5.e/13):** no la identificaba como concepto aplicable ni conocía su efecto de exclusión del cálculo de la tasa de desviación
+- **Confusión NIA-ES 550 vs 600R:** citó 600R (auditorías de grupos) para un caso de parte vinculada no revelada — la norma correcta es 550
 
 ---
 
@@ -1074,8 +1079,64 @@ Normativa a citar: NIA-ES 320 ap.10 (materialidad para las cuentas anuales en su
 - IICI siempre es un % del CIRE (5%-10%), nunca del CIRET.
 - Moverse al extremo superior de un rango con buena justificación cualitativa (bajo riesgo, sin incidencias) es correcto y esperado en examen; salirse del rango (85%, 15%) no se acepta aunque el razonamiento cualitativo sea sólido — el rango en sí es la referencia normativa, y es lo que hace perder puntos si no se respeta.
 
-### 📌 Pendiente para próxima sesión de esta rama
+### 📌 Pendiente para próxima sesión de esta rama (resuelto en sesión 16 — ver más abajo)
 
 - Continuar con el mismo cliente ficticio recurrente.
 - Opciones abiertas: segundo micro-caso de materialidad para consolidar rangos, o pasar a deficiencias de control interno (NIA-ES 265) como segundo bloque de esta rama.
 - Recordar alternar esta rama con el resto de formatos habituales (dictado rápido, tarjetas, etc.) en la planificación de sesiones.
+
+---
+
+## Sesión 16 (2026-09-13) — Rama de caso práctico integrado: NIA-ES 265 + semi-integrado materialidad/CI + práctica intensiva NIA-ES 530
+
+### Continuación con el mismo cliente ficticio recurrente (mayorista material eléctrico, socio único)
+
+Se trabajó NIA-ES 265 (deficiencias de control interno) con tres casos sobre el mismo cliente, seguido de un caso semi-integrado conectando materialidad (CIRE/CIRET/IICI de sesión 15) con la deficiencia de control detectada, y finalmente varios ejemplos numéricos específicos sobre NIA-ES 530 (muestreo) para consolidar terminología y secuencia lógica de pruebas de controles.
+
+**Datos del cliente ya fijados (reutilizados de sesión 15):** CIRE = 555.000 € | CIRET = 416.250 € | IICI = 55.500 €
+
+### Caso 1 — Deficiencia significativa (ciclo de compras)
+Persona única da de alta proveedores + aprueba facturas + ordena pagos; sin cotejo pedido-albarán-factura; 2 de 25 facturas pagadas sin pedido previo registrado.
+- Calificación correcta: deficiencia de CI (ap.6.a) que ES significativa (ap.6.b) — por fallo de diseño estructural (no puntual) + facturas ya pagadas sin control (efecto materializado).
+- Comunicación: por escrito (ap.9) a responsables del gobierno + por escrito (ap.10) a dirección.
+- Eduardo describió bien la deficiencia pero no cerró la calificación explícita ni citó "por escrito"/ap.9 — patrón a vigilar: razona bien pero no formula la conclusión normativa exacta.
+
+### Caso 2 — Deficiencia simple (ciclo de nóminas), con variante
+Altas de nómina sin segunda firma de validación contra contrato; 0 errores en muestra de 8; primera vez detectado; resto del ciclo con segregación adecuada → correctamente calificado como deficiencia simple (ap.6.a, no significativa) por Eduardo, comunicación solo a dirección (ap.10, forma libre — le faltó citar el apartado).
+- Variante (3): si 1 de 8 altas SÍ tuviera error → Eduardo respondió "no cambia la conclusión" pero se contradijo después; corregido: SÍ debe cambiar hacia significativa, por "efecto ya materializado" + "susceptibilidad de fraude" (autorización sin doble validación + error real de salario).
+
+### Caso 3 — Semi-integrado materialidad + CI + partes vinculadas
+Las 2 facturas del Caso 1 suman 38.000 €; 21.000 € de ese importe a un proveedor cuyo administrador es cuñado del socio único, relación no revelada en memoria.
+- P1: Eduardo comparó incorrectamente contra IICI como si fuera el techo de decisión final; corregido: IICI es filtro de entrada (¿se descarta como claramente insignificante? — bajo el importe cuantitativo sí, pero el matiz CUALITATIVO —parte vinculada no revelada + posible ocultación— impide descartarla pase lo que pase), y la comparación final del conjunto de incorrecciones no corregidas es contra CIRE, no IICI.
+- P2: Eduardo citó NIA-ES 600R (grupos) en vez de NIA-ES 550 (partes vinculadas) — error de norma corregido y guardado como punto débil activo.
+- P3: ✅ correcto — la deficiencia se mantiene significativa y se refuerza con el indicio de fraude/ocultación (conecta con NIA-ES 240 ap.37, reconsiderar riesgo).
+
+### Bloque de consolidación: terminología y secuencia de NIA-ES 530
+A raíz de dudas repetidas de Eduardo sobre extrapolación y tolerancia, se hizo un repaso profundo con corrección de una cita inicial errónea de Claude (aclarada con Eduardo, quien cuestionó correctamente y se verificó contra el índice oficial: ap.14 SÍ es extrapolación, error tolerable está en ap.5.i, no en ap.14 — la chuleta de Eduardo tenía ese desplazamiento).
+
+Se estableció con ejemplos numéricos:
+- Pruebas de CONTROLES → tasa de desviación (%), comparada contra % de desviación tolerable (ap.5.j) — NO genera ajuste contable, solo decide confianza en el control.
+- Pruebas de DETALLE → importe extrapolado (ap.14), comparado contra incorrección tolerable en €/CIRET — si aplica, alimenta el resumen de ajustes de NIA-ES 450.
+- Secuencia lógica para pruebas de controles: (1) existencia del control (diseño) → (2) implantación (walkthrough) → (3) eficacia operativa (muestra + comparación de tasas). Si falla el paso 1 (control no existe), ya hay deficiencia confirmada y NO tiene sentido aplicar el umbral de tolerancia del paso 3.
+- Con 5%=5% (observado = tolerable) en muestra pequeña (n=60): NO hay base razonable para confiar — el límite superior de desviación probable en la población normalmente supera el tolerable cuando el punto observado ya está pegado a él. Con la misma tasa aproximada pero muestra grande (n=250-400), sí hay base razonable, porque el margen de muestreo es mucho más estrecho.
+- Concepto de ANOMALÍA (ap.5.e / ap.13): una desviación puntual con causa identificada y alto grado de certidumbre de no representatividad se EXCLUYE del cálculo de la tasa de desviación (ejemplo trabajado: avería puntual de sistema, autorización verbal de gerente, cliente de máxima confianza → 1/30 pasa a 0/30 tras excluir la anomalía).
+- Eduardo confirmó que su chuleta actual NO tiene ap.5(e), ap.5(i), ap.12 ni ap.13 de NIA-ES 530 — quedan marcados como pendientes explícitos de traslado.
+
+### 🧠 Reglas nuevas para recordar
+- 265 ap.10 cubre DOS escenarios en el mismo apartado: significativa → dirección por escrito; simple con atención → dirección forma libre. No aplicar automáticamente el tratamiento de "significativa" a toda comunicación a dirección.
+- Una incorrección con componente cualitativo (fraude, parte vinculada, ilegalidad) nunca se descarta por importe, aunque esté bajo el IICI.
+- 530: controles = %, detalle = €. Nunca mezclar los dos planos.
+- 530: no comparar el % observado en solitario contra el % tolerable — considerar el margen de muestreo/límite superior, que depende del tamaño de muestra.
+- 530: anomalía bien justificada se resta del numerador de la tasa de desviación — puede cambiar la conclusión de "no confiar" a "sí confiar".
+- Repaso constante de terminología (importe vs porcentaje, extrapolación vs tolerancia) es un foco de práctica explícito para Eduardo — patrón detectado transversalmente en la sesión.
+
+### 📌 Pendiente de trasladar a chuleta HTML (Eduardo lo hace desde otra conversación)
+- NIA-ES 265 ap.10: esquema de dos escenarios (significativa/escrito vs simple/forma libre) + resumen simple/significativa con factores cualitativos
+- NIA-ES 530: ap.5(e) anomalía, ap.5(i) error tolerable, ap.12 (naturaleza y causa), ap.13 (tratamiento de anomalía) — ninguno está actualmente en la chuleta
+- NIA-ES 530: corregir atribución errónea existente de "error tolerable" al ap.14 (el ap.14 correcto es extrapolación)
+- NIA-ES 530: distinción terminológica % (controles) vs € (detalle) como nota rápida en la tarjeta
+
+### 📌 Pendiente para próxima sesión
+- Continuar rama de caso práctico integrado: opciones abiertas — cuarto caso de 265 con foco en escalada tras hallazgo de fraude, o pasar a matriz de riesgos (RI x RC = RD) como siguiente bloque de la rama.
+- Seguir reforzando terminología y secuencia de NIA-ES 530 con más ejemplos numéricos en sesiones puntuales, dado que es un punto débil confirmado y de alto peso en examen.
+- Alternar con el resto de formatos habituales (dictado rápido, tarjetas de memoria, opción múltiple) en próximas sesiones.

@@ -1140,3 +1140,57 @@ Se estableció con ejemplos numéricos:
 - Continuar rama de caso práctico integrado: opciones abiertas — cuarto caso de 265 con foco en escalada tras hallazgo de fraude, o pasar a matriz de riesgos (RI x RC = RD) como siguiente bloque de la rama.
 - Seguir reforzando terminología y secuencia de NIA-ES 530 con más ejemplos numéricos en sesiones puntuales, dado que es un punto débil confirmado y de alto peso en examen.
 - Alternar con el resto de formatos habituales (dictado rápido, tarjetas de memoria, opción múltiple) en próximas sesiones.
+
+---
+
+## Sesión 17 (2026-09-15) — Nueva rama: Bloque F, Encargos especiales (revisión limitada, procedimientos acordados, compilación)
+
+### 🆕 Bloque F (48-50) incorporado al repertorio — antes con cero cobertura
+
+Eduardo tenía experiencia práctica en procedimientos acordados (NISR 4400R) desde el despacho, pero desconocía la normativa de nombre. Sesión centrada en mapa conceptual + dictado de reconocimiento, sin exigencia de apartados (norma no adaptada por el ICAC como NIA-ES).
+
+### Aviso normativo clave
+La "revisión limitada" no es NIA-ES — es NIER 2400 (Revisada) / NIER 2410 (traducciones IAASB/IFAC), y ni siquiera se considera actividad de auditoría de cuentas a efectos de la LAC (art. 2.3-5 RLAC, en desarrollo del art. 1 LAC). El examen en este bloque probablemente pide distinción conceptual y de tipo de encargo, no dictado de apartados.
+
+### Cuadro para chuleta (pendiente de pasar a HTML)
+
+| Encargo | Norma aplicable | Seguridad | ¿Quién puede hacerlo? | Salida (informe) |
+|---|---|---|---|---|
+| Auditoría | NIA-ES | Razonable (alta) | El auditor de cuentas designado | Opinión (favorable/con salvedades/desfavorable/denegada) |
+| Revisión de EEFF intermedios, por el propio auditor de la entidad | NIER 2410 | Limitada (moderada) | Solo si YA eres el auditor de esa entidad | Conclusión en negativo |
+| Revisión de EEFF históricos, por alguien que NO es el auditor | NIER 2400 (Revisada) | Limitada (moderada) | Cualquier profesional | Conclusión en negativo, más procedimientos que 2410 |
+| Procedimientos acordados | NISR 4400 (Revisada) | Ninguna | Cualquier profesional, alcance pactado | Informe de hallazgos fácticos |
+| Compilación | NISR 4410 (Revisada) | Ninguna | Cualquier profesional | Declaración de compilación, sin verificar |
+
+**Leyenda:** NIER = Norma Internacional de Encargos de Revisión (ISRE) | NISR = Norma Internacional de Servicios Relacionados
+
+**🧠 Reglas clave:**
+- Ninguno de los 4 es auditoría de cuentas a efectos LAC (art. 2.3-5 RLAC).
+- 2410 vs 2400R: el eje NO es intermedio vs anual — es si tú ya eres el auditor de la entidad o no.
+- NISR 4400: no hay opinión ni conclusión, solo hallazgos fácticos; el destinatario decide.
+- NISR 4410: ni verificación — solo se ordena/presenta lo que da la dirección.
+- Nivel de seguridad de mayor a menor: Auditoría > NIER (2410/2400R) > NISR (4400 = 4410, ninguna en ambos).
+- **Trampa detectada en dictado:** el eje NIER vs NISR NO es "quién es el auditor" — es si se pide una revisión de EEFF en su conjunto (→ NIER) o la verificación de un dato/cálculo puntual pactado (→ NISR 4400), típico en due diligence, cláusulas de earn-out, covenants.
+
+### Dictado de reconocimiento (5 preguntas) — resultado
+- P1 (revisión semestral, ya eres el auditor) → NIER 2410 ✅
+- P2 (revisión anual, profesional externo) → NIER 2400R ✅
+- P3 (verificar solo facturas >1.000€ con visto bueno) → NISR 4400R ✅
+- P4 (ordenar movimientos bancarios sin verificar, startup) → NISR 4410R ✅
+- P5 (verificar EBITDA para cláusula earn-out de un SPA) → Eduardo respondió NIER (según quién es el auditor) — **incorrecto**. Correcto: NISR 4400R, porque no es una revisión de EEFF en su conjunto sino verificación de un cálculo/dato específico pactado contractualmente.
+
+### Puntos fuertes
+- Aprendizaje muy rápido de un bloque totalmente nuevo (4/5 correcto en primer dictado).
+- Buena transferencia de experiencia práctica previa con NISR 4400 del despacho.
+- Detectó rápido correcciones de siglas de Claude (NIER vs NISR) — buen control de calidad activo.
+
+### Puntos débiles activos (nuevo)
+- **Eje NIER vs NISR:** tiende a aplicar el criterio "¿soy el auditor?" (correcto para distinguir 2410 de 2400R) también para decidir si es NIER o NISR — el criterio correcto ahí es el alcance (EEFF completo vs dato puntual pactado).
+
+### Nota operativa — GitHub API
+El 15/09/2026 la escritura automática vía API falló repetidamente por rate limit 403 (IP compartida del entorno de Anthropic, no del repo). Eduardo generó un GitHub PAT fine-grained (permiso Contents R/W solo sobre este repo) para resolverlo de forma duradera. A partir de esta sesión, usar autenticación con token si está disponible; si no, reintentar sin auth y avisar si falla.
+
+### 📌 Pendiente
+- Seguir con caso más largo de bloque F en próxima sesión (aplicado a due diligence / earn-out u otro escenario NISR 4400).
+- E43 (informe abreviado) sigue sin trabajar — queda como siguiente hueco a cerrar.
+- Reforzar eje NIER vs NISR con más ejemplos.

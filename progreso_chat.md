@@ -1194,3 +1194,33 @@ El 15/09/2026 la escritura automática vía API falló repetidamente por rate li
 - Seguir con caso más largo de bloque F en próxima sesión (aplicado a due diligence / earn-out u otro escenario NISR 4400).
 - E43 (informe abreviado) sigue sin trabajar — queda como siguiente hueco a cerrar.
 - Reforzar eje NIER vs NISR con más ejemplos.
+
+---
+
+## 📝 Sesión 2026-09-25 — Mantenimiento y mejoras de chuleta
+
+- Tipo: sesión de consulta y mantenimiento (sin ejercicios)
+- Actividad: mejoras mayores al artefacto chuleta-roac.html
+
+### Cambios aplicados
+- **Estilo prosa explicativa** en todas las tarjetas verificadas (28 normas) — texto explicativo en lugar de esquemas telegráficos, siguiendo el criterio: palabras sencillas, entendibles, copiables en examen
+- **Nueva pestaña 📚 Índice** con todas las normas agrupadas por bloque (marco legal, planificación, evidencia, informes, calidad, encargos especiales)
+- **Orden de pestañas:** Índice → Mapa Encargo → Tarjetas → Confusiones → Puntos débiles → Estado
+- **NIA-ES 210 AP.6** reescrito completamente con los tres subapartados (i/ii/iii) en prosa clara y directa
+- **NIA-ES 320** ampliada con Guía 38 ICJCE (rangos orientativos: BAI 5-10%, ingresos 1-2%, activo 0.5-1%, PN 1-2%, ME=50-75% MP, IICI=5-10% MP)
+- **NIA-ES 210** corregida contra texto oficial: añadidos AP.3, AP.9, AP.15, AP.16 separado de AP.17
+- **Chip NIA-ES 700** en el mapa del encargo corregido (ahora linkable)
+- **Versión de impresión optimizada:**
+  - 4 secciones: Índice + Mapa + Tarjetas + Confusiones (con salto de página entre cada una)
+  - Letra reducida a 6.5pt base (desde 10pt) — reducción considerable del número de hojas
+  - Sin hoja en blanco inicial
+  - Bloques del índice no se cortan entre páginas
+  - Badges sin verificar ocultos en impresión
+- **Token GitHub renovado** (anterior expirado): nuevo fine-grained token, Contents R/W, edujrg/roac-normativa
+
+### Estado chuleta
+- 38 tarjetas totales
+- 0 tarjetas sin verificar
+- Todas las tarjetas con estilo prosa explicativa
+- Pestaña Índice con listado completo de normas
+- Versión imprimible compacta lista para llevar al examen
